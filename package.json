@@ -4,20 +4,18 @@
   "description": "Enterprise Product Intelligence - Multi-App Business Intelligence Platform",
   "private": true,
   "scripts": {
-    "install:all": "cd dashboard && npm install && cd ../New_Items_Watchlist && npm install && cd ../Order_Summary && npm install",
-    "dev:dashboard": "cd dashboard && npm run dev",
+    "install:all": "cd New_Items_Watchlist && npm install && cd ../Order_Summary && npm install",
     "dev:watchlist": "cd New_Items_Watchlist && npm run dev",
-    "dev:all": "concurrently \"npm run dev:dashboard\" \"npm run dev:watchlist\"",
-    "build:all": "cd dashboard && npm run build && cd ../New_Items_Watchlist && npm run build",
-    "start:all": "concurrently \"cd dashboard && npm start\" \"cd New_Items_Watchlist && npm start\"",
-    "lint:all": "cd dashboard && npm run lint && cd ../New_Items_Watchlist && npm run lint",
-    "deploy:vercel": "cd dashboard && vercel --prod && cd ../New_Items_Watchlist && vercel --prod",
+    "dev": "npm run dev:watchlist",
+    "build": "cd New_Items_Watchlist && npm run build",
+    "start": "cd New_Items_Watchlist && npm start",
+    "lint": "cd New_Items_Watchlist && npm run lint",
+    "deploy:vercel": "cd New_Items_Watchlist && vercel --prod",
     "clean": "cd dashboard && rm -rf .next node_modules && cd ../New_Items_Watchlist && rm -rf .next node_modules",
     "setup": "npm run install:all && echo 'All applications installed successfully!'",
     "check-ports": "netstat -an | findstr :300"
   },
   "workspaces": [
-    "dashboard",
     "New_Items_Watchlist",
     "Order_Summary"
   ],

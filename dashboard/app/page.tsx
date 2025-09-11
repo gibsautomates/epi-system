@@ -8,14 +8,6 @@ export default function HomePage() {
 
   const reports = [
     {
-      title: 'New Items Watchlist',
-      description: 'Track vendor offers for items not in inventory. Monitor price trends and vendor changes.',
-      icon: Package,
-      route: '/dashboard',
-      color: 'bg-blue-500',
-      stats: 'Track new inventory items'
-    },
-    {
       title: 'Order Summary',
       description: 'View daily orders, track fulfillment status, and analyze order patterns.',
       icon: ShoppingCart,
