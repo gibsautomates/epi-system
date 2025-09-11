@@ -1,0 +1,45 @@
+{
+  "name": "epi-system",
+  "version": "1.0.0",
+  "description": "Enterprise Product Intelligence - Multi-App Business Intelligence Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "cd dashboard && npm install && cd ../New_Items_Watchlist && npm install && cd ../Order_Summary && npm install",
+    "dev:dashboard": "cd dashboard && npm run dev",
+    "dev:watchlist": "cd New_Items_Watchlist && npm run dev",
+    "dev:all": "concurrently \"npm run dev:dashboard\" \"npm run dev:watchlist\"",
+    "build:all": "cd dashboard && npm run build && cd ../New_Items_Watchlist && npm run build",
+    "start:all": "concurrently \"cd dashboard && npm start\" \"cd New_Items_Watchlist && npm start\"",
+    "lint:all": "cd dashboard && npm run lint && cd ../New_Items_Watchlist && npm run lint",
+    "deploy:vercel": "cd dashboard && vercel --prod && cd ../New_Items_Watchlist && vercel --prod",
+    "clean": "cd dashboard && rm -rf .next node_modules && cd ../New_Items_Watchlist && rm -rf .next node_modules",
+    "setup": "npm run install:all && echo 'All applications installed successfully!'",
+    "check-ports": "netstat -an | findstr :300"
+  },
+  "workspaces": [
+    "dashboard",
+    "New_Items_Watchlist",
+    "Order_Summary"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "business-intelligence",
+    "dashboard",
+    "analytics",
+    "nextjs",
+    "supabase",
+    "vendor-analysis",
+    "inventory-management"
+  ],
+  "author": "EPI Development Team",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/epi-system.git"
+  }
+}

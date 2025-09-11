@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Comparison Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+        
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .card .value {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        
+        .card .change {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        
+        .positive { color: #27ae60; }
+        .negative { color: #e74c3c; }
+        .neutral { color: #7f8c8d; }
+        
+        .table-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .table-header {
+            background: #667eea;
+            color: white;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .refresh-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        
+        .refresh-btn:hover {
+            background: #5a67d8;
+        }
+        
+        .sql-queries {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+        
+        .query-section {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .query-title {
+            background: #f1f3f4;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .query-content {
+            padding: 15px;
+            background: #2d3748;
+            color: #e2e8f0;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Orders Comparison Dashboard</h1>
+        <p>Today vs Yesterday vs Last Week Analysis</p>
+    </div>
+
+    <div class="container">
+        <div class="instructions">
+            <strong>Instructions:</strong> Copy and paste the SQL queries below into your Supabase SQL Editor to populate this dashboard with real data.
+        </div>
+
+        <!-- Summary Cards Section -->
+        <div class="summary-cards">
+            <div class="card">
+                <h3>Today's Orders</h3>
+                <div class="value" id="today-orders">--</div>
+                <div class="change">vs Yesterday: <span id="orders-vs-yesterday">--</span></div>
+                <div class="change">vs Last Week: <span id="orders-vs-lastweek">--</span></div>
+            </div>
+            
+            <div class="card">
+                <h3>Today's Revenue</h3>
+                <div class="value" id="today-revenue">$--</div>
+                <div class="change">vs Yesterday: <span id="revenue-vs-yesterday">--</span></div>
+                <div class="change">vs Last Week: <span id="revenue-vs-lastweek">--</span></div>
+            </div>
+            
+            <div class="card">
+                <h3>Today's Units</h3>
+                <div class="value" id="today-units">--</div>
+                <div class="change">vs Yesterday: <span id="units-vs-yesterday">--</span></div>
+                <div class="change">vs Last Week: <span id="units-vs-lastweek">--</span></div>
+            </div>
+            
+            <div class="card">
+                <h3>Avg Order Value</h3>
+                <div class="value" id="today-aov">$--</div>
+                <div class="change">Active Channels: <span id="active-channels">--</span></div>
+                <div class="change">Unique Products: <span id="unique-products">--</span></div>
+            </div>
+        </div>
+
+        <!-- Channel Comparison Table -->
+        <div class="table-container">
+            <div class="table-header">📺 Channel Performance Comparison</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Channel</th>
+                        <th>Today Orders</th>
+                        <th>Today Revenue</th>
+                        <th>Yesterday Revenue</th>
+                        <th>Last Week Revenue</th>
+                        <th>vs Yesterday</th>
+                        <th>vs Last Week</th>
+                    </tr>
+                </thead>
+                <tbody id="channel-table">
+                    <tr>
+                        <td colspan="7" style="text-align: center; color: #666;">Run SQL Query 2 to populate channel data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Top Products Table -->
+        <div class="table-container">
+            <div class="table-header">🏆 Top Products Comparison</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Today Units</th>
+                        <th>Today Revenue</th>
+                        <th>Yesterday Revenue</th>
+                        <th>Last Week Revenue</th>
+                    </tr>
+                </thead>
+                <tbody id="products-table">
+                    <tr>
+                        <td colspan="6" style="text-align: center; color: #666;">Run SQL Query 3 to populate product data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- SQL Queries Section -->
+        <div class="query-section">
+            <div class="query-title">📋 SQL Query 1: Daily Summary Comparison</div>
+            <div class="query-content">
+-- Copy this query and run it in Supabase SQL Editor
+WITH daily_summary AS (
+    SELECT 
+        export_date,
+        COUNT(DISTINCT "OrderID") as total_orders,
+        SUM("Qty") as total_units,
+        SUM("GrandTotal") as total_revenue,
+        AVG("GrandTotal") as avg_order_value,
+        COUNT(DISTINCT "ProductID") as unique_products,
+        COUNT(DISTINCT CONCAT("CompanyID", "OrderSource")) as active_channels
+    FROM orders_daily 
+    WHERE export_date IN (
+        '2025-09-10',  -- Replace with your actual dates
+        '2025-09-09',  -- Yesterday
+        '2025-09-03'   -- Same day last week
+    )
+    GROUP BY export_date
+)
+SELECT 
+    CASE 
+        WHEN export_date = '2025-09-10' THEN 'Today'
+        WHEN export_date = '2025-09-09' THEN 'Yesterday'  
+        WHEN export_date = '2025-09-03' THEN 'Last Week'
+    END as period,
+    export_date,
+    total_orders,
+    total_units,
+    ROUND(total_revenue, 2) as total_revenue,
+    ROUND(avg_order_value, 2) as avg_order_value,
+    unique_products,
+    active_channels
+FROM daily_summary
+ORDER BY export_date DESC;
+            </div>
+        </div>
+
+        <div class="query-section">
+            <div class="query-title">📋 SQL Query 2: Channel Comparison</div>
+            <div class="query-content">
+-- Copy this query and run it in Supabase SQL Editor
+WITH channel_comparison AS (
+    SELECT 
+        export_date,
+        CONCAT("CompanyID", "OrderSource") as channel_code,
+        COALESCE(cl.channel_name, 'Unknown') as channel_name,
+        COUNT(DISTINCT "OrderID") as orders,
+        SUM("Qty") as units,
+        ROUND(SUM("GrandTotal"), 2) as revenue
+    FROM orders_daily od
+    LEFT JOIN channel_lookup cl ON CONCAT(od."CompanyID", od."OrderSource") = cl.channel_code
+    WHERE export_date IN ('2025-09-10', '2025-09-09', '2025-09-03')  -- Update dates
+    GROUP BY export_date, channel_code, channel_name
+)
+SELECT 
+    channel_code,
+    channel_name,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-10' THEN orders END), 0) as today_orders,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-10' THEN revenue END), 0) as today_revenue,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-09' THEN revenue END), 0) as yesterday_revenue,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-03' THEN revenue END), 0) as lastweek_revenue,
+    ROUND(
+        CASE WHEN MAX(CASE WHEN export_date = '2025-09-09' THEN revenue END) > 0 
+        THEN ((MAX(CASE WHEN export_date = '2025-09-10' THEN revenue END) - MAX(CASE WHEN export_date = '2025-09-09' THEN revenue END)) / MAX(CASE WHEN export_date = '2025-09-09' THEN revenue END) * 100)
+        ELSE 0 END, 1) as revenue_change_vs_yesterday,
+    ROUND(
+        CASE WHEN MAX(CASE WHEN export_date = '2025-09-03' THEN revenue END) > 0 
+        THEN ((MAX(CASE WHEN export_date = '2025-09-10' THEN revenue END) - MAX(CASE WHEN export_date = '2025-09-03' THEN revenue END)) / MAX(CASE WHEN export_date = '2025-09-03' THEN revenue END) * 100)
+        ELSE 0 END, 1) as revenue_change_vs_lastweek
+FROM channel_comparison
+GROUP BY channel_code, channel_name
+ORDER BY today_revenue DESC;
+            </div>
+        </div>
+
+        <div class="query-section">
+            <div class="query-title">📋 SQL Query 3: Top Products</div>
+            <div class="query-content">
+-- Copy this query and run it in Supabase SQL Editor  
+WITH product_comparison AS (
+    SELECT 
+        export_date,
+        "ProductID",
+        "DisplayName",
+        SUM("Qty") as units_sold,
+        ROUND(SUM("LineTotal"), 2) as revenue
+    FROM orders_daily
+    WHERE export_date IN ('2025-09-10', '2025-09-09', '2025-09-03')  -- Update dates
+    GROUP BY export_date, "ProductID", "DisplayName"
+)
+SELECT 
+    "ProductID",
+    LEFT("DisplayName", 50) as product_name,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-10' THEN units_sold END), 0) as today_units,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-10' THEN revenue END), 0) as today_revenue,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-09' THEN revenue END), 0) as yesterday_revenue,
+    COALESCE(MAX(CASE WHEN export_date = '2025-09-03' THEN revenue END), 0) as lastweek_revenue
+FROM product_comparison
+GROUP BY "ProductID", "DisplayName"
+HAVING (today_units + COALESCE(MAX(CASE WHEN export_date = '2025-09-09' THEN units_sold END), 0)) > 0
+ORDER BY today_revenue DESC
+LIMIT 15;
+            </div>
+        </div>
+    </div>
+</body>
+</html>
