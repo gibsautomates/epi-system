@@ -1,0 +1,1449 @@
+Priority,UPC,Item Name,Brand,Vendors,Vendor List,Min Price,Avg Price
+1,3423470300161,"Issey Miyake L'Eau De Issey EDT for Women | 3.3 oz / 100 ml",Issey Miyake,12,"Aairie; Acme; Cosmo; Nandansons; PWW; Network; United; BS; Haz; French; Perfume Center; Classic",27.5,29.94
+2,3360373063680,"Cacharel Amor Amor EDT for Women | 3.4 oz / 100 ml",Cacharel,11,"Cosmo; Network; United; BS; CBS; Haz; French; ET; Perfume Center; Perfume Price; Luxury",21,23.89
+3,8011003845132,"MOSCHINO TOY BOY 3.4 EDP M",Oribe,11,"Aairie; Cosmo; Nandansons; PWW; Network; United; BS; Classic; Haz; Perfume Center; Perfume Price",29,33.46
+4,8005610328799,"Gucci Rush EDT for Women | 2.5 oz / 75 ml",Gucci,11,"Acme; Cosmo; Nandansons; PWW; BS; Classic; Haz; Perfume Center; Perfume Price; Luxury; Fragrance Depot",29,36.86
+5,3360372013648,"RALPH LAUREN Safari EDT for Men | 4.2 oz / 125 ml",RALPH LAUREN,11,"Aairie; Cosmo; Nandansons; PWW; Network; United; BS; Classic; French; Perfume Center; Perfume Price",30,34.03
+6,3360374533205,"Cacharel Anais Anais L'Original EDT for Women | 3.4 oz / 100 ml",Cacharel,10,"Cosmo; Network; United; CBS; Classic; French; ET; Perfume Center; Perfume Price; Luxury",19.45,22.35
+7,3360373016358,"Cacharel Noa EDT for Women | 3.4 oz / 100 ml Spray",Cacharel,10,"Acme; Cosmo; Network; BS; CBS; Classic; ET; Perfume Center; Perfume Price; Luxury",20,24.41
+8,88300178278,"Calvin Klein Euphoria EDT for Men | 3.4 oz / 100 ml",Calvin Klein,10,"Acme; Cosmo; Network; United; BS; CBS; Classic; ET; Perfume Center; Luxury",20.5,23.56
+9,3351500016617,"Azzaro Wanted Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Azzaro,10,"Acme; Cosmo; Nandansons; PWW; United; BS; Classic; Haz; Perfume Price; Luxury",32.75,37.44
+10,6294015180251,"ARMAF [M] CLUB DE NUIT OUD 3.6 Oz EAU DE PARFUM SPR [OUD]",N/A,10,"Aairie; Nandansons; United; BS; Classic; French; Haz; Perfume Price; Luxury; Fragrance Depot",35,39.41
+11,3414206000608,"Joop Homme EDT for Men | 4.2 oz / 125 ml",Joop!,9,"Cosmo; CBS; BS; Haz; French; ET; MTZ; Classic; Perfume Center",10.9,15.43
+12,88300601400,"Calvin Klein Eternity EDP for Women | 3.4 oz / 100 ml",Calvin Klein,9,"Cosmo; Network; United; BS; Classic; Haz; Perfume Center; PWW; Perfume Price",23.2,26.15
+13,3614226905215,"Burberry London EDT for Men | 3.3 oz / 100 ml",Burberry,9,"Network; BS; Classic; Haz; French; ET; PWW; Perfume Price; Luxury",23.95,26.84
+14,3423470311365,"Issey Miyake L'Eau De Issey EDT for Men | 4.2 oz / 125 ml",Issey Miyake,9,"Aairie; Cosmo; PWW; Network; United; BS; Haz; French; Perfume Center",26,28.69
+15,608940583753,"Billie Eilish No.2 3.4 edp spr",N/A,9,"Cosmo; Nandansons; PWW; United; BS; Classic; French; Haz; Fragrance Depot",26,33.73
+16,8011003839308,"MOSCHINO TOY2 EDP 100ML",N/A,9,"Aairie; Acme; Cosmo; PWW; Network; United; Classic; Perfume Center; Perfume Price",27,30.96
+17,88300162505,"Calvin Klein Euphoria EDP for Women | 3.4 oz / 100 ml",N/A,9,"Aairie; Cosmo; Network; United; BS; Classic; Haz; Perfume Center; Perfume Price",28.25,30.32
+18,3274872395503,"Givenchy Pie M 3.4 edt spr",N/A,9,"Aairie; Cosmo; PWW; United; BS; Classic; Perfume Center; Perfume Price; Luxury",31.7,36.77
+19,3423222080969,"NARCISO RODRIGUEZ ALL OF ME 3.0 EDP W",N/A,9,"Aairie; Cosmo; Nandansons; PWW; BS; Classic; Haz; Perfume Price; Fragrance Depot",33.25,41.63
+20,3274878122561,"Givenchy Amarige EDT for Women | 3.3 oz / 100 ml",Givenchy,9,"Aairie; Nandansons; United; BS; Classic; French; Haz; Perfume Price; Luxury",39,42.20
+21,3412242508027,"Nautica Blue EDT for Men | 3.4 oz / 100 ml",Nautica,8,"Cosmo; Network; French; BS; Haz; ET; MTZ; Perfume Center",7.75,9.01
+22,3661163904016,"Nautica EDT for Men | 3.4 oz / 100 ml",Nautica,8,"Network; French; CBS; BS; Haz; ET; MTZ; Perfume Center",7.75,9.11
+23,3360372009436,"Guy Laroche Drakkar Noir EDT for Men | 3.4 oz / 100 ml",Guy Laroche,8,"Cosmo; Network; CBS; BS; Haz; Luxury; MTZ; Perfume Center",8.25,11.41
+24,98691046223,"Liz Claiborne Curve Connect EDT for Women | 3.4 oz / 100 ml",N/A,8,"Network; PWW; CBS; BS; Heritage; ET; Classic; Perfume Center",9.25,10.50
+25,608940517482,"Paris Hilton EDP for Women | 3.4 oz / 100 ml",Paris Hilton,8,"Cosmo; Network; BS; Haz; ET; Perfume Center; MTZ; Classic",13.5,16.33
+26,6294015149388,"ARMAF [M] ODYSSEY MEGA 3.4 Oz EAU DE PARFUM SPR [YELLOW]",AMIRO,8,"Cosmo; CBS; BS; French; ET; Perfume Center; MTZ; Classic",14.95,16.68
+27,688575001778,"Vera Wang Fragrances Vera Wang EDP for Women | 3.4 oz / 100 ml",Vera Wang Fragrances,8,"Cosmo; CBS; BS; French; ET; Perfume Center; MTZ; Classic",15.25,17.11
+28,88300608409,"Calvin Klein Escape EDP for Women | 3.4 oz / 100 ml",Calvin Klein,8,"Cosmo; United; CBS; Classic; French; Perfume Center; Perfume Price; Luxury",16.75,20.47
+29,844061000551,"Perry Ellis 360 Red EDT for Men | 3.4 oz / 100 ml",Perry Ellis,8,"Cosmo; Network; United; Classic; BS; ET; Perfume Center; Perfume Price",16.9,19.09
+30,3360373007905,"Paloma Picasso Minotaure EDT for Men | 2.5 oz / 75 ml",Yves Saint Laurent,8,"Cosmo; Network; BS; Classic; French; ET; Perfume Center; Perfume Price",17,19.96
+31,6085010044712,"Armaf Club de Nuit Intense M 3.6 edt spr",N/A,8,"Network; United; CBS; Classic; ET; Perfume Center; Perfume Price; Luxury",19,21.55
+32,6294015149371,"ARMAF [M] ODYSSEY MANDARIN SKY 3.4 Oz EAU DE PARFUM SPR [BLUE-ORANGE]",AMIRO,8,"Network; United; CBS; Classic; Haz; ET; Perfume Center; Perfume Price",19.5,21.85
+33,608940570524,"Jessica Simpson Fancy Jessica Simpson 4 Pc. Gift Set ( 1 x EDP Spray 3.4 oz + 1 x Fancy EDP Spray 0.34 oz + 1 x Jessica Simpson Body Lotion 3 oz + 1 x Jessica Simpson Bath & Shower Gel 3 oz )",Jessica Simpson,8,"Network; BS; Classic; Haz; French; Perfume Center; Perfume Price; Luxury",21,24.38
+34,3386460066273,"Jimmy Choo Blossom Eau de Parfum 100ml",N/A,8,"PWW; Network; United; BS; Classic; French; ET; Perfume Price",23.75,27.75
+35,737052352060,"Hugo Boss Boss Bottled Night EDT for Men | 3.3 oz / 100 ml",Hugo Boss,8,"Acme; Cosmo; United; BS; Haz; Perfume Center; PWW; Perfume Price",24,27.45
+36,3351500011469,"Loris Azzaro Azzaro EDT for Men | 6.8 oz / 200 ml",Loris Azzaro,8,"Aairie; Nandansons; United; BS; Classic; Perfume Center; Perfume Price; Luxury",25.5,28.64
+37,22548366448,"MK WONDERLUST(L) 3.4OZ EDP",N/A,8,"Aairie; United; BS; Classic; Perfume Center; PWW; Perfume Price; Fragrance Depot",26,33.56
+38,3614274129267,"AZZ THE MOST WANTED EDTI V50ML",DIPTYQUE,8,"Aairie; Acme; Cosmo; PWW; Classic; Haz; Perfume Center; Perfume Price",29.5,33.34
+39,8011003864089,"MOSCHINO Toy2 Bubble Gum Wom EDT (100ml)",N/A,8,"Cosmo; Nandansons; PWW; Network; United; Classic; Perfume Center; Perfume Price",29.75,33.53
+40,3614229840124,"Mr. Burberry EDT for Men | 3.3 oz / 100 ml",Burberry,8,"Acme; Nandansons; United; BS; Perfume Center; Classic; Perfume Price; Luxury",30.5,35.50
+41,8057971183661,"Dolce & Gabbana Q Eau De Parfum for Women | 3.3 oz / 100 ml - Spray",Dolce & Gabbana,8,"Aairie; PWW; Network; BS; Classic; French; Haz; Fragrance Depot",32.5,38.72
+42,737052351100,"Boss 6 3 Pc. Gift Set ( Eau De Toilette Spray 3.3 Oz & Deodorant Stick 2.4 Oz + Shower Gel 1.6 Oz) for Men by Hugo Boss",N/A,8,"Aairie; Cosmo; PWW; Network; United; BS; Classic; Perfume Price",33,35.22
+43,3605521515346,"Viktor & Rolf Spicebomb EDT for Men | 3 oz / 90 ml - SPR",Viktor & Rolf,8,"Acme; Nandansons; PWW; Network; United; BS; French; Perfume Price",34,38.55
+44,6291100130498,"Al Haramain Amber Oud Gold Edition Eau De Parfum 120ml",N/A,8,"Aairie; Nandansons; PWW; United; BS; Classic; Perfume Price; Luxury",34.5,39.35
+45,3614273903172,"AZZARO Wanted For Men 3.4 oz Edp** Spray",N/A,8,"Acme; PWW; Nandansons; United; Classic; Perfume Price; Luxury; Fragrance Depot",35,44.56
+46,3607349764241,"Marc Jacobs Daisy Dream EDT for Women | 3.4 oz / 100 ml",Marc Jacobs,8,"Acme; Cosmo; Nandansons; PWW; BS; Classic; Haz; Perfume Price",35.5,39.33
+47,850050062035,"BHARARA KING MEN 3.4 EDP SP   ",N/A,8,"Aairie; PWW; United; Classic; Network; French; Perfume Price; Fragrance Depot",37,39.51
+48,8057971180394,"Dolce & Gabbana EDT for Women | 3.4 oz / 100 ml - SPR",Dolce & Gabbana,8,"Aairie; Cosmo; Nandansons; Network; BS; Classic; French; Luxury",42,46.28
+49,3614273521307,"AZZARO THE MOST WANTED ( M ) EDP SP 3.4 OZ",CLARINS,8,"Aairie; Acme; Nandansons; BS; Haz; Classic; Luxury; Fragrance Depot",46,52.50
+50,3274872396197,"GIVENCHY  ANGE OU DEMON EDP 100ML",N/A,8,"Aairie; Nandansons; United; BS; Haz; Classic; Perfume Price; Luxury",48.5,55.56
+51,3607349312459,"Katy Perry Purr EDP for Women | 3.4 oz / 100 ml",Katy Perry,7,"Cosmo; French; PWW; BS; MTZ; Classic; Perfume Center",10.45,12.39
+52,8002135111974,"Scuderia Ferrari Black EDT for Men | 4.2 oz / 125 ml",Ferrari,7,"Cosmo; Network; PWW; CBS; ET; MTZ; Classic",10.85,13.66
+53,719346065405,"Britney Spears Fantasy EDP for Women | 3.3 oz / 100 ml",Britney Spears,7,"Network; CBS; BS; French; ET; Classic; Luxury",14,15.66
+54,737052031415,"Hugo Boss Hugo Dark Blue EDT for Men | 2.5 oz / 75 ml - SPR",Hugo Boss,7,"Cosmo; Network; CBS; Haz; French; Perfume Center; MTZ",15,17.46
+55,88300100514,"Calvin Klein Escape EDT for Men | 3.4 oz / 100 ml",Calvin Klein,7,"Cosmo; Network; Classic; BS; Haz; Perfume Center; Luxury",16.7,19.39
+56,737052041353,"Hugo Boss Boss Femme EDP for Women | 2.5 oz / 75 ml",Hugo Boss,7,"Acme; Cosmo; United; CBS; Classic; French; Perfume Center",17,19.46
+57,3614224871284,"Calvin Klein Eternity For Men Air Eau De Toilette 100ml",Yves Saint Laurent,7,"Cosmo; United; Classic; BS; Haz; Perfume Center; Luxury",17,19.58
+58,3360372055402,"RALPH LAUREN Polo Sport EDT for Men | 4.2 oz / 125 ml",RALPH LAUREN,7,"Cosmo; Network; United; Classic; French; Perfume Center; Perfume Price",17,19.47
+59,3616301623335,"Hugo Boss Boss 1 Eau De Toilette for Men | 3.3 oz / 100 ml - Spray",Hugo Boss,7,"Cosmo; Network; United; CBS; Haz; French; Perfume Price",17.75,19.34
+60,3386460126625,"COACH Open Road Men EDT (100ml)",Dolce & Gabbana,7,"Cosmo; BS; CBS; Classic; French; Perfume Price; Luxury",18,25.31
+61,3616301623311,"Hugo Boss Boss In Motion EDT for Men | 3.3 oz / 100 ml",Hugo Boss,7,"Cosmo; United; CBS; Classic; Haz; Perfume Center; Perfume Price",18.25,20.91
+62,3607345809915,"Joop Homme EDT for Men | 6.7 oz / 200 ml",Joop!,7,"Cosmo; Network; United; Classic; Haz; Perfume Center; Perfume Price",18.25,20.08
+63,844061000599,"Perry Ellis 360 EDT for Women | 3.4 oz / 100 ml",Perry Ellis,7,"Cosmo; Network; United; Classic; ET; Perfume Center; Perfume Price",18.5,20.22
+64,8018365250468,"Gianni Versace Versace Woman EDP for Women | 3.4 oz / 100 ml",Gianni Versace,7,"Cosmo; United; BS; CBS; Classic; Perfume Center; Perfume Price",19.9,22.68
+65,3614227748682,"Burberry Touch EDT for Men | 3.3 oz / 100 ml - SPR",Burberry,7,"United; CBS; Classic; Haz; French; ET; Luxury",21.5,24.53
+66,3614226905185,"Burberry London EDP for Women | 3.3 oz / 100 ml",Burberry,7,"Cosmo; Network; BS; Classic; ET; Perfume Price; Luxury",22,26.70
+67,6294015164169,"ARMAF CLUB DE NUIT IMPERIALE  - EAU DE TOILETTE SPRAY 3.6 oz",N/A,7,"United; BS; CBS; Classic; Perfume Center; Perfume Price; Luxury",23,28.91
+68,3386460149310,"LACOSTE RED 4.2oz EDT SP (M)",N/A,7,"Cosmo; United; CBS; Classic; ET; Perfume Center; Perfume Price",23.75,26.23
+69,8057971188178,"DG LIGHT BLUE 1.0 EDT L NEW 2025  (129941)",N/A,7,"Network; BS; Haz; French; Perfume Center; Classic; Perfume Price",24,25.14
+70,3423222090708,"ISSEY MIYAKE L'Eau D'Issey Pivoine Wom EDT (100ml)",N/A,7,"United; BS; Classic; French; Perfume Center; PWW; Perfume Price",24,28.86
+71,22548419953,"Michael Kors Gorgeous! Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",N/A,7,"United; BS; Classic; Haz; Perfume Center; PWW; Perfume Price",24.5,29.19
+72,3349668021345,"Paco Rabanne EDT for Men | 3.4 oz / 100 ml - SPR",Paco Rabanne,7,"Acme; Nandansons; Network; United; BS; Perfume Center; Perfume Price",24.75,26.22
+73,3614229823806,"Hugo Boss Hugo EDT for Men | 4.2 oz / 125 ml",Hugo Boss,7,"Cosmo; Nandansons; United; Classic; Haz; Perfume Center; Perfume Price",24.75,26.76
+74,8057971182053,"Dolce & Gabbana D & G L'Imperatrice EDT for Women | 3.3 oz / 100 ml",Dolce & Gabbana,7,"PWW; Network; BS; Classic; Haz; Perfume Center; Perfume Price",24.75,28.42
+75,887167095885,"ESTEE SUPER 1.7 EDP L",N/A,7,"Cosmo; Nandansons; PWW; BS; Classic; Haz; Perfume Center",25.25,29.25
+76,27131043317,"Estee Lauder Pleasures EDP for Women | 3.4 oz / 100 ml",N/A,7,"Nandansons; Network; United; Perfume Center; Classic; PWW; Luxury",25.5,29.39
+77,844061001589,"Perry Ellis 360 EDT for Women | 6.7 oz / 200 ml",Perry Ellis,7,"PWW; Network; United; BS; Classic; Perfume Center; Perfume Price",26,28.50
+78,812256028475,"GOD IS WOMEN 3.4 EDP L",N/A,7,"Aairie; Nandansons; PWW; United; Classic; Perfume Center; Luxury",27.5,35.15
+79,3614273905428,"AZZARO WANTED 1.7OZ EDP MEN **",N/A,7,"Aairie; Acme; Cosmo; PWW; BS; Haz; Perfume Price",28,33.22
+80,3386460109567,"Coach Dreams W 3.0 edp spr",N/A,7,"Cosmo; Nandansons; PWW; BS; Classic; Perfume Price; Luxury",33,36.41
+81,3386460151962,"COACH DREAMS MOONLIGHT 3.0 EDP L  (118656)",N/A,7,"Cosmo; Nandansons; BS; Classic; French; Perfume Price; Luxury",34.5,38.71
+82,810101500060,"ARIANA GRANDE MOD BLUSH EDP SP 3.4oz",N/A,7,"Nandansons; PWW; Network; United; Classic; Perfume Price; Luxury",35.25,41.25
+83,8011003804566,"Gianni Versace Versace Yellow Diamond EDT for Women | 3 oz / 90 ml",Versace,7,"Aairie; Acme; Cosmo; United; BS; Classic; Perfume Price",37.75,39.06
+84,3614274129281,"AZZ THE MOST WANTED EDTI V100ML",N/A,7,"Acme; Cosmo; BS; Classic; Haz; Perfume Price; Fragrance Depot",38,44.37
+85,8011003839117,"Versace Dylan Blue W 3.4 edp spr",N/A,7,"Aairie; Cosmo; Nandansons; United; BS; Classic; Fragrance Depot",40.5,44.39
+86,3423470485448,"Issey Miyake L'Eau De Issey EDT for Men | 6.8 oz / 200 ml - SPR",Issey Miyake,7,"Acme; Cosmo; Nandansons; Network; United; Classic; Perfume Price",40.5,42.75
+87,8057971180516,"D&G The One Men EDT (150ml)",N/A,7,"Aairie; Nandansons; BS; Classic; Haz; Perfume Price; Luxury",42.5,47.31
+88,8435415012669,"Jean Paul Gaultier Le Male EDT for Men | 4.2 oz / 125 ml - SPR",Jean Paul Gaultier,7,"Aairie; Acme; Nandansons; United; BS; Haz; Classic",62,64.00
+89,8411061083772,"CAROLINA HERRERA BAD BOY COBALT ELIXIR 3.4OZ EDP MEN",N/A,7,"Aairie; Nandansons; United; BS; Haz; Classic; Luxury",69,78.79
+90,3349668600304,"Paco Rabanne 1 Million Elixir Parfum Intense for Men | 3.4 oz / 100 ml - Spray",Paco Rabanne,7,"Aairie; Acme; Nandansons; United; Haz; Classic; Fragrance Depot",70.5,73.31
+91,8411061083659,"CAROLINA H GOOD GIRL BLUSH ELIXIR EDP SP 2.7oz",NISHANE,7,"Aairie; Nandansons; United; BS; Classic; Luxury; Fragrance Depot",88,98.47
+92,3562700373084,"Jaguar Classic Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Jaguar,6,"Cosmo; Network; BS; Heritage; MTZ; Perfume Center",7,8.19
+93,85715321312,"Guess Night Eau de Toilette 100ml",N/A,6,"Cosmo; BS; Haz; ET; Classic; Luxury",9,13.48
+94,3614221758786,"Nautica Voyage Sport EDT for Men | 3.4 oz / 100 ml",Nautica,6,"Cosmo; French; PWW; Haz; MTZ; Perfume Center",9.25,10.75
+95,719346125536,"Elizabeth Taylor Passion Cologne for Men | 4 oz / 120 ml",Elizabeth Taylor,6,"PWW; CBS; BS; Classic; Luxury; Perfume Center",9.75,12.47
+96,719346117722,"Britney Spears Believe EDP for Women | 3.3 oz / 100 ml",Britney Spears,6,"Cosmo; PWW; French; Classic; Luxury; Perfume Center",10,14.42
+97,603531211084,"Vicky Tiel Sirene EDP for Women | 3.4 oz / 100 ml - SPR",Vicky Tiel,6,"Network; PWW; CBS; BS; French; Perfume Center",10.9,12.43
+98,719346009959,"Paul Sebastian Casual Parfum for Women | 4 oz / 120 ml",Paul Sebastian,6,"Cosmo; Network; PWW; BS; Classic; Perfume Center",11,12.54
+99,98691005046,"Liz Claiborne Curve EDT for Women | 3.4 oz / 100 ml",N/A,6,"PWW; CBS; BS; ET; Classic; Perfume Center",11,13.34
+100,94922794642,"Christian Audigier Ed Hardy EDT for Men | 3.4 oz / 100 ml",Christian Audigier,6,"Cosmo; PWW; CBS; BS; Luxury; Perfume Center",11.75,14.37
+101,94922190123,"Christian Audigier Hardy Hearts & Daggers EDT for Men | 3.4 oz / 100 ml",Christian Audigier,6,"Cosmo; PWW; BS; Classic; Luxury; Perfume Center",11.75,15.32
+102,719346010115,"Elizabeth Taylor Passion EDT for Women | 2.5 oz / 75 ml",Elizabeth Taylor,6,"Cosmo; Network; BS; French; ET; Classic",12.75,13.82
+103,85805004675,"Elizabeth Arden Provocative Woman EDP for Women | 3.3 oz / 100 ml",Elizabeth Arden,6,"Cosmo; PWW; CBS; BS; Classic; Luxury",13.15,15.75
+104,27131521433,"Estee Lauder Pleasures Cologne for Men | 3.4 oz / 100 ml",N/A,6,"Network; PWW; CBS; Classic; BS; Luxury",13.5,19.69
+105,3360372055419,"RALPH LAUREN Polo Sport EDT for Men | 2.5 oz / 75 ml - SPR",RALPH LAUREN,6,"Cosmo; Network; CBS; French; Classic; Perfume Price",15,16.64
+106,6294015151596,"ARMAF CLUB DE NUIT (M) EDT SP 3.6oz",N/A,6,"CBS; BS; Perfume Center; Classic; Perfume Price; Luxury",15.4,19.07
+107,88300606511,"Calvin Klein Obsession EDT for Men | 4 oz / 120 ml",Calvin Klein,6,"Cosmo; CBS; BS; MTZ; Classic; Luxury",15.45,18.12
+108,608940566947,"PARIS HILTON GOLD RUSH M EDT/S 3.4",N/A,6,"Cosmo; United; CBS; BS; French; Perfume Center",15.7,16.70
+109,844061000612,"Perry Ellis 360 EDT for Men | 3.4 oz / 100 ml",Perry Ellis,6,"Cosmo; Network; United; BS; ET; Perfume Center",15.9,17.31
+110,5050456080601,"Jennifer Lopez Still EDP for Women | 3.3 oz / 100 ml",Jennifer Lopez,6,"United; CBS; BS; ET; Perfume Center; Classic",16.4,17.82
+111,6291108737194,"LATTAFA KHAMRAH 3.4 EDP SPR (M)",N/A,6,"Network; United; Classic; BS; ET; Perfume Price",17,18.38
+112,844061000575,"Perry Ellis 360 Red EDP for Women | 3.4 oz / 100 ml",Perry Ellis,6,"United; CBS; Classic; ET; Perfume Center; Perfume Price",17,18.72
+113,6290171072836,"AFNAN 9AM DIVE U 3.4 EDP SPRAY (BLUE) ..",N/A,6,"United; Classic; French; ET; Perfume Center; Perfume Price",17.95,19.21
+114,892456000174,"Parlux Fragrances Animale EDT for Men | 3.3 oz / 100 ml",Parlux Fragrances,6,"United; Classic; ET; Perfume Center; Perfume Price; Luxury",18,21.04
+115,3386460066181,"Montblanc Lady Emblem Eau de Parfum 75ml",N/A,6,"United; BS; CBS; Classic; ET; Perfume Center",18,21.92
+116,719346134866,"Liz Claiborne Curve Cologne for Men | 4.2 oz / 125 ml",Liz Claiborne,6,"Cosmo; Network; United; Classic; Perfume Center; Perfume Price",18.65,21.01
+117,719346022705,"Elizabeth Taylor White Diamonds EDT for Women | 3.3 oz / 100 ml",Elizabeth Taylor,6,"Acme; United; CBS; Classic; Perfume Center; Perfume Price",18.95,19.74
+118,85715571007,"Oscar de la Renta Oscar EDT for Women | 3.3 oz / 100 ml",Oscar de la Renta,6,"Cosmo; Network; Classic; Haz; ET; Perfume Price",20,22.61
+119,6295199804360,"ARMAF "ODYSSEY DUBAI CHOCOLATE GOURMAN EDITION" EDP SPR 3.4 M (Clean)",N/A,6,"United; BS; CBS; Classic; Perfume Center; Perfume Price",20,21.29
+120,88300601301,"Calvin Klein Eternity EDP for Women | 1.7 oz / 50 ml",Calvin Klein,6,"Cosmo; Classic; Haz; Perfume Center; Perfume Price; Luxury",20.5,23.82
+121,3386460120630,"KATE SPADE SPARKLE INTENSE ( W ) EDP SP 3.4 OZ",Dolce & Gabbana,6,"Cosmo; CBS; Classic; French; Perfume Center; Perfume Price",20.5,22.82
+122,20714881429,"Clinique Happy Heart Parfum for Women | 3.4 oz / 100 ml",N/A,6,"Network; United; Haz; ET; Perfume Center; Perfume Price",20.5,22.08
+123,7640496670139,"Tommy Hilfiger Tommy Girl EDT for Women | 3.4 oz / 100 ml",Tommy Hilfiger,6,"BS; CBS; Classic; ET; Perfume Center; Perfume Price",20.5,22.12
+124,608940525753,"Heiress Paris Hilton EDP for Women | 3.4 oz / 100 ml",Paris Hilton,6,"Network; Classic; French; ET; Perfume Center; Perfume Price",21,22.19
+125,88300605514,"Calvin Klein Eternity EDT for Men | 3.4 oz / 100 ml",Calvin Klein,6,"Acme; CBS; Classic; Haz; ET; Perfume Price",22,23.34
+126,3386460075343,"Jimmy Choo Illicit Flower Eau de Toilette 100ml",N/A,6,"United; BS; CBS; Classic; French; Perfume Price",22,24.36
+127,98691035524,"Liz Claiborne Curve Cologne for Men | 6.8 oz / 200 ml",Liz Claiborne,6,"Cosmo; United; CBS; Classic; ET; Perfume Price",22.45,23.62
+128,3616304940835,"Marc Jacobs DOT EDP 3.4oz",N/A,6,"Cosmo; BS; Classic; Haz; Perfume Center; Perfume Price",22.5,26.14
+129,3386460048118,"Jimmy Choo Flash Eau de Parfum 100ml",N/A,6,"Cosmo; United; BS; French; Perfume Center; Perfume Price",23,25.88
+130,3614226905666,"Burberry EDP for Women | 3.3 oz / 100 ml",Burberry,6,"Cosmo; Nandansons; BS; Classic; Haz; Perfume Price",23.5,25.61
+131,3614226905253,"Burberry Brit EDT for Women | 3.4 oz / 100 ml - SPR",Burberry,6,"Nandansons; United; Haz; Perfume Center; PWW; Perfume Price",23.75,26.53
+132,3386460149297,"LACOSTE ESSENTIAL (M) 4.2 EDT SP",N/A,6,"Cosmo; United; Classic; Perfume Center; PWW; Perfume Price",23.9,26.68
+133,844061004788,"Perry Ellis 360 EDT for Men | 6.7 oz / 200 ml",Perry Ellis,6,"Network; BS; Classic; Perfume Center; PWW; Perfume Price",24,26.40
+134,22548289655,"Michael Kors Sexy Amber EDP for Women | 3.4 oz / 100 ml",N/A,6,"Nandansons; PWW; United; Classic; Haz; Perfume Center",24.5,28.75
+135,3386460025508,"Jimmy Choo EDT for Women | 3.3 oz / 100 ml",Jimmy Choo,6,"Cosmo; Nandansons; United; BS; PWW; Perfume Price",25.5,26.88
+136,8005610255668,"HUGO BOSS Hugo Boss Bottled Tonic 3.4 oz  EDT Spray (New)",N/A,6,"Cosmo; PWW; BS; Classic; Perfume Center; Perfume Price",26.25,31.30
+137,812256021711,"Ariana Grande Sweet Like Candy Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Ariana Grande,6,"PWW; Network; United; Classic; Perfume Center; Perfume Price",26.4,28.95
+138,3607349764289,"Marc Jacobs Daisy Dream EDT for Women | 1.7 oz / 50 ml",Marc Jacobs,6,"Acme; Cosmo; BS; Classic; Haz; Perfume Center",26.5,29.97
+139,3349666010518,"Paco Rabanne Ultraviolet EDT for Men | 3.4 oz / 100 ml",Paco Rabanne,6,"Aairie; Nandansons; United; Classic; Perfume Center; Perfume Price",27,29.29
+140,3423474874750,"ISSEY M NUIT D'ISSEY POUR HOMME EDT SP 4.2oz",N/A,6,"Cosmo; PWW; United; BS; Classic; Haz",27.5,29.78
+141,27131086871,"Estee Lauder Beautiful EDP for Women | 2.5 oz / 75 ml",N/A,6,"Nandansons; PWW; United; BS; Perfume Center; Luxury",27.5,31.00
+142,8057971188185,"DG LIGHT BLUE 1.7 EDT L NEW 2025  (129940)",N/A,6,"BS; Classic; French; Perfume Center; Perfume Price; Luxury",27.5,30.54
+143,3386460149358,"Lacoste Pour Femme Edp Spray 90 ml",N/A,6,"Aairie; Nandansons; BS; Classic; French; Perfume Price",27.95,30.28
+144,3616304974465,"CHLOE MINIATURE COFFRET GIFT SET 4X5ML",N/A,6,"Nandansons; PWW; Haz; French; Perfume Center; Perfume Price",28.5,30.64
+145,3605520381096,"Giorgio Armani Emporio Armani Diamonds EDT for Men | 2.5 oz / 75 ml",Giorgio Armani,6,"Nandansons; PWW; BS; Classic; Haz; Fragrance Depot",28.5,34.86
+146,8057971188673,"D&G THE ONE GOLD INTENSE EDP SP 1.7oz",N/A,6,"Aairie; Cosmo; PWW; BS; Perfume Center; Perfume Price",29.3,33.77
+147,3386460135818,"MONT BLANC Explorer Platinum EDP (100ml)",N/A,6,"Cosmo; PWW; United; Classic; French; Perfume Price",29.5,31.52
+148,8005610481081,"Gucci Bloom Eau de Parfum 30ml",N/A,6,"Acme; Nandansons; PWW; BS; Classic; Perfume Price",31,33.44
+149,3386460149129,"LACOSTE EAU DE LACOSTE BLANC L.12.12 M 3.4 *EDP* SPRAY WHITE",N/A,6,"Aairie; Acme; United; Classic; Perfume Center; Perfume Price",32,34.81
+150,8057971183807,"Dolce & Gabbana Dolce Voilet Eau De Toilette for Women | 2.5 oz / 75 ml - Spray",Dolce & Gabbana,6,"Nandansons; PWW; United; BS; French; Luxury",32,40.57
+151,810101504631,"ARIANA GRANDE [W] ARI 3 PCS SET 3.4 Oz EDP SPR+3.4 Oz B/L+4.0 Oz B.MIST [WINDOW BOX]",N/A,6,"Aairie; Nandansons; PWW; United; Classic; Perfume Price",33.5,36.17
+152,8011003995967,"Gianni Versace Versace Pour Homme EDT for Men | 3.4 oz / 100 ml",Gianni Versace,6,"Aairie; Acme; Cosmo; Network; United; Classic",33.5,36.76
+153,3365440003866,"Yves Saint Laurent Kouros EDT for Men | 3.3 oz / 100 ml - SPR",Yves Saint Laurent,6,"Aairie; Cosmo; Network; United; BS; Classic",34.5,39.46
+154,8435137759811,"PRADA LUNA ROSSA CARBON - Prada - EAU DE TOILETTE SPRAY 1.7 oz Men",N/A,6,"Aairie; Acme; Cosmo; Nandansons; PWW; Classic",34.5,39.81
+155,3386460126571,"COACH WILD ROSE 3.0 EDP W",N/A,6,"Cosmo; Nandansons; PWW; Classic; Perfume Price; Luxury",35,38.08
+156,3386460142175,"COACH LOVE EDP 90ML",Cartier,6,"Cosmo; Nandansons; PWW; Classic; Perfume Price; Luxury",36,41.25
+157,8057971180509,"Dolce & Gabbana The One EDT for Men | 3.3 oz / 100 ml",Dolce & Gabbana,6,"Aairie; Nandansons; United; Classic; Haz; Perfume Price",36.5,37.54
+158,8057971188284,"Dolce & Gabbana Devotion Eau De Parfum Intense for Women | 1.7 oz / 50 ml - Spray - Intense",Dolce & Gabbana,6,"Nandansons; PWW; BS; Classic; Haz; Perfume Price",36.5,39.12
+159,850050062073,"BHARARA BLEU ( M ) ED Parfum SP 3.4 OZ",N/A,6,"Aairie; PWW; Nandansons; United; French; Perfume Price",36.75,39.62
+160,3439600056921,"T MUGLER Alien Refillable Wom EDP (60ml)",N/A,6,"Cosmo; Nandansons; BS; Classic; Haz; Perfume Price",37,39.29
+161,3274870002694,"GIVENCHY ANGE OU DEMON SECRET 1.7 EDP SPR (W)",Givenchy,6,"Cosmo; BS; Classic; Haz; Perfume Price; Fragrance Depot",37,41.12
+162,8057971187829,"Dolce & Gabbana Q  Eau De Parfum Intense  for Women | 3.3 oz / 100 ml - Spray - Intense",Dolce & Gabbana,6,"Nandansons; BS; Classic; Perfume Price; Luxury; Fragrance Depot",37,50.04
+163,8057971188192,"D&G [W] LIGHT BLUE 3.3 Oz EDT SPR [NEW]",N/A,6,"Aairie; Nandansons; BS; Classic; Haz; Perfume Price",39,40.43
+164,8057971183739,"Dolce & Gabbana Devotion Eau De Parfum for Women | 3.3 oz / 100 ml - Spray",Dolce & Gabbana,6,"Aairie; United; BS; Classic; Perfume Price; Luxury",39,48.21
+165,8057971181568,"D&G The One For Men Intense EDP(100ml)",N/A,6,"Aairie; Acme; Nandansons; BS; Perfume Price; Luxury",39,42.47
+166,3346470143203,"GUERLAIN IDYLLE 2.5 EDP W (NEW PACKAGING)",DIOR,6,"Cosmo; Nandansons; BS; Haz; Perfume Price; Fragrance Depot",39,51.75
+167,8057971180493,"Dolce & Gabbana The One EDP for Women | 2.5 oz / 75 ml",Dolce & Gabbana,6,"Aairie; Nandansons; BS; Classic; French; Perfume Price",40,43.00
+168,3439600056532,"Thierry Mugler Angel EDP for Women | 1.7 oz / 50 ml - Refillable",Thierry Mugler,6,"Cosmo; Nandansons; Network; BS; Classic; Haz",40,43.54
+169,3274872456686,"Givenchy Organza Eau de Parfum 100ml",N/A,6,"Aairie; Cosmo; United; BS; Classic; Luxury",42,46.37
+170,3346470143197,"GUERLAIN L'instant De Guerlain For Women 2.5 oz Edp Spray",DIOR,6,"Aairie; BS; Haz; Classic; Perfume Price; Fragrance Depot",42,50.38
+171,8057971180417,"Dolce & Gabbana EDT for Men | 6.7 oz / 200 ml",Dolce & Gabbana,6,"Aairie; Nandansons; BS; French; Perfume Price; Luxury",42.5,47.75
+172,3147758235500,"Lancome Hypnose EDP for Women | 2.5 oz / 75 ml",Lanc�me,6,"Aairie; Cosmo; BS; Classic; Perfume Price; Fragrance Depot",43.5,47.90
+173,3614229829006,"MY BURBERRY BLACK PARFUM (L) 3.0 OZ EDP SPRAY",N/A,6,"Cosmo; Nandansons; BS; French; Perfume Price; Luxury",45,50.39
+174,3386460129879,"JIMMY CHOO I Want Choo Forever Wom EDP (100ml)",N/A,6,"Aairie; Acme; Cosmo; Nandansons; Classic; Fragrance Depot",47.25,51.78
+175,3147758155112,"Lancome Poeme Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Lancome,6,"Aairie; Nandansons; BS; Classic; Perfume Price; Fragrance Depot",48,52.65
+176,3614226905963,"MY BURBERRY(L) 3.0 OZ EDP",N/A,6,"Aairie; Acme; BS; Haz; Classic; Luxury",48.5,57.07
+177,3439600056655,"Thierry Mugler Angel W 3.4 edp spr",N/A,6,"Aairie; Nandansons; United; BS; Haz; Classic",48.75,58.89
+178,3439600056969,"Thierry Mugler Alien EDP for Women | 3 oz / 90 ml - Refillable",Thierry Mugler,6,"Aairie; Cosmo; Nandansons; BS; Luxury; Fragrance Depot",49.75,62.21
+179,3349668617173,"Paco Rabanne Lady Million Royal Eau de Parfum 80ml",N/A,6,"Aairie; Acme; Nandansons; United; BS; Perfume Price",49.75,55.84
+180,3274870002717,"Givenchy Ange Ou Demon Le Secret EDP for Women | 3.4 oz / 100 ml - SPR",Givenchy,6,"United; French; Haz; Classic; Luxury; Fragrance Depot",51,58.57
+181,3616300892442,"BURBBERY HER LONDON DREAM (L) 3.4OZ EDP",N/A,6,"Aairie; Acme; Nandansons; Classic; Luxury; Fragrance Depot",51.5,58.06
+182,3351500009848,"AZZARO WANTED NIGHT 3.4OZ EDP MEN",Coach,6,"Aairie; Nandansons; BS; Haz; Luxury; Fragrance Depot",52,58.96
+183,3614273636513,"Giorgio Armani Armani Code Eau De Toilette for Men | 4.2 oz / 125 ml (Refillable) - Spray - Refillable",Giorgio Armani,6,"Aairie; Acme; Nandansons; French; Classic; Luxury",54,58.17
+184,3349666007921,"Paco Rabanne 1 Million EDT for Men | 3.3 oz / 100 ml",Paco Rabanne,6,"Aairie; Nandansons; United; Haz; Classic; Fragrance Depot",55,56.25
+185,3349668630349,"PACO ONE MILLION GOLD INTENSE 3.4 EDP SPR (M)",N/A,6,"Acme; Nandansons; United; Haz; Classic; Fragrance Depot",67.5,71.38
+186,3349668592388,"PACO INVICTUS VICTORY 6.7 EDP M  (116493)",N/A,6,"Aairie; Nandansons; BS; Haz; Classic; Fragrance Depot",75.5,79.46
+187,3348900012219,"Christian Dior Fahrenheit EDT for Men | 3.4 oz / 100 ml - SPR",Christian Dior,6,"United; BS; Haz; Classic; Luxury; Fragrance Depot",78,84.50
+188,3614274000597,"Prada Paradoxe Virtual Flower Eau De Parfum for Women | 3 oz / 90 ml (Refillable) - Spray",Prada,6,"Aairie; Nandansons; BS; Haz; Classic; Fragrance Depot",78.5,86.75
+189,3614274024760,"VLTN BIR GREEN DONNA SP100ML",N/A,6,"Aairie; Acme; Nandansons; BS; Haz; Classic",84,90.31
+190,35017008145,"Coty Jovan White Musk Cologne for Men | 3 oz / 88 ml",Coty,5,"BS; Cosmo; Network; General; MTZ",2.75,4.74
+191,3607341046734,"Coty Jovan Black Musk Cologne for Men | 3 oz / 90 ml",Coty,5,"BS; Cosmo; Network; French; General",3.8,5.04
+192,3607341047038,"Jovan Black Musk Cologne for Women | 3.25 oz / 96 ml - SPR",Jovan,5,"BS; Cosmo; French; Haz; MTZ",4.15,4.74
+193,35017008657,"Coty Jovan White Musk Cologne for Women | 3.25 oz / 96 ml",N/A,5,"BS; Cosmo; Network; Haz; General",4.75,5.76
+194,3614229832259,"Coty Aspen Cologne Spray for Men | 4 oz / 120 ml",Coty,5,"Cosmo; Haz; Heritage; MTZ; Luxury",4.75,6.79
+195,35017008923,"Coty Jovan Musk Cologne for Women | 3.25 oz / 96 ml",N/A,5,"BS; Cosmo; Network; Haz; General",4.85,5.94
+196,35017009029,"Coty Jovan Musk Cologne for Men | 3 oz / 88 ml",Jovan,5,"BS; Network; French; Heritage; General",5,6.11
+197,719346373906,"Elizabeth Arden TRUE Love EDT for Women | 3.3 oz / 100 ml",Elizabeth Arden,5,"Cosmo; Network; BS; General; Perfume Center",7.65,8.33
+198,3616303462062,"David Beckham Classic Homme Eau de Toilette 100ml",N/A,5,"Cosmo; BS; General; MTZ; Luxury",7.7,9.12
+199,6294015155693,"ARMAF ART D'AMOUR (W)EDP 3.38 oz",REVER,5,"Acme; BS; French; Perfume Center; MTZ",9,13.10
+200,603531175065,"Pierre Cardin EDC for Men | 2.8 oz / 80 ml - SPR",Pierre Cardin,5,"Network; French; PWW; BS; Perfume Center",9,11.34
+201,98691037603,"Liz Claiborne Curve Chill Cologne for Men | 4.2 oz / 125 ml",N/A,5,"Network; PWW; ET; Classic; Perfume Center",9.25,11.50
+202,98691030475,"Liz Claiborne Curve Wave EDT for Women | 3.4 oz / 100 ml",N/A,5,"Network; PWW; BS; ET; Perfume Center",9.25,10.39
+203,6291107456355,"LATTAFA AMEERAT AL ARAB 3.4 EDP U  (126272)",N/A,5,"PWW; French; ET; MTZ; Classic",9.45,11.86
+204,719346504911,"Liz Claiborne Curve Chill EDT for Women | 3.4 oz / 100 ml - SPR",Liz Claiborne,5,"Network; PWW; ET; Classic; Perfume Center",9.5,11.20
+205,6290360597133,"Lattafa Ajwad Pink To Pink Eau de Parfum 60ml",Victoria's Secret,5,"PWW; BS; French; MTZ; Luxury",10,15.00
+206,67724200017,"Alfred Sung Hei EDT for Men | 3.4 oz / 100 ml",Alfred Sung,5,"Cosmo; PWW; CBS; Classic; Perfume Center",10.4,12.33
+207,3414202000510,"Cool Water M 1.35 oz ",N/A,5,"Cosmo; Network; PWW; Haz; Perfume Center",10.45,11.93
+208,8002135139053,"Ferrari Scuderia Red M 4.2 edt spr",N/A,5,"Cosmo; Network; MTZ; Classic; Luxury",10.75,14.99
+209,3360373063697,"Cacharel Amor Amor EDT for Women | 1 oz / 30 ml",Cacharel,5,"Cosmo; PWW; BS; MTZ; Perfume Center",10.85,12.52
+210,856515004572,"HUMMER LEGENDARY EDT SP 4.2oz",N/A,5,"French; PWW; BS; Classic; Perfume Center",10.9,12.53
+211,3355992004596,"Ted Lapidus Rumba. EDT for Women | 3.33 oz / 100 ml - SPR",Ted Lapidus,5,"Network; CBS; ET; Classic; Perfume Center",11.25,12.43
+212,3414206000059,"Joop EDT for Women | 3.4 oz / 100 ml",Joop!,5,"Cosmo; Network; BS; Haz; Perfume Center",12,14.29
+213,3607343191005,"Katy Perry Meow! Eau De Parfum for Women | 3.3 oz / 100 ml - Spray",Katy Perry,5,"Network; French; ET; Classic; Perfume Center",12,13.38
+214,6294015168150,"ARMAF MISS MAGNIFIQUE EDP SP 3.4oz",N/A,5,"Acme; BS; Classic; French; MTZ",13,18.86
+215,5050456110018,"Jennifer Lopez Miami Glow EDT for Women | 3.3 oz / 100 ml - SPR",Jennifer Lopez,5,"Cosmo; Network; PWW; CBS; French",13.5,14.41
+216,6294015102239,"ARMAF CLUB LE PARFAIT   - EAU DE TOILETTE SPRAY 3.6 oz..",N/A,5,"PWW; CBS; BS; French; Luxury",13.5,15.25
+217,688575179415,"Vera Wang Fragrances Vera Wang Princess EDT for Women | 3.4 oz / 100 ml",Vera Wang Fragrances,5,"Cosmo; French; ET; MTZ; Classic",13.75,15.10
+218,88300150458,"Calvin Klein Obsession Night EDT for Men | 4 oz / 120 ml",Calvin Klein,5,"Cosmo; BS; Haz; French; Luxury",14,17.51
+219,98691026249,"Liz Claiborne Curve Crush Cologne for Men | 4.2 oz / 125 ml",Liz Claiborne,5,"Cosmo; Network; CBS; BS; Classic",14.5,15.58
+220,3360373063741,"TESTER AMOR AMOR WOMAN 3.3 EDT SP NO CAP  ",N/A,5,"Cosmo; Network; Haz; French; Classic",14.5,16.43
+221,3605972342621,"Ralph Lauren Big Pony 1 Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",RALPH LAUREN,5,"Cosmo; United; BS; French; Classic",15,16.44
+222,6291108733875,"LATTAFA BADE'E AL OUD AMETHYST (L) EDP 100 ml",N/A,5,"French; ET; MTZ; Classic; Perfume Price",15,16.90
+223,6291107458328,"LATTAFA BADE'E AL OUD FOR GLORY (U) EDP 100 ml",N/A,5,"French; ET; MTZ; Classic; Perfume Price",15.5,17.35
+224,6291108738504,"LATTAFA Haya EDP 3.4 oz (100 ml) (w)",JO MALONE,5,"Classic; French; ET; Perfume Center; MTZ",15.65,17.32
+225,6085010094977,"Armaf Club De Nuit Intense Woman Eau De Parfum 105ml",N/A,5,"Network; CBS; ET; Perfume Center; Perfume Price",15.75,17.79
+226,608940519769,"Paris Hilton Man EDT for Men | 3.4 oz / 100 ml - SPR",Paris Hilton,5,"Network; United; BS; ET; Perfume Center",16,17.17
+227,6291108730515,"Lattafa Yara W 3.4 edp spr",Pacifica,5,"Network; CBS; Classic; French; Perfume Price",16,18.86
+228,716393029176,"Paul Sebastian Ps Cologne for Men | 8 oz / 240 ml - SPL",Paul Sebastian,5,"Cosmo; Network; Classic; BS; Perfume Center",16.35,18.22
+229,3614226905208,"Burberry London EDP for Women | 1 oz / 30 ml",Burberry,5,"Network; Classic; Haz; Perfume Center; Perfume Price",16.4,18.19
+230,608940565056,"GOLD RUSH - Paris Hilton - EAU DE PARFUM SPRAY 3.4 oz / 100 ml",N/A,5,"Cosmo; Network; United; Classic; BS",17,18.11
+231,6290360593661,"LATTAFA "KHAMRAH QAHWA" 3.3 OZ EDP SPR [U]",Victoria's Secret,5,"Network; United; Classic; French; Perfume Price",17,18.57
+232,3614226905789,"Burberry For Men Eau de Toilette 50ml",N/A,5,"Network; Classic; Haz; Perfume Center; Perfume Price",17,18.82
+233,3614224821944,"Calvin Klein Eternity Air Eau De Parfum 100ml",N/A,5,"BS; Perfume Center; Classic; Perfume Price; Luxury",17,20.67
+234,88300073627,"Calvin Klein Truth EDT for Men | 3.4 oz / 100 ml",Calvin Klein,5,"Cosmo; French; Perfume Center; Perfume Price; Luxury",17.25,20.50
+235,6290360595764,"LATTAFA TERIAQ 3.4 EAU DE PARFUM SPRAY",Victoria's Secret,5,"United; Classic; French; Perfume Center; Perfume Price",17.25,20.46
+236,3386460036405,"BOUCHERON Boucheron EDT for Men | 3.3 oz / 100 ml",BOUCHERON,5,"Network; United; CBS; Classic; Perfume Center",17.5,19.36
+237,3614228834032,"NAUTICA [M] VOYAGE 6.7 Oz EDT SPR [LARGE]",Yves Saint Laurent,5,"Cosmo; United; Classic; Haz; Perfume Price",18.5,20.42
+238,3614227293960,"Escada Magnetism EDP for Women | 2.5 oz / 75 ml - SPR",N/A,5,"Haz; ET; Perfume Center; Classic; Perfume Price",18.5,20.15
+239,3386460136549,"JIMMY CHOO Rose Passion Wom EDP (100ml)",Dolce & Gabbana,5,"Nandansons; CBS; Classic; French; Perfume Price",21,24.42
+240,6294015132120,"Armaf Club de Nuit Milestone W 3.6 edp spr",N/A,5,"Network; United; ET; Perfume Center; Luxury",21,26.00
+241,855560005060,"Sean John Unforgivable 3 Pc. Gift Set ( 1 x EDT Spray 4.2 oz + 1 x Unforgivable Aftershave Balm 3.4 oz + 1 x Sean John Shower Gel 3.4 oz )",Sean John,5,"BS; Classic; French; Perfume Center; Perfume Price",21.5,25.25
+242,719346593946,"Juicy Couture Viva La Juicy La Fleur Eau De Toilette for Women | 5 oz / 150 ml - Spray",Juicy Couture,5,"Cosmo; United; Classic; Perfume Center; Perfume Price",21.7,25.82
+243,3386461515671,"LANVIN Eclat D' Arpege EDP for Women | 3.3 oz / 100 ml - SPR",LANVIN,5,"Cosmo; BS; CBS; Perfume Center; Perfume Price",22.5,24.14
+244,6294015136470,"Armaf Club de Nuit Sillage W 3.6 edp spr",TOKYOMILK,5,"United; CBS; Classic; Perfume Price; Luxury",22.5,26.28
+245,8052464891412,"Salvatore Ferragamo Acqua Essenziale Eau de Toilette 100ml",N/A,5,"PWW; CBS; Classic; Perfume Price; Luxury",23,28.86
+246,3386460149242,"LACOSTE L.12.12 ROSE EAU FRAICHE 3.3 EAU DE TOILETTE SPRAY.",N/A,5,"Nandansons; United; BS; French; Perfume Price",23.25,27.34
+247,3386460149440,"Lacoste Touch Of Pink Pour Femme Edt Spray 90 ml",N/A,5,"Acme; Cosmo; United; Classic; Perfume Price",23.5,25.14
+248,3614226905154,"Burberry Brit EDT for Men (New Packaging) | 3.3 oz / 100 ml",Burberry,5,"Nandansons; BS; French; Perfume Center; Luxury",23.75,28.10
+249,3386460071727,"Jimmy Choo Illicit EDP for Women | 3.3 oz / 100 ml",Jimmy Choo,5,"Classic; French; Perfume Center; PWW; Perfume Price",23.9,26.63
+250,3386460132763,"MONT BLANC Signature Absolue Wom EDP (90ml)",DOLCE & GABBANA,5,"Acme; Cosmo; French; Perfume Center; PWW",24,25.63
+251,6297001158043,"XO XCLUSIF OUD ROUGE - Orientica - EXTRAIT DE PARFUM SPRAY  2.0 oz / 60 ml",N/A,5,"United; CBS; French; PWW; Perfume Price",24,30.25
+252,3614274098440,"AZZ CHROME AZURE EDT 2024 SP100ML",N/A,5,"United; Classic; Perfume Center; PWW; Luxury",24,28.96
+253,719346297011,"WHITE DIAMONDS 4 PCS SET FOR WOMEN: 3.3 EAU DE TOILETTE SPRAY + 0.33 EAU DE TOILETTE SPRAY + 3.3 BODY LOTION + 3.3 BODY WASH ",ELIZABETH TAYLOR,5,"Nandansons; BS; Classic; Perfume Center; PWW",24.5,27.40
+254,6294015164992,"ARMAF CLUB KEY DREAMS EDP SP 3.4oz",N/A,5,"Acme; PWW; BS; Classic; French",25,31.87
+255,6294015165005,"ARMAF CLUB KEY SUCESS EDP SP 3.4oz",N/A,5,"Acme; PWW; BS; Classic; Fragrance Depot",25,34.18
+256,27131019817,"Estee Lauder Collection 5 Pc. Gift Set ( Miniature Of White Linen &  Intuition & Pleasures & Beautiful & Youth-dew) for Women by Estee Lauder",Estee Lauder,5,"Cosmo; Nandansons; Classic; Perfume Center; PWW",25,29.41
+257,8011003996025,"VERSACE Pour Homme EDT TST (100ml)",CAROLINA HERRERA,5,"Nandansons; Network; BS; Classic; Perfume Price",25,26.30
+258,3386460149266,"LACOSTE L.12.12 ROSE EAU INTENSE 3.3 EAU DE TOILETTE SPRAY FOR WOMEN",N/A,5,"Nandansons; United; Classic; French; Perfume Price",25,27.08
+259,3386460103688,"JIMMY CHOO Floral Wom EDT (90ml)",N/A,5,"Network; CBS; Classic; PWW; Perfume Price",25,28.00
+260,27131286905,"Estee Lauder Pleasures Intense EDP for Women | 3.3 oz / 100 ml",N/A,5,"United; Perfume Center; Classic; PWW; Luxury",25,35.00
+261,6291100130849,"AL HARAMAIN [W] JUNOON ROSE 2.5 Oz EDP SPR [GOLD]",American Crew,5,"Nandansons; PWW; United; Classic; Perfume Center",25.45,28.41
+262,6290171072980,"AFNAN - 9PM M 3 PCS SET 3,4 EDO + 5.0 S.GEL + 5.0 DEO",N/A,5,"Nandansons; United; Haz; French; Perfume Price",25.5,26.10
+263,6290171074243,"AFNAN - 9AM DIVE 3 PCS SET 3.4 EDP + 5.0 S.GEL + 5.0 DEO",N/A,5,"Nandansons; United; Classic; Haz; French",25.5,27.83
+264,3346133500046,"HERMES H24 REMPLISS EDT 50ML",N/A,5,"Aairie; Cosmo; PWW; Classic; Perfume Center",26,29.84
+265,8431754008912,"HALLOWEEN MY WISH EDP 100ML",N/A,5,"Nandansons; PWW; United; Haz; Perfume Price",26,30.32
+266,844061002302,"Perry Ellis 360 Red EDT for Men | 6.7 oz / 200 ml - SPR",Perry Ellis,5,"PWW; Network; BS; Classic; Perfume Center",26,28.79
+267,22548386231,"Aramis Classic Deluxe Edition Eau de Toilette 240ml",N/A,5,"Cosmo; Nandansons; Classic; PWW; Perfume Price",26.25,29.13
+268,892456000266,"Parlux Fragrances Animale EDP for Women | 6.8 oz / 200 ml - SPR",Parlux Fragrances,5,"PWW; United; Classic; Perfume Center; Perfume Price",26.25,29.22
+269,3605521515629,"Viktor & Rolf Spicebomb EDT for Men | 1.7 oz / 50 ml",Viktor & Rolf,5,"Acme; Nandansons; PWW; Classic; Perfume Price",26.5,30.23
+270,3360377032767,"RALPH LAUREN Polo Black EDT for Men | 4.2 oz / 125 ml",RALPH LAUREN,5,"Cosmo; United; Classic; Haz; Perfume Price",26.5,28.25
+271,6294015164176,"ARMAF CLUB DE NUIT UNTOLD EDP SP 3.6 oz",N/A,5,"Network; United; Classic; Perfume Center; Perfume Price",26.5,28.65
+272,3386460109369,"JIMMY CHOO Urban Hero Men EDP (100ml)",N/A,5,"Aairie; PWW; United; Classic; Perfume Price",26.95,29.20
+273,887167095878,"Est�e Lauder Cinnabar Eau De Parfum 50ml",N/A,5,"Cosmo; Nandansons; PWW; Classic; Perfume Center",27,30.93
+274,3386460149198,"LACOSTE L.12.12 ROSE SPARKLING 3.3 EAU DE TOILETTE SPRAY FOR WOMEN",CARTIER,5,"Nandansons; PWW; United; Classic; Perfume Price",27.5,29.91
+275,3605521034014,"Diesel Only The Brave EDT for Men | 4.2 oz / 125 ml",Diesel,5,"Nandansons; PWW; Network; BS; Perfume Price",27.5,29.92
+276,3386460142182,"COACH LOVE EDP 50ML",Cartier,5,"Acme; Cosmo; Nandansons; Classic; Perfume Price",27.75,29.96
+277,3386460149174,"LACOSTE L 12.12 NOIR MEN 3.3 EDT SP   ",N/A,5,"Aairie; PWW; United; Classic; Perfume Price",28,29.14
+278,3386460129893,"Jimmy Choo I Want Choo Forever Eau de Parfum 40ml",N/A,5,"Acme; PWW; BS; Classic; Perfume Price",28,30.13
+279,85715571502,"Oscar de la Renta Oscar Eau De Toilette for Women | 6.7 oz / 200 ml - Spray",N/A,5,"PWW; Network; Classic; Perfume Center; Perfume Price",28,32.64
+280,812256024279,"Ariana Grande Thank U Next Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Ariana Grande,5,"PWW; Network; United; Classic; Luxury",29,34.71
+281,6294015131017,"ARMAF CLUB INTENSE PARFUM 5oz",TokyoMilk,5,"PWW; Network; United; BS; Perfume Center",29.45,33.57
+282,8057971180455,"DOLCE&GABBANA INTENSO(M)EDP SP 2.5oz(LI FREE)                                                        ",N/A,5,"PWW; BS; Haz; Perfume Center; Perfume Price",29.5,32.10
+283,6291106814989,"AL HARAMAIN PALM DUBAI(U)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)                                        ",N/A,5,"PWW; United; Classic; Perfume Center; Perfume Price",29.75,33.07
+284,6291106813128,"*AL HARAMAIN [W] AMBER OUD ULTRA VIOLET 2.0 Oz EDP SPR [PINK]",N/A,5,"Aairie; PWW; United; Perfume Center; Perfume Price",30,34.25
+285,27131006534,"Estee Lauder Knowing EDP for Women | 2.5 oz / 75 ml",N/A,5,"Nandansons; PWW; United; Perfume Center; Luxury",30,37.94
+286,3147758029390,"Lancome Miracle EDP for Women | 1.7 oz / 50 ml",Lancome,5,"Cosmo; PWW; Haz; Perfume Price; Fragrance Depot",30.5,38.20
+287,31655513027,"Marc Jacobs Daisy EDT for Women | 1.7 oz / 50 ml",N/A,5,"Aairie; Cosmo; Classic; Haz; Perfume Price",31,32.05
+288,6295199800942,"Armaf Island Bliss Eau De Parfum 100 ml (woman)",N/A,5,"Aairie; Nandansons; United; Classic; Perfume Price",31,32.50
+289,6294015105247,"Armaf Club De Nuit Intense 4PC Men Set",N/A,5,"PWW; Network; United; Perfume Center; Perfume Price",31,33.66
+290,3386460108119,"Coach Floral Blush Eau De Parfum 90ml",N/A,5,"PWW; Classic; French; Perfume Price; Luxury",31,36.36
+291,3386460149082,"Lacoste L.12.12 Blanc M 3.4 edt spr",N/A,5,"Acme; Nandansons; United; Classic; Perfume Price",31.5,32.36
+292,3423222015961,"D&G Light Blue Forever EDP 1.7 oz Spray L",KERASTASE,5,"PWW; Classic; Perfume Center; Perfume Price; Luxury",31.5,38.57
+293,6294015131024,"ARMAF CLUB NUIT DE INTENSE  - - EAU DE PARFUM SPRAY 6.7 oz",N/A,5,"Network; United; Classic; Haz; Fragrance Depot",31.5,35.50
+294,3386460113588,"MONT BLANC SIGNATURE - EAU DE PARFUM  SPRAY 3.0 oz  Women",N/A,5,"Aairie; PWW; Perfume Center; Classic; Perfume Price",31.75,34.77
+295,3614229828993,"BURBERRY MY BLACK EDP SP 1.7oz",Burberry,5,"Acme; Nandansons; BS; Classic; Haz",32,37.00
+296,6295199800959,"Armaf Yum Yum Eau De Parfum 100 ml (woman)",N/A,5,"Aairie; Nandansons; United; Classic; Perfume Price",32.5,33.33
+297,3605972793317,"POLO - Ralph Lauren - EAU DE TOILETTE SPR 4.2 oz / 125 ml",VALENTINO,5,"Nandansons; PWW; Network; Classic; Perfume Price",33,35.06
+298,8054754404739,"D&G DEVOTION POUR HOMME 1.7 EDP SP",N/A,5,"Nandansons; PWW; BS; Classic; Perfume Price",33.5,39.63
+299,8057971188727,"Dolce & Gabbana The One Gold   Eau De Parfum Intense  for Men | 3.3 oz / 100 ml - Spray - Intense",Dolce & Gabbana,5,"Aairie; Nandansons; PWW; BS; Fragrance Depot",34,40.86
+300,8011003878611,"MOSCHINO Toy 2 Pearl For Women 3.4oz Edp Spray (New)",CAROLINA HERRERA,5,"PWW; United; BS; Classic; Perfume Price",34,39.32
+301,8057971188000,"Dolce & Gabbana Dolce Blue Jasmine Eau De Parfum for Women | 2.5 oz / 75 ml - Spray",Dolce & Gabbana,5,"Aairie; BS; French; Perfume Price; Luxury",35,41.42
+302,6291100130160,"Al Haramain Amber Oud Carbon Edition Eau De Parfum 100ml",Victoria's Secret,5,"PWW; United; BS; Classic; Perfume Price",35,40.95
+303,8057971181544,"D&G KING(M) 3.3OZ EDT",N/A,5,"Aairie; PWW; BS; Classic; Perfume Price",35.5,38.90
+304,3605521879905,"V&R BON BON(L) 1.7OZ EDP",Lancome,5,"Aairie; PWW; Classic; Haz; Perfume Price",35.5,37.91
+305,8057971188116,"DG LIGHT BLUE 3.4 EDT M NEW 2025  (129944)",N/A,5,"Aairie; Nandansons; BS; Classic; Luxury",37.5,40.83
+306,3616301838210,"Mr.Burberry Eau De Parfum for Men | 3.3 oz / 100 ml - Spray",Burberry,5,"Aairie; Cosmo; Nandansons; Classic; French",37.5,40.04
+307,3423222107635,"NARCISO RODRIGUEZ Musc Nude Women EDP (100ml)",N/A,5,"Aairie; United; BS; Haz; Perfume Price",37.5,44.40
+308,3386460149112,"LACOSTE BLANC (M) 5.9 EDT SP",N/A,5,"Aairie; Acme; United; Classic; Perfume Price",38.5,39.42
+309,8011003889433,"MOSCHINO TOY BOY SET 3.4oz EDP-S/GEL-10ML TRAVEL SP (M)",N/A,5,"Nandansons; United; BS; Classic; Perfume Price",38.5,42.75
+310,8057971180370,"Dolce & Gabbana Light Blue Pour Homme EDT for Men | 4.2 oz / 125 ml",Dolce & Gabbana,5,"Nandansons; BS; Classic; Perfume Price; Luxury",39.5,44.00
+311,3439600055726,"Thierry Mugler Angel Men EDT for Men | 3.4 oz / 100 ml - Refillable",Thierry Mugler,5,"Aairie; Cosmo; Nandansons; Classic; Perfume Price",40,41.96
+312,8005610298924,"Hugo Boss The Scent For Her Eau de Parfum 100ml",N/A,5,"Acme; United; Classic; French; Perfume Price",41,42.57
+313,8057971185498,"DG KING 3.4 EDP M + 1.7 S/G+ 1.7 A/S BALM  (118238)",N/A,5,"Nandansons; Network; Classic; French; Perfume Price",41,43.57
+314,8057971180547,"Dolce & Gabbana The One EDP for Men | 3.3 oz / 100 ml",Dolce & Gabbana,5,"Acme; BS; Classic; Perfume Price; Luxury",41.5,45.54
+315,8011003993826,"Gianni Versace Versace Bright Crystal EDT for Women | 3 oz / 90 ml",Versace,5,"Aairie; Acme; Cosmo; Classic; Perfume Price",42,43.94
+316,3386460135245,"JIMMY CHOO AQUA EDT SP 6.7oz",N/A,5,"Aairie; Network; BS; Classic; Fragrance Depot",42,46.10
+317,8011003809219,"Gianni Versace Versace Eros EDT for Men | 3.4 oz / 100 ml",Gianni Versace,5,"Aairie; United; BS; Haz; Fragrance Depot",43,44.90
+318,3423222055639,"NARCISO RODRIGUEZ Narciso Cristal Wom EDP��(90ml)",N/A,5,"Nandansons; United; BS; Perfume Price; Fragrance Depot",43,47.00
+319,3349668614479,"OLYMPEA  FLORA - Paco Rabanne - EAU DE PARFUM SPRAY 2.7 oz Women",JIMMY CHOO,5,"Aairie; Acme; Cosmo; United; Haz",43.5,46.21
+320,3423222055547,"NARCISO RODRIGUEZ For Her Musc Noire Rose EDP (100ml)",N/A,5,"Cosmo; United; BS; Perfume Price; Fragrance Depot",43.75,46.45
+321,8411061055182,"CH CH PASSION 3.4 EDP SP M",N/A,5,"Nandansons; United; BS; Haz; Perfume Price",43.9,46.98
+322,3386460073233,"Jimmy Choo Man EDT for Men | 6.7 oz / 200 ml",Jimmy Choo,5,"United; BS; Classic; Perfume Price; Fragrance Depot",44,45.70
+323,8057971184910,"DG THE ONLY ONE ( W ) EDP SP 3.3 OZ",N/A,5,"Aairie; Acme; BS; Haz; Luxury",45,50.92
+324,8435415012638,"Jean Paul Gaultier Le Male EDT for Men | 2.5 oz / 75 ml - SPR",Jean Paul Gaultier,5,"Acme; Nandansons; Haz; Classic; Perfume Price",45,48.14
+325,3423470890129,"Narciso Rodriguez EDP for Women | 3.3 oz / 100 ml",Narciso Rodriguez,5,"Cosmo; BS; Classic; Perfume Price; Fragrance Depot",46.5,49.15
+326,3616305820846,"GUCCI GUILTY BLACK ESSENCE 3.0 M",N/A,5,"Acme; Nandansons; BS; Luxury; Fragrance Depot",47,55.33
+327,737052339047,"Gucci Guilty EDT for Men | 3 oz / 90 ml",N/A,5,"Aairie; Nandansons; Haz; Classic; Luxury",48,53.33
+328,3614272872387,"VIKTOR & ROLF FLOWERBOMB DEW 3.4 EDP W",N/A,5,"Cosmo; United; BS; French; Fragrance Depot",48,56.29
+329,8054754400670,"DOLCE & GABBANA Light Blue Gift Set For Women  3.3 oz EDT, 1.7 Body Cream and 0.33 oz EDT, spray",N/A,5,"Nandansons; BS; Haz; Classic; Luxury",48,52.67
+330,8411061055199,"CH CH PASSION 3.4 EDP SP L",N/A,5,"Nandansons; BS; Haz; Perfume Price; Fragrance Depot",48.5,55.17
+331,8011003826490,"VERSACE Dylan Blue Men EDT (200ml)",N/A,5,"Aairie; BS; Classic; Perfume Price; Fragrance Depot",48.75,51.95
+332,608940585818,"YOUR TURN 3.4 EDP U",N/A,5,"Aairie; Nandansons; Haz; Classic; Perfume Price",49,51.17
+333,3616301976141,"GUCCI Guilty Pour Femme Wom EDT (90ml)",N/A,5,"Aairie; Acme; Classic; Luxury; Fragrance Depot",51,59.54
+334,8011003813858,"Gianni Versace Versace Eros EDT for Men | 6.7 oz / 200 ml",Gianni Versace,5,"Acme; Nandansons; BS; Classic; Fragrance Depot",51,53.00
+335,8057971188208,"D&G light blue edt vapo",N/A,5,"Aairie; Nandansons; BS; Classic; Luxury",51.25,57.13
+336,3365440316560,"L'Homme Yves Saint Laurent EDT for Men | 3.3 oz / 100 ml - SPR",Yves Saint Laurent,5,"Aairie; Nandansons; French; Haz; Fragrance Depot",51.5,55.36
+337,8435415017190,"JPG LE BEAU 2.5 EDT M  (ONLY WITH PURCHASE OF RM)",N/A,5,"Aairie; Nandansons; BS; Haz; Classic",52.5,54.83
+338,3614222402077,"TIFFANY & CO Tiffany Wom EDP (75ml)",N/A,5,"Aairie; Acme; Nandansons; Haz; Classic",53,56.86
+339,8057971180554,"Dolce & Gabbana The One Eau De Parfum for Men | 5 oz / 150 ml - Spray",Dolce & Gabbana,5,"Nandansons; BS; Haz; Classic; Luxury",54,57.95
+340,3616301975755,"BURBBERY HER(L) 3.4OZ EDT",N/A,5,"Aairie; Acme; Nandansons; Classic; Fragrance Depot",55,59.43
+341,3614229829044,"MY BURBERRY BLUSH (L) 3.0 OZ EDP SPRAY",Gucci,5,"Aairie; Acme; Nandansons; Classic; Luxury",55,61.86
+342,3349668582297,"Paco Rabanne Phantom Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Paco Rabanne,5,"Aairie; Acme; United; Classic; Fragrance Depot",56,58.75
+343,3274872447561,"GIVENCHY Irresistible Rose Velvet Wom EDP (80ml)",N/A,5,"Aairie; BS; Classic; Luxury; Fragrance Depot",58,68.50
+344,8011003890804,"VERSACE Eros Energy Pour Homme EDP (100ml)",N/A,5,"Aairie; BS; Haz; Classic; Fragrance Depot",58.5,62.20
+345,8435415076937,"JPG LE MALE ELIXIR 2.5 EDP M (ONLY WITH PURCHASE OF RM)",N/A,5,"Aairie; Nandansons; Haz; Classic; Fragrance Depot",59.5,67.67
+346,3349668617050,"Paco Rabanne 1 Million Royal M 3.4 Parfum spr",N/A,5,"Aairie; Nandansons; United; Haz; Fragrance Depot",61,67.00
+347,3614273261425,"Valentino Uomo Born In Roma Yellow Dream Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Valentino,5,"Aairie; Acme; Nandansons; Classic; Fragrance Depot",63,65.36
+348,3349668614592,"PACO RABANNE "PHANTOM" PARFUM 3.3 OZ SPR [M]",N/A,5,"Acme; United; Haz; Classic; Fragrance Depot",64,67.33
+349,8435415017206,"JPG LE BEAU 4.2 EDT M  (ONLY WITH PURCHASE OF RM)",N/A,5,"Aairie; Nandansons; Haz; Classic; Fragrance Depot",65,69.17
+350,8411061991886,"Carolina Herrera Bad Boy Le Parfum Eau De Parfum for Men | 3.4 oz / 100 ml - Spray",Carolina Herrera,5,"Aairie; Acme; Haz; Classic; Luxury",65,69.71
+351,3616303470791,"GUCCI FLORA GORGEOUS MAGNOLIA EDP 3.3 W",N/A,5,"Aairie; Nandansons; United; Classic; Fragrance Depot",65,68.00
+352,3614273261401,"Valentino Donna Born In Roma Yellow Dream Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Valentino,5,"Acme; Nandansons; French; Classic; Fragrance Depot",65,73.50
+353,3346470143166,"GUERLAIN Samsara  Wom EDP (75ml)",DIOR,5,"Nandansons; BS; Classic; Luxury; Fragrance Depot",66,74.92
+354,3614274024807,"VAL BORN IN ROMA GREEN 3.4 M",N/A,5,"Aairie; Nandansons; Haz; Classic; Fragrance Depot",67,73.42
+355,3616304967122,"BURBERRY GODDESS INTENSE L 3.4 *EDP* SPRAY",N/A,5,"Nandansons; BS; Classic; Luxury; Fragrance Depot",74,86.50
+356,8435415032315,"JEAN PAUL GAULTTER LE MALE LE PARFUM INTENSE EDP 125ML",Bodycology,5,"Aairie; Acme; Nandansons; Classic; Fragrance Depot",76,81.64
+357,3614272648425,"YSL LIBRE 3.0 EDP W",N/A,5,"Aairie; Nandansons; Haz; Classic; Fragrance Depot",83,85.33
+358,3365440787971,"Yves Saint Laurent Black Opium EDP for Women | 3 oz / 90 ml - SPR",Yves Saint Laurent,5,"Aairie; Nandansons; Haz; Classic; Fragrance Depot",84.5,87.58
+359,3348901567572,"CD Sauvage Elixir M 2.0 spr",N/A,5,"Acme; Nandansons; Fragrance Depot; French; Classic",130,133.57
+360,3508440251848,"CREED QUEEN OF SILK (W) EDP 75ML",N/A,5,"Aairie; Classic; Fragrance Depot; BS; Haz",180,196.33
+361,883991111418,"SEAN JOHN UNFORGIVABLE W BODY SPRAY 8.0",N/A,4,"Network; French; TJS; Haz",0.6,2.37
+362,840797123397,"SOFIA VERGARA W LOST IN PARADISE W BODY SPRAY 8.0",N/A,4,"Cosmo; French; Haz; General",0.85,2.61
+363,5425017732129,"Champs Cuba Blue EDT for Men | 1.17 oz / 35 ml - SPR",Champs,4,"BS; Network; CBS; Heritage",2,2.39
+364,608940581513,"PARIS HILTON ELECTRIFY W BODY SPRAY 8.0",N/A,4,"BS; Network; French; General",2,3.42
+365,603531240640,"Vicky Tiel 21 Bonaparte 1964 Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Vicky Tiel,4,"Cosmo; Network; French; BS",4.05,6.21
+366,8411114091150,"DISNEY AIR VAL PRINCESS RAPUNZEL EDT SP 3.4oz",N/A,4,"BS; General; ET; MTZ",5.5,5.67
+367,663350092745,"DISNEY PRINCESS AURORA ( Kids ) EDT SP 3.4 OZ - 9274",N/A,4,"BS; General; ET; MTZ",5.5,5.67
+368,716393017883,"Halston 1-12 Cologne for Men | 4.2 oz / 125 ml",Halston,4,"BS; Network; General; Perfume Center",5.7,6.28
+369,3357554720012,"Gloria Vanderbilt Vanderbilt EDT for Women | 3.4 oz / 100 ml",Gloria Vanderbilt,4,"CBS; BS; General; Perfume Center",6,7.06
+370,812256021674,"ARIANA GRANDE ARI BODY MIST 236ML",N/A,4,"Network; General; MTZ; Perfume Center",6.25,7.20
+371,4085400291001,"Diesel Plus Plus Eau De Toilette Spray 2.5 Oz / 75 Ml for Men by Diesel",Diesel,4,"Network; BS; Heritage; Luxury",6.5,8.65
+372,4085400271003,"Diesel Zero Plus Feminine EDT for Women | 2.5 oz / 75 ml - SPR",Diesel,4,"Network; CBS; Heritage; Luxury",6.5,8.80
+373,3355991000223,"Jacques Bogart One Man Show EDT for Men | 3.3 oz / 100 ml",Jacques Bogart,4,"Network; BS; MTZ; Perfume Center",6.75,7.23
+374,3600550814262,"Gloria Vanderbilt Minuit � New York Eau de Parfum 100ml",N/A,4,"BS; Heritage; General; Perfume Center",6.75,8.13
+375,98691025884,"LUCKY YOU - COLOGNE 3.4 OZ SP TESTER M",N/A,4,"Cosmo; Network; BS; Perfume Center",6.95,7.88
+376,31655095004,"Coty Exclamation Cologne for Women | 1.7 oz / 50 ml",Coty,4,"Cosmo; BS; General; Luxury",7.3,9.07
+377,6294015155709,"ARMAF VENETIAN GOLD LTD 3.4 EDP SP",REVER,4,"Acme; BS; MTZ; Luxury",8,14.31
+378,6294015160741,"ARMAF VENETIAN GIRL EDITION ROUGE EDP SP 3.4oz",N/A,4,"Acme; BS; Perfume Price; Luxury",8,15.75
+379,3616303461966,"DAVID B CLASSIC (M) EDT SP 3.4oz",N/A,4,"BS; General; MTZ; Luxury",8.25,9.70
+380,6291108737101,"LATTAFA VELVET ROSE 3.4 EDP U  (123491)3",N/A,4,"Acme; French; PWW; MTZ",8.5,11.30
+381,6291108739020,"LATTAFA QAED AL FURSAN UNLIMITED (U) EDP 90",N/A,4,"French; PWW; MTZ; Classic",8.75,11.54
+382,98691026225,"Liz Claiborne Curve Crush EDT for Women | 3.3 oz / 100 ml - Tester",Liz Claiborne,4,"Cosmo; Network; BS; Perfume Center",8.95,10.12
+383,719346010016,"Elizabeth Taylor Passion EDT for Women | 1.5 oz / 45 ml - SPR",Elizabeth Taylor,4,"Cosmo; PWW; BS; Perfume Center",9,9.82
+384,67724271109,"SUNG SHI EDP SP 1.7oz",N/A,4,"Cosmo; PWW; BS; Perfume Center",9,9.99
+385,85805268848,"Elizabeth Arden Green Tea Scent EDP for Women | 3.3 oz / 100 ml",N/A,4,"Network; PWW; BS; Perfume Center",9,10.50
+386,719346552875,"Britney Spears Hidden Fantasy EDP for Women | 3.4 oz / 100 ml",Britney Spears,4,"Network; PWW; BS; Perfume Center",9,11.05
+387,608940578643,"JESSICA SIMPSON FANCY FOREVER W EDP/S LIMITED EDITION 3.4",N/A,4,"French; PWW; BS; Classic",9,12.43
+388,3614223930722,"NAUTICA BLUE SAIL MEN 3.4 EDT SP   ",N/A,4,"French; PWW; Haz; Perfume Center",9,10.50
+389,6085010094953,"ARMAF SHADESWOOD (M) 3.4oz SP",N/A,4,"PWW; BS; French; MTZ",9,11.75
+390,3610400038304,"CIGAR MYSTIC OUD 3.4 EDP  (128716)",N/A,4,"PWW; BS; MTZ; Perfume Center",9,9.42
+391,6290362342489,"LATTAFA - LAIL MALEKI MOROCCAN BLUE 3.4 EDP SP.",N/A,4,"PWW; French; MTZ; Perfume Center",9,10.81
+392,98691046254,"Liz Claiborne Curve Connect Cologne for Men | 4.2 oz / 125 ml",N/A,4,"Network; PWW; Classic; Perfume Center",9.25,11.24
+393,98691030482,"Liz Claiborne Curve Wave Cologne for Men | 4.2 oz / 125 ml",N/A,4,"Network; PWW; ET; Perfume Center",9.25,10.47
+394,719346250436,"BS FESTIVE FANTASY EDT SP 3.4oz",PENHALIGON'S,4,"PWW; BS; MTZ; Perfume Center",9.25,11.17
+395,85805785345,"Elizabeth Arden Ardenbeauty EDP for Women | 3.3 oz / 100 ml - SPR",N/A,4,"Network; PWW; Haz; Perfume Center",9.45,10.93
+396,719346567442,"Britney Spears Circus Fantasy EDP for Women | 3.3 oz / 100 ml",Britney Spears,4,"PWW; MTZ; Luxury; Perfume Center",9.75,12.66
+397,716393029329,"Paul Sebastian Ps Cologne for Men | 4 oz / 120 ml - Tester",Paul Sebastian,4,"Cosmo; BS; Classic; Perfume Center",9.85,11.10
+398,6290360598666,"Lattafa Asad Zanzibar 3.4 edp spr",N/A,4,"Cosmo; ET; Classic; Perfume Center",9.9,11.53
+399,6291107450582,"Lattafa Qimmah Men Eau de Parfum 100ml",N/A,4,"French; PWW; MTZ; Perfume Center",9.95,11.69
+400,31655531908,"Nautica Voyage EDT for Men | 3.4 oz / 100 ml",Nautica,4,"Cosmo; Network; Haz; ET",10,10.21
+401,614514253083,"RASASI [W] JUNOON LEATHER 1.67 Oz EAU DE PARFUM SPR",N/A,4,"PWW; United; MTZ; Perfume Center",10,14.25
+402,6291106069525,"LATTAFA VELVET OUD 3.4 EDP SPR (M)",N/A,4,"PWW; French; ET; MTZ",10,12.25
+403,6085010094670,"ARMAF TRES JOUR EDP SP 3.4oz",CHI,4,"CBS; French; MTZ; Luxury",10.25,13.25
+404,3610400037185,"LOMANI AB SPIRIT MILLIONAIRE WHITE GOLD (M) EDP SP 3.3oz",N/A,4,"PWW; BS; MTZ; Perfume Center",10.45,11.59
+405,98691021770,"Liz Claiborne Bora Bora EDP for Women | 3.4 oz / 100 ml",N/A,4,"Network; PWW; Classic; Perfume Center",10.5,11.97
+406,614514338049,"RASASI QASAMAT-RASANA M 2.2 EDP SP.",PERRIS MONTE CARLO,4,"French; PWW; United; Perfume Center",10.5,13.08
+407,608940540800,"Marc Ecko EDT for Men | 3.4 oz / 100 ml - SPR",Marc Ecko,4,"French; PWW; BS; Perfume Center",10.5,11.83
+408,719346034425,"Curious Britney Spears EDP for Women | 3.3 oz / 100 ml",Britney Spears,4,"PWW; Classic; Luxury; Perfume Center",10.75,13.91
+409,3442151008769,"THALLIUM BLACK EDT SP 3.4oz",N/A,4,"Cosmo; Network; PWW; BS",11,11.99
+410,3442151009223,"THALLIUM SPORT LIM EDIT EDT SP 3.4oz",N/A,4,"Network; CBS; BS; MTZ",11,11.45
+411,85715267245,"HOLLISTER CANYON SKY 3.4oz EDP SP (L)..",N/A,4,"PWW; ET; Luxury; Perfume Center",11,12.96
+412,719346020480,"Halston Cologne for Women | 3.4 oz / 100 ml",Halston,4,"PWW; BS; Classic; Perfume Center",11,12.80
+413,856515004213,"Hummer Chrome EDT 4.2 oz Spray M",N/A,4,"PWW; CBS; BS; Perfume Center",11,12.39
+414,3614273532990,"Paloma Picasso Eau de Toilette 50ml",Clarins,4,"Cosmo; French; MTZ; Perfume Center",11.2,11.74
+415,3607348938230,"NAUTICA VOYAGE N-83 ( M ) EDT SP 3.4 OZ",N/A,4,"French; PWW; ET; MTZ",11.25,11.98
+416,3614224686833,"NAUTICA VOYAGE HERITAGE - EAU DE TOILETTE SPRAY 3.3 oz / 100 ml Men",N/A,4,"PWW; ET; MTZ; Classic",11.25,12.66
+417,3274872404199,"KENZO [W] FLOWER 1.7 Oz EAU DE PARFUM SPR *** TESTER [NO CAP]",N/A,4,"Network; MTZ; Classic; Perfume Center",11.5,14.50
+418,6294015189629,"ARMAF ODYSSEY AOUD 2.0 EDP M (128644)",N/A,4,"PWW; BS; MTZ; Perfume Center",11.5,12.93
+419,719346094665,"Britney Spears Midnight Fantasy EDP for Women | 3.3 oz / 100 ml",Britney Spears,4,"Cosmo; PWW; BS; Perfume Center",11.75,13.63
+420,85805063665,"Elizabeth Arden Mediterranean EDP for Women | 3.3 oz / 100 ml",Elizabeth Arden,4,"Cosmo; PWW; BS; Perfume Center",11.9,12.98
+421,614514402047,"RASASI NAFAEIS AL SHAGHAF W 3.4 OZ EDP SP.",PERRIS MONTE CARLO,4,"French; PWW; United; Perfume Center",11.9,13.70
+422,6291108732489,"Lattafa Ajwad Eau de Parfum 60ml",Pacifica,4,"PWW; CBS; MTZ; Luxury",12,15.38
+423,6290360598970,"LATTAFA MAYAR NATURAL INTENSE 100ML EDP SPRAY",N/A,4,"PWW; United; French; MTZ",12,16.06
+424,3610400035679,"LOMANI AB SPIRIT MILLONAIRE (M) EDT SP 6.6oz",N/A,4,"PWW; BS; Classic; Perfume Center",12.15,14.01
+425,603531784090,"Tommy Bahama St Barts EDC for Men | 3.4 oz / 100 ml",Tommy Bahama,4,"PWW; BS; French; Perfume Center",12.25,13.25
+426,716393810125,"Paul Sebastian Design Parfum for Women | 3.4 oz / 100 ml",Paul Sebastian,4,"PWW; BS; Classic; Perfume Center",12.25,14.00
+427,844061000544,"Perry Ellis 360 Red M 1.7",N/A,4,"Cosmo; PWW; BS; Classic",12.5,14.18
+428,6291108735770,"MAISON ALHAMBRA [M] TOSCANO LEATHER 2.7 Oz EAU DE PARFUM SPR [BLACK]",N/A,4,"PWW; French; ET; MTZ",12.5,13.63
+429,6085010094663,"ARMAF TRES NUIT",N/A,4,"CBS; ET; MTZ; Classic",12.95,14.30
+430,6294015168174,"ARMAF MISS GRANDEUR EDP SP 3.4oz",N/A,4,"Acme; BS; French; MTZ",13,16.90
+431,6294015168143,"ARMAF MISS MISTIQUE EDP SP 3.4oz",N/A,4,"Acme; BS; French; Perfume Price",13,19.20
+432,88300601387,"CK ETERNITY L 1.0OZ EDP SPRAY",N/A,4,"Haz; ET; MTZ; Classic",13,15.75
+433,719346128063,"Juicy Couture Couture Couture EDP for Women | 1.7 oz / 50 ml",Juicy Couture,4,"Cosmo; PWW; CBS; BS",13.45,15.24
+434,8431754002019,"HALLOWEEN Tester ( Men ) EDT SP 4.2 OZ",N/A,4,"CBS; Haz; ET; Perfume Price",13.5,19.25
+435,22548006719,"Aramis EDT for Men | 3.7 oz / 110 ml",N/A,4,"ET; MTZ; Classic; Luxury",13.5,16.69
+436,3616302015580,"Ck Free M 3.4 edt spr",N/A,4,"Cosmo; CBS; Haz; Luxury",13.75,17.20
+437,6290360591520,"LATTAFA LIAM BLUE SHINE 3.4 EDP SPR (M)",N/A,4,"French; ET; MTZ; Classic",13.75,15.19
+438,8018365260757,"Gianni Versace Blue Jeans EDT for Men | 2.5 oz / 75 ml",Versace,4,"Cosmo; Network; CBS; MTZ",13.95,15.22
+439,3607344163773,"Zino Davidoff Hot Water EDT for Men | 3.7 oz / 110 ml",Davidoff,4,"CBS; Haz; French; MTZ",13.95,14.43
+440,6291108738092,"LATTAFA HALA 3.4 EDP SPR (M)",N/A,4,"United; French; MTZ; Classic",14,18.50
+441,6294015163896,"ARMAF TAG UOMO NERO 3.4 EAU DE PARFUM SPRAY FOR MEN",N/A,4,"CBS; BS; French; MTZ",14.5,16.38
+442,3360372017332,"Guy Laroche Drakkar Noir EDT for Men | 6.7 oz / 200 ml",Guy Laroche,4,"Cosmo; Network; BS; Luxury",14.75,20.45
+443,6294015188653,"ARMAF ODYSSEY SPECTRA RAINBOW EDITION (M) EDP 100ML",ARMAF,4,"BS; Perfume Center; MTZ; Classic",14.95,16.61
+444,6294015168112,"ARMAF MISS ATTITUDE EDP SP 3.4oz",N/A,4,"Acme; BS; CBS; Classic",15,19.65
+445,8011003616008,"MOSCHINO Cheap & Chic Wom EDT TST (100ml)",N/A,4,"Cosmo; CBS; MTZ; Classic",15,17.56
+446,6291108735411,"Lattafa Asad Eau de Parfum 100ml",N/A,4,"Network; French; ET; Classic",15,16.70
+447,6291107456058,"Lattafa Fakhar Lattafa Eau de Parfum 100ml",N/A,4,"French; Perfume Center; MTZ; Classic",15,15.94
+448,8011003807871,"MOSCHINO PINK BOUQUET EDT SP 3.4oz",N/A,4,"BS; CBS; ET; MTZ",15,18.69
+449,98691043161,"Juicy Couture EDP for Women | 1 oz / 30 ml",Juicy Couture,4,"Cosmo; Haz; Perfume Center; Classic",15.25,17.00
+450,8011003991143,"MOSCHINO I Love Love EDT for Women | 1.7 oz / 50 ml",MOSCHINO,4,"Cosmo; Network; French; Perfume Center",15.5,15.93
+451,608940575307,"Paris Hilton Platinum Rush Eau De Parfum Spray for Women | 3.4 oz / 100 ml - Spray",Paris Hilton,4,"Cosmo; United; BS; Perfume Center",15.5,16.94
+452,837015000523,"Fred Hayman Touch EDT for Women | 3.4 oz / 100 ml",Fred Hayman,4,"Cosmo; BS; Perfume Center; Perfume Price",15.5,17.06
+453,608940561737,"Kenneth Cole Black EDP for Women | 3.4 oz / 100 ml - SPR",Kenneth Cole,4,"Network; CBS; BS; Classic",15.5,17.00
+454,855560005022,"SEAN JOHN UNFORGIVABLE M EDT/S 2.5",Burberry,4,"Network; Classic; French; Perfume Center",15.5,18.79
+455,844061013919,"PERRY ELLIS VERY PURPLE L 3.4OZ EDP SPRAY - NEW",N/A,4,"United; BS; Perfume Center; Perfume Price",16.4,16.98
+456,6085010094151,"ARMAF CLUB DE NUIT L 3.6 EDP SPRAY",CHI,4,"Network; CBS; Classic; Perfume Price",16.5,18.00
+457,873824001023,"John Varvatos EDT for Men | 2.5 oz / 75 ml",John Varvatos,4,"Cosmo; Classic; French; Perfume Center",16.75,18.67
+458,855560005091,"Sean John Unforgivable Woman Parfum for Women | 4.2 oz / 125 ml - SPR",Sean John,4,"Network; Classic; BS; Perfume Center",16.75,20.38
+459,3614229823790,"Hugo Boss Hugo EDT for Men | 2.5 oz / 75 ml",Hugo Boss,4,"Acme; Classic; Haz; Perfume Price",17,18.75
+460,85715950116,"Donna Karan Dkny Golden Delicious EDP for Women | 3.4 oz / 100 ml - SPR",Donna Karan,4,"Cosmo; United; Perfume Center; Perfume Price",17,21.44
+461,737052238128,"Hugo Boss Boss Orange EDT for Women | 2.5 oz / 75 ml",Hugo Boss,4,"United; BS; Perfume Center; Perfume Price",17,19.56
+462,844061000513,"Perry Ellis 360 Black EDT for Men | 3.3 oz / 100 ml - SPR",Perry Ellis,4,"United; Classic; Perfume Center; Perfume Price",17.25,19.15
+463,608940535387,"Fancy Jessica Simpson EDP for Women | 3.4 oz / 100 ml",Jessica Simpson,4,"Classic; BS; French; Perfume Center",17.25,18.75
+464,3614228834896,"ETERNITY COLOGNE/CALVIN KLEIN EDT SPRAY 3.4 OZ (100 ML) (M)",N/A,4,"Haz; French; Perfume Center; Perfume Price",17.4,18.41
+465,98691036507,"Juicy Couture EDP for Women | 1.7 oz / 50 ml",Juicy Couture,4,"Cosmo; Classic; BS; Perfume Center",17.5,19.59
+466,85715801555,"Alfred Dunhill Desire Blue EDT for Men | 3.4 oz / 100 ml",N/A,4,"Network; United; Classic; Perfume Center",17.5,20.17
+467,3616301623359,"Hugo Boss Boss Orange Man Eau De Toilette for Men | 3.3 oz / 100 ml - Spray - New Packaging",Hugo Boss,4,"United; CBS; Haz; French",17.5,18.56
+468,20714156893,"Clinique Happy Parfum for Women | 3.4 oz / 100 ml",N/A,4,"United; CBS; Perfume Center; Luxury",17.5,22.00
+469,20714080310,"Clinique Happy Cologne for Men | 3.4 oz / 100 ml",Clinique,4,"CBS; Haz; ET; Luxury",17.5,22.50
+470,3386460028325,"Mont Blanc Presence EDT for Men | 2.5 oz / 75 ml",Mont Blanc,4,"Cosmo; Network; CBS; Classic",17.75,19.17
+471,3386460149419,"Tester Lacoste Essential 4.1 EDT Sp Men (New UPC)",N/A,4,"Cosmo; Classic; French; Perfume Price",17.75,21.10
+472,6290362340638,"LATTAFA - ECLAIRE 3.4 EDP SP.",N/A,4,"United; Classic; Perfume Center; Perfume Price",17.75,20.25
+473,3386460028424,"Mont Blanc Femme Individuel EDT for Women | 2.5 oz / 75 ml",Mont Blanc,4,"Cosmo; ET; Perfume Center; Classic",18,19.06
+474,8032529110146,"Salvatore Ferragamo Subtil Pour Homme EDT for Men | 3.4 oz / 100 ml",Salvatore Ferragamo,4,"United; CBS; Perfume Center; Luxury",18,21.94
+475,3386460028394,"Mont Blanc Individuel EDT for Men | 2.5 oz / 75 ml - SPR",Mont Blanc,4,"United; CBS; Classic; Perfume Center",18,21.10
+476,8011003809196,"Gianni Versace Versace Eros EDT for Men | 1 oz / 30 ml",Gianni Versace,4,"Cosmo; Haz; Perfume Center; PWW",18.45,23.69
+477,3386460149402,"Tester Lacoste Red 4.1 EDT Sp Men",N/A,4,"Cosmo; Classic; French; Perfume Price",18.5,20.51
+478,737052057989,"Hugo Boss Boss EDP for Women | 3 oz / 90 ml",Hugo Boss,4,"Cosmo; United; French; Perfume Center",18.5,20.25
+479,646875431527,"Salvatore Ferragamo EDT for Men | 3.4 oz / 100 ml",Salvatore Ferragamo,4,"United; Classic; Perfume Center; Perfume Price",18.75,20.35
+480,3423470486018,"Issey Miyake L'Eau De Issey Intense EDT for Men | 4.2 oz / 125 ml",Issey Miyake,4,"Cosmo; Classic; ET; Perfume Center",19,21.68
+481,719346128070,"Juicy Couture Couture Couture EDP for Women | 3.4 oz / 100 ml",Juicy Couture,4,"United; Classic; Perfume Center; Perfume Price",19,21.40
+482,3351500011476,"AZZARO Pour Homme EDT (100ml)",N/A,4,"Cosmo; CBS; Classic; Perfume Price",19.25,20.20
+483,3760060764164,"NITRO INTENSE by DUMONT 3.4 EDP SPR",N/A,4,"United; Classic; French; Perfume Center",19.25,21.05
+484,6291100139668,"Al Haramain L'Aventure EDP for Men | 3.3 oz / 100 ml",Al Haramain,4,"United; Classic; Perfume Price; Luxury",19.45,24.09
+485,3614227748606,"Burberry Touch EDP for Women | 1.7 oz / 50 ml",Burberry,4,"Network; Classic; Haz; Perfume Price",19.5,20.96
+486,737052683553,"Hugo Boss Deep Red EDP for Women | 3 oz / 90 ml - SPR",Hugo Boss,4,"United; Classic; French; Perfume Center",19.5,21.30
+487,22548289662,"Michael Kors Sexy Amber EDP for Women | 1.7 oz / 50 ml",Michael Kors,4,"BS; Classic; Haz; French",19.5,22.60
+488,85715330444,"GUESS GIRL (W) SET EDT 100ML + EDT 15ML + BL 200ML",N/A,4,"CBS; Classic; French; Perfume Price",19.5,21.49
+489,3274875303161,"GIVENCHY POUR HOMME 3.4 EDT SPR TESTER (MEN)",N/A,4,"Cosmo; Classic; Perfume Center; Perfume Price",19.9,25.21
+490,22548296462,"M KORS Sexy Amber Wom EDP TST (100ml)",N/A,4,"Network; Classic; Haz; Luxury",20,26.20
+491,8032529115653,"Salvatore Ferragamo F Ferragamo Pour Homme EDT for Men | 3.4 oz / 100 ml",Salvatore Ferragamo,4,"United; Classic; Perfume Center; Luxury",20,23.75
+492,3386460036757,"BOUCHERON Boucheron EDT for Women | 3.3 oz / 100 ml",BOUCHERON,4,"Network; CBS; Perfume Center; Perfume Price",20.5,21.70
+493,88300106752,"Calvin Klein Obsession EDT for Men | 6.7 oz / 200 ml",N/A,4,"Network; United; Classic; Perfume Center",20.5,22.67
+494,7640496670160,"Tommy Hilfiger Tommy EDT for Men | 3.4 oz / 100 ml",Tommy Hilfiger,4,"United; CBS; Classic; Perfume Price",20.5,21.10
+495,6290360595771,"LATTAFA TERIAQ INTENSE UNISEX 3.4 OZ EDP SP",N/A,4,"United; French; Perfume Center; Perfume Price",20.5,24.50
+496,3614226905758,"Burberry EDT for Men | 3.3 oz / 100 ml",Burberry,4,"Acme; CBS; Perfume Center; Perfume Price",20.6,21.47
+497,3614226905062,"Burberry Brit EDP for Women | 1.7 oz / 50 ml",Burberry,4,"BS; Classic; Haz; Perfume Price",21,22.75
+498,3760060761880,"NITRO RED 3.4 EDP M  (126852)",LANCOME,4,"United; French; Perfume Center; Perfume Price",21.5,22.13
+499,614514331057,"RASASI HAWAS ELIXIR UNISEX 3.4 OZ  EDP SP",N/A,4,"United; French; Perfume Center; Perfume Price",21.5,22.25
+500,6290360599090,"LATTAFA SEHR 3.4 EAU DE PARFUM SPRAY FOR MEN",LATTAFA,4,"United; Classic; French; Perfume Center",21.5,26.20
+501,3386460078597,"Rochas Tocade EDT for Women | 3.4 oz / 100 ml",Rochas,4,"Classic; French; Perfume Center; Perfume Price",21.5,22.60
+502,812256028482,"ARIANA GRANDE GOD IS A WOMAN 1.7 OZ EDP",N/A,4,"Classic; ET; Perfume Center; Perfume Price",21.5,23.40
+503,3614228174275,"Cool Water Intense M 4.2oz EDP",N/A,4,"Cosmo; Haz; Classic; Luxury",21.75,25.81
+504,3386460149280,"LACOSTE BOOSTER ( M ) EDT SP 4.2 OZ",N/A,4,"Acme; Cosmo; CBS; Perfume Price",22,22.95
+505,3616301838227,"BB MR BURBERRY EDP 50ML",N/A,4,"Acme; Cosmo; ET; Perfume Center",22,22.34
+506,3386460036351,"BOUCHERON Boucheron EDP for Women | 3.3 oz / 100 ml",BOUCHERON,4,"Cosmo; CBS; Classic; Perfume Center",22,23.44
+507,3614227748446,"Burberry Weekend EDT for Men | 3.3 oz / 100 ml",Burberry,4,"Network; CBS; Perfume Price; Luxury",22,25.15
+508,3616304940804,"Marc Jacobs HONEY EDP 3.4oz",N/A,4,"Classic; Haz; Perfume Center; Perfume Price",22,25.00
+509,3386460081931,"MONT BLANC LADY EMBLEM ELIXIR 75 ML EDP SP",NARCISO RODRIGUEZ,4,"United; Classic; Perfume Center; Perfume Price",22.05,26.01
+510,3607349764326,"Marc Jacobs Daisy Dream EDT for Women | 1 oz / 30 ml - SPR",Marc Jacobs,4,"Cosmo; Classic; Perfume Center; PWW",22.45,25.16
+511,892456000037,"Parlux Fragrances Animale EDP for Women | 3.4 oz / 100 ml",Parlux Fragrances,4,"United; Classic; Perfume Center; Perfume Price",22.5,24.50
+512,844061013322,"PERRY ELLIS "360 CORAL" 4pcSET EDP SPR 3.4 L + B/MIST + Hand Cream + Mini SPR (Clean)",N/A,4,"BS; Classic; Perfume Center; Perfume Price",22.5,24.20
+513,737052191324,"Lacoste Touch Of Pink EDT for Women | 3 oz / 90 ml",Lacoste,4,"Network; CBS; French; Perfume Center",22.9,24.23
+514,3423222010324,"ISSEY MIYAKE Drop Issey Wom EDP (90ml)",N/A,4,"Cosmo; United; BS; Classic",23,27.50
+515,3386460129398,"Boucheron Quatre Iconic Eau de Parfum 100ml",N/A,4,"Nandansons; French; PWW; Perfume Price",23,25.73
+516,3616304957529,"COOL WATER (M) EDT SP 4.2oz+2.5ozAS/B+2.5ozS/G",N/A,4,"PWW; United; BS; Classic",23,28.98
+517,8011003845125,"Moschino Toy Boy 1.7 edp spr",N/A,4,"Cosmo; Network; Classic; Perfume Center",23.25,24.65
+518,844061014428,"PERRY 18 by PERRY ELLIS 4 PC 3.4 EDP SPR, 3.0 S/G, 4.0 BODY MIST, B/L (W)",N/A,4,"Network; Classic; Perfume Center; PWW",23.5,26.25
+519,6290362342373,"Khamrah Dukhan by LATTAFA 3.4oz EDP Spray for UNISEX",Lattafa,4,"United; Classic; French; Perfume Price",23.5,25.10
+520,3386460113731,"COACH Blue Men EDT TST (100ml)",N/A,4,"CBS; Haz; Classic; Perfume Price",23.5,24.69
+521,3614226905000,"Burberry Touch For Women Eau de Parfum 100ml",N/A,4,"Nandansons; Classic; Haz; Perfume Center",23.75,26.25
+522,8052464891467,"ACQUA ESSENZIALE BLU - Salvatore Ferragamo - EAU DE TOILETTE SPRAY 3.4 oz / 100 ml",N/A,4,"CBS; Classic; Perfume Price; Luxury",23.75,27.15
+523,8011003806140,"VERSACE Yellow Diamond Wom EDT TST (90ml)",N/A,4,"Cosmo; Nandansons; Classic; Perfume Center",23.9,26.98
+524,3386460127066,"Jimmy Choo Urban Hero Gold Edition Eau De Parfum 100ml",DOLCE & GABBANA,4,"Cosmo; United; Classic; Perfume Price",24,26.80
+525,3386460058728,"MONT BLANC EMBLEM - EAU DE TOILETTE SPRAY 3.3 oz  Mens",N/A,4,"United; CBS; PWW; Perfume Price",24,26.00
+526,3386460149136,"LACOSTE L.12.12 BLANC EAU FRAICHE (M) EDT 100 ml FR",N/A,4,"Acme; United; Classic; Perfume Price",24.5,26.92
+527,719346628365,"Juicy Couture Viva La Juicy Rose EDP for Women | 3.4 oz / 100 ml",Juicy Couture,4,"Network; Classic; Perfume Center; PWW",24.5,27.52
+528,6291100131716,"Al Haramain Amber Oud Gold Edition Eau De Parfum 60ml",N/A,4,"United; Classic; PWW; Perfume Price",24.5,26.90
+529,8011003819423,"Versace Bright Crystal Absolu Eau de Parfum 30ml",N/A,4,"Classic; Perfume Center; PWW; Perfume Price",24.5,27.48
+530,8011003838011,"Moschino Fresh Couture Gold Eau de Parfum 100ml",N/A,4,"BS; Classic; PWW; Perfume Price",24.5,27.14
+531,6290360592008,"LATTAFA PRICE ART OF NATURE I 3.4 U  (128550)",N/A,4,"United; Classic; French; Perfume Price",24.75,25.75
+532,8431754342016,"Jesus del Pozo Halloween EDT for Women | 3.4 oz / 100 ml",Jesus del Pozo,4,"United; Haz; Perfume Center; Perfume Price",24.9,25.54
+533,6291100130450,"AL HARAMAIN AVENTURE 6.8 EDP L -  (119295)",Victoria's Secret,4,"Nandansons; PWW; Perfume Center; Perfume Price",25,28.88
+534,98691036491,"Juicy Couture EDP for Women | 3.4 oz / 100 ml",N/A,4,"PWW; Perfume Center; Classic; Perfume Price",25,28.73
+535,8011003804559,"Gianni Versace Versace Yellow Diamond Eau De Toilette for Women | 1.7 oz / 50 ml - Spray",Gianni Versace,4,"Cosmo; Network; Classic; Perfume Center",25.5,28.70
+536,3386460101042,"Montblanc Explorer Eau De Parfum 60ml",NARCISO RODRIGUEZ,4,"Cosmo; PWW; Classic; Perfume Price",25.5,29.99
+537,6290171070207,"AFNAN SUPREMACY IN OUD LUXURY COLLECTION 3.4 EXTRAIT DE PARFUM SPRAY",N/A,4,"Nandansons; PWW; French; Perfume Price",25.75,29.15
+538,8431754006031,"HALLOWEEN MAN X 4.2 EDT SPR (M)",N/A,4,"PWW; United; Haz; Perfume Price",26,29.40
+539,6290171070214,"Afnan Supremacy Not Only Intense M 3.4 edp spr",Victoria's Secret,4,"PWW; United; Perfume Center; Perfume Price",26,29.00
+540,3386460151979,"COACH DREAMS MOONLIGHT (W) EDP 60ML",COACH,4,"Acme; Cosmo; Classic; Perfume Price",26.2,29.40
+541,608940586884,"PARIS HILTON CAN CAN(W)(H/B)(LI FREE4PC SET(3.4oz edp sp, 3.0oz Body Lotion, 3.0oz S/G, 10ml edp sp) ",N/A,4,"PWW; BS; Classic; Perfume Center",26.25,29.56
+542,3614228228671,"Lacoste Eau De Lacoste L.12.12 Pour Elle French Panache Eau de Toilette 90ml",N/A,4,"United; BS; French; Perfume Price",26.25,31.19
+543,3616303459895,"Lacoste L.12.12 Blanc Intens M 3.4 edt spr",N/A,4,"Aairie; PWW; BS; French",26.5,32.10
+544,8011003995950,"Gianni Versace Versace Pour Homme EDT for Men | 1.7 oz / 50 ml",Versace,4,"Cosmo; Network; Perfume Center; Classic",26.5,27.70
+545,6291106813029,"Al Haramain Amber Oud Ruby Eau De Parfum 60ml",N/A,4,"PWW; United; Perfume Center; Perfume Price",27.25,30.20
+546,3386460149211,"LACOSTE L.12.12 ROSE (L) 3.4 EDP SP",N/A,4,"Cosmo; United; Classic; Perfume Price",27.4,31.60
+547,8052464893324,"SIGNORINA LIBERA - Ferragamo -  EAU DE PARFUM 3.4 oz  SPRAY Women",N/A,4,"Aairie; PWW; Perfume Center; Perfume Price",27.5,31.29
+548,6295199800492,"ARMAF ODYSSEY CANDEE SPECIAL EDITION (W) EDP 200 ml AE",ARMAF,4,"Nandansons; PWW; Perfume Center; Perfume Price",27.5,32.90
+549,614514204016,"RASASI LA YUQAWAM ( W ) EDP SP 2.5 OZ",N/A,4,"PWW; United; French; Perfume Center",27.5,32.59
+550,887167095915,"Est�e Lauder Spellbound Eau de Parfum 50ml",N/A,4,"Cosmo; PWW; Classic; Perfume Center",27.75,31.69
+551,608940569467,"Set-Paris Hilton M 4pc. Set 3.4 edt spr/3.0 shower gel/ 2.75 deo/ .25 mini",N/A,4,"PWW; United; Classic; Perfume Price",28,30.08
+552,8057971180943,"Dolce & Gabbana The One EDT for Men | 3.3 oz / 100 ml - SPR - Tester",Dolce & Gabbana,4,"Aairie; Cosmo; Classic; Luxury",28.5,33.25
+553,3274878122554,"Givenchy Amarige EDT for Women | 1.7 oz / 50 ml",Givenchy,4,"Cosmo; PWW; Classic; Haz",28.5,31.26
+554,6291100130467,"Al Haramain Amber Oud Carbon Edition Eau De Parfum 60ml",Victoria's Secret,4,"United; BS; Classic; Perfume Price",28.5,32.13
+555,3349668576128,"Paco Rabanne Black Xs Eau de Toilette 50ml",N/A,4,"Nandansons; BS; French; Perfume Center",29,30.50
+556,8011003869404,"Versace 5 Pc. Gift Set for Unisex | Bright Crystal EDT 0.17oz + Eau Fraiche EDT 0.17oz + Pour Homme  EDT 0.17oz + Eros EDT 0.17oz + Dylan Turquoise EDT 0.17oz",Versace,4,"Nandansons; PWW; Classic; Perfume Price",29,33.33
+557,3274872395497,"GIVENCHY PI (M) EDT SP 1.7oz",N/A,4,"PWW; BS; Classic; Perfume Center",29.25,33.29
+558,3614227728820,"TIFFANY&LOVE FOR HIM(M) 1.7EDT",LANCOME,4,"Aairie; PWW; Classic; Perfume Price",29.5,33.75
+559,6291106814965,"AL HARAMAIN MIRACLE DUBAI(W)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)                                     ",N/A,4,"PWW; Classic; Perfume Center; Perfume Price",29.5,33.19
+560,3137370207016,"Nina Ricci L'Air Du Temps EDT for Women | 3.3 oz / 100 ml",Nina Ricci,4,"United; Classic; Perfume Center; Perfume Price",29.75,32.05
+561,6291100133444,"AL HARAMAIN AMBER OUD PRIVATE EDITION EDP SP 2oz",N/A,4,"Aairie; United; BS; Fragrance Depot",30,36.50
+562,3386460032681,"Mont Blanc Legend EDT for Men | 3.3 oz / 100 ml",Mont Blanc,4,"Cosmo; Nandansons; United; BS",30,31.63
+563,737052766775,"Hugo Boss Boss Bottled Unlimited EDT for Men | 3.3 oz / 100 ml",Hugo Boss,4,"PWW; Haz; Perfume Center; Perfume Price",30.4,32.88
+564,3386460135337,"JIMMY CHOO "ICE" 6.7 OZ EDT SPR [M]",N/A,4,"Cosmo; United; Classic; Perfume Price",30.5,31.90
+565,6291106814811,"AL HARAMAIN AMBER OUD GOLD 999.9(U)EXTRAIT DE PARFUM SP 2.53oz(LI FREE)(WITH ATOMIZER)               ",N/A,4,"Aairie; PWW; United; Perfume Center",31,34.23
+566,737052413174,"Eau De Lacoste L.12.12 Blanc EDT for Men | 3.3 oz / 100 ml",Lacoste,4,"PWW; Network; United; French",31,34.25
+567,6294015165029,"ARMAF CLUB KEY LOVE 3.4oz SPR",N/A,4,"PWW; Classic; French; Fragrance Depot",31,38.96
+568,8011003818129,"VERSACE Bright Crystal Absolu Wom EDP TST (90ml)",N/A,4,"Cosmo; Network; Classic; Perfume Price",31.25,33.44
+569,8411061954966,"Carolina Herrera Chic EDT for Men | 3.4 oz / 100 ml",Carolina Herrera,4,"Nandansons; United; Perfume Center; Classic",31.25,33.19
+570,3386460139052,"MONT BLANC LEGEND (M) SET EDT 100 ml + EDT 7.5 ml + ALL OVER SHOWER GEL 100 ml FR",N/A,4,"Aairie; BS; Classic; French",31.5,33.20
+571,3386460118125,"MB LEGEND (M) EDP SP 3.4oz",N/A,4,"Cosmo; Nandansons; United; Classic",32,33.23
+572,3423478806054,"Narciso Rodriguez Bleu Noir EDT for Men | 3.3 oz / 100 ml",Narciso Rodriguez,4,"Nandansons; United; BS; Classic",33,34.30
+573,3616303465223,"GUCCI MINI 4PC SETS X 5ML (2 X BLOOM 5ML, 2 FLORA GORGEOUS GARDENIA 5ML) (W)",N/A,4,"Aairie; Nandansons; PWW; Haz",33.25,36.88
+574,3423470890013,"Narciso Rodriguez EDT for Women | 1.6 oz / 50 ml",Narciso Rodriguez,4,"Cosmo; PWW; BS; Classic",33.41,36.07
+575,3386460139199,"MONT BLANC "EXPLORER PLATINUM" 3PCS SET 3.3 OZ EDP SPR +3.3 S/G + 7.5 ML [MSET]",N/A,4,"Aairie; United; BS; Classic",33.5,37.13
+576,6291100130122,"AL HARAMAIN "AMBER OUD GOLD" 3.3 OZ EDP SPR [M]",Victoria's Secret,4,"PWW; United; Classic; Perfume Price",33.5,36.56
+577,3616305265289,"Hugo Boss Hugo Man 3PC Gift Set for Men",Hugo Boss,4,"Classic; Haz; French; Perfume Price",33.5,34.40
+578,3614272872370,"Viktor & Rolf Flowerbomb Dew Eau de Parfum 50ml",MJ,4,"Cosmo; BS; Classic; French",33.99,43.70
+579,8057971183722,"Dolce & Gabbana Devotion Eau De Parfum for Women | 1.7 oz / 50 ml - Spray",Dolce & Gabbana,4,"Aairie; Nandansons; BS; Classic",34,38.13
+580,3614273521345,"Azzaro The Most Wanted 1.6 EDP Intense Sp Men",N/A,4,"Acme; Cosmo; Classic; Haz",34,35.30
+581,6294015181913,"ARMAF CLUB DE NUIT PRECIEUX I 1.85 EXTRAIT DE PARFUM",N/A,4,"Nandansons; United; Classic; Luxury",34,41.81
+582,812256029724,"Ariana Grande Ari 3 Pc. Gift Set for Women | EDP SPR 3.4 oz + S/G 3.4 oz + B/L 3.4 oz",Ariana Grande,4,"PWW; Network; Classic; Perfume Price",34,37.00
+583,3423473005353,"D&G DOLCE SHINE (L) 2.5OZ EDP SP",N/A,4,"United; BS; French; Perfume Price",34,38.13
+584,737052972305,"THE SCENT 3.4 EDT M",N/A,4,"Aairie; PWW; Network; Classic",34.5,38.00
+585,6291106814859,"AL HARAMAIN AMBER OUD AQUA DUBAI (U) EXTRAIT DE PARFUM 75ML",N/A,4,"PWW; United; Classic; Perfume Price",34.5,36.44
+586,3614226905994,"MY BURBERRY(L) 1.7OZ EDP",N/A,4,"Cosmo; BS; Haz; Perfume Price",34.75,37.08
+587,3423473053859,"Narciso Rodriguez Ambree Eau de Parfum 50ml",N/A,4,"Aairie; Cosmo; French; Perfume Price",35,38.21
+588,3614273478748,"Prada Luna Rossa Eau De Toilette for Men | 1.6 oz / 50 ml - Spray",Prada,4,"Acme; Cosmo; Nandansons; Classic",35,38.77
+589,98691047718,"Juicy Couture Viva La Juicy EDP for Women | 3.4 oz / 100 ml",Juicy Couture,4,"Cosmo; Nandansons; PWW; Classic",35,36.14
+590,8018365500037,"Gianni Versace Versace Man Eau Fraiche EDT for Men | 3.4 oz / 100 ml",Versace,4,"Nandansons; Network; Classic; Perfume Price",36,36.75
+591,6294015171112,"ARMAF CLUB DE NUIT MILESTONE EDP SP 6.7oz",N/A,4,"PWW; BS; French; Perfume Price",36,39.44
+592,8054754400595,"Dolce & Gabbana K 3.3 EDT Sp 3PC Men Set (Hard Box)",N/A,4,"PWW; BS; Perfume Price; Luxury",36,47.11
+593,3614229823776,"Hugo Boss Hugo EDT for Men | 6.7 oz / 200 ml",Hugo Boss,4,"PWW; United; Classic; Perfume Price",36.5,37.65
+594,6291106814910,"AL HARAMAIN AMBER OUD NIGHT DUBAI UNISEX 3.4 OZ EXTRAIT DE PARFUM",N/A,4,"PWW; Nandansons; Network; United",36.5,38.63
+595,3274872420625,"KENZO Amour For Women 3.4 oz EDP Spray",N/A,4,"Aairie; Classic; Haz; Perfume Price",37,38.38
+596,850050062059,"BHARARA NICHE FEMME ( W ) EDP SP 3.4 OZ",N/A,4,"Aairie; Nandansons; PWW; French",37,39.07
+597,812256028611,"Ariana Grande Cloud Intens 3.4 edp spr",N/A,4,"Nandansons; United; Classic; Perfume Price",37,38.00
+598,3614272732230,"Valentino Uomo  Eau De Toilette for Men | 1.7 oz / 50 ml - Spray",Valentino,4,"Cosmo; Nandansons; Classic; Perfume Price",37.5,38.95
+599,810101501227,"ARIANA GRANDE MOD VANILLA EDP SP 3.4oz",N/A,4,"United; Classic; Perfume Price; Luxury",37.5,42.50
+600,3349668630820,"PACO RABANNE MINIATURES MASCULINE ONE MILLION EDT 5ML + OM ELIXIR 5 ML + INVICTUS 5 ML + PHANTOM 5ML",N/A,4,"Aairie; Nandansons; Classic; Perfume Price",38,38.75
+601,3607342686229,"Calvin Klein Euphoria Eau De Parfum for Women | 5.4 oz / 160 ml - Spray",Calvin Klein,4,"Aairie; Cosmo; Network; Classic",38,40.31
+602,8011003893867,"Moschino Toy 2 Pearl 4pc Set (3.4EDPS,3.4BL,3.4SG,.34EDPS)",N/A,4,"Aairie; United; Haz; Perfume Price",38,43.00
+603,8011003825745,"Gianni Versace Versace Dylan Blue Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Gianni Versace,4,"Acme; Cosmo; Nandansons; Perfume Price",38,39.25
+604,3386460119269,"JIMMY CHOO I WANT CHOO (L) EDP 60 ml ",Dolce & Gabbana,4,"Nandansons; BS; Classic; Fragrance Depot",38,41.00
+605,3386460147378,"Coach New York Green 3PC Men Set (Hard Box)",N/A,4,"Nandansons; Classic; Haz; Luxury",38,45.60
+606,8057971180318,"Dolce & Gabbana Light Blue EDT for Women | 3.3 oz / 100 ml",Dolce & Gabbana,4,"Nandansons; Network; United; Luxury",38,42.20
+607,3614229828535,"HUGO BOSS Boss Bottled For  Men 3.4oz Edp** Spray.",N/A,4,"Cosmo; PWW; United; Classic",38.25,42.24
+608,3349668576111,"Paco Rabanne Black XS Eau De Toilette for Men | 3.4 oz / 100 ml - Spray - New Packaging",Paco Rabanne,4,"Cosmo; Nandansons; Classic; Perfume Price",38.35,39.46
+609,6291100133451,"AMBER OUD PRIVATE EDITION..120ML EDP SPRAY (U)",N/A,4,"Aairie; United; Perfume Price; Fragrance Depot",39.5,45.63
+610,3614273544955,"PRADA LUNA SPORT 1.7 M",N/A,4,"Acme; Cosmo; Nandansons; Classic",40,41.13
+611,3274872487383,"GIVENCHY GENTLEMAN ONLY(M)EDT SP 3.3oz(NEW PACK)                                                     ",N/A,4,"PWW; Network; United; Luxury",40,44.92
+612,810101502798,"ARIANA GRANDE [W] CLOUD PINK 3.4 Oz EDP SPR [PINK]",N/A,4,"Aairie; United; Classic; Perfume Price",41,41.56
+613,3616303461881,"Marc Jacobs Perfect W 3.4 edt spr",N/A,4,"Acme; United; Haz; Perfume Price",41,43.05
+614,3349668588718,"Paco Rabanne Olymp�a Blossom Eau De Parfum 80ml",N/A,4,"Cosmo; BS; Classic; Haz",41,44.90
+615,3346130493594,"Herm�s Eau D'orange Verte Eau De Cologne 100ml",CHRISTIAN DIOR,4,"Aairie; Cosmo; BS; Fragrance Depot",41.5,45.36
+616,8057971180448,"D&G INTENSO POUR HOMME EDP SP 4.2oz",N/A,4,"Acme; BS; Classic; Perfume Price",42,42.60
+617,8057971188291,"D&G DEVOTION INTENSE 3.4OZ EDP WOMEN",N/A,4,"Aairie; BS; Classic; Luxury",44,53.88
+618,8057971180400,"Dolce & Gabbana Pour Femme EDP for Women | 3.3 oz / 100 ml - SPR",Dolce & Gabbana,4,"Aairie; Classic; French; Perfume Price",44,46.10
+619,3274872369412,"Givenchy Very Irresistible EDT for Women | 2.5 oz / 75 ml - SPR",Givenchy,4,"Aairie; Nandansons; Classic; Perfume Price",44.5,46.60
+620,8054754401059,"Dolce & Gabbana Devotion For Men Edp Spray 100 ml",N/A,4,"Nandansons; BS; Haz; Perfume Price",44.75,50.25
+621,8057971186655,"D&G The Only One Intense Wom EDP (100ml)",N/A,4,"Acme; BS; Luxury; Fragrance Depot",45,51.80
+622,8011003818112,"Gianni Versace Versace Bright Crystal Absolu EDP for Women | 3 oz / 90 ml - SPR",Gianni Versace,4,"Cosmo; Network; Classic; Perfume Price",45,46.06
+623,850050062219,"BHARARA VIKING RIO ( M ) PARFUM SP 3.4 OZ",N/A,4,"Aairie; Classic; Perfume Price; Fragrance Depot",45.5,50.13
+624,3605522041486,"Giorgio Armani Because It's You 3.4 edp spr",N/A,4,"BS; Classic; Luxury; Fragrance Depot",45.5,57.38
+625,8011003845354,"Gianni Versace Versace Eros Flame Eau De Parfum for Men | 3.4 oz / 100 ml - Spray",Gianni Versace,4,"Classic; Haz; Perfume Price; Fragrance Depot",45.5,47.63
+626,31655513034,"Marc Jacobs Daisy EDT for Women | 3.4 oz / 100 ml",N/A,4,"Nandansons; Classic; Perfume Price; Fragrance Depot",46,49.60
+627,3346470143241,"GUERLAIN INSOLENCE EDT 75ML",N/A,4,"Nandansons; Haz; Perfume Price; Fragrance Depot",46,54.10
+628,8011003803132,"Gianni Versace Versace Man Eau Fraiche EDT for Men | 6.7 oz / 200 ml - SPR",Gianni Versace,4,"Nandansons; BS; Perfume Price; Fragrance Depot",46,47.88
+629,3147758029383,"Lancome Miracle EDP for Women | 3.4 oz / 100 ml",Lanc�me,4,"Cosmo; United; BS; Fragrance Depot",46.75,52.69
+630,8054754400762,"Dolce & Gabbana The One 3PC Gift Set For Men",N/A,4,"Aairie; BS; Haz; Classic",47,48.88
+631,8054754405057,"D&G Q PARFUM 3.4oz",N/A,4,"Aairie; Nandansons; BS; Luxury",47,50.63
+632,3386460108768,"Jimmy Choo Man Intense 6.7 EDT Sp Men (Window Box)",N/A,4,"Nandansons; Classic; Perfume Price; Fragrance Depot",47,48.50
+633,3423478840652,"NARCISO RODRIGUEZ Poudree Wom EDP (90ml)",N/A,4,"Aairie; Cosmo; BS; Perfume Price",48,48.01
+634,6291106811568,"ROYAL AMBER - Orientica  - EAU DE PARFUM SPRAY 2.7 oz / 80 ml",N/A,4,"United; Classic; Perfume Price; Luxury",48,54.06
+635,860009248694,"JO MILANO [M] GAME OF SPADES "JACKPOT" 3.4 Oz PARFUM SPR [GOLD]",N/A,4,"Aairie; Nandansons; United; Classic",48.5,50.10
+636,3614227086227,"Marc Jacobs Perfect 3.4 OZ EDP SP",LANCOME ,4,"Aairie; Haz; Classic; Perfume Price",48.5,48.94
+637,3614273711784,"Maison Margiela Replica On A Date Eau de Toilette 100ml",N/A,4,"Haz; Classic; Perfume Price; Fragrance Depot",49,55.63
+638,3386460119252,"JIMMY CHOO I WANT CHOO (L) 3.4OZ EDP SP",N/A,4,"Aairie; Nandansons; Classic; Fragrance Depot",49.5,53.50
+639,3274872482630,"Givenchy Ange Ou Demon Le Secret 3.3 EDP Sp Women (New UPC)",N/A,4,"Cosmo; Nandansons; United; BS",49.75,51.61
+640,8011003832286,"VERSACE Yellow Diamond Wom EDT (200ml)",N/A,4,"Aairie; Nandansons; BS; Classic",50,53.50
+641,8057971188123,"DG LIGHT BLUE 6.7 EDT M NEW 2025  (129942)",N/A,4,"United; BS; Haz; Luxury",50,54.63
+642,3346132400019,"Hermes Un Jardin Sur Le Toit EDT Unisex | 3.4 oz / 100 ml - SPR",Hermes,4,"Cosmo; Nandansons; French; Fragrance Depot",50.75,58.15
+643,850051043033,"JO MILANO [M] GAME OF SPADES "GOLD" 3.4 Oz PARFUM SPR [GOLD]",N/A,4,"Aairie; Nandansons; United; Classic",51,52.80
+644,3614272731929,"Valentino Valentina EDP for Women | 2.7 oz / 80 ml",Valentino,4,"Aairie; Acme; Nandansons; Classic",51,54.67
+645,8054754400533,"D&G DEVOTION EDP 3.4oz+TS+MINI",N/A,4,"BS; Haz; Classic; Luxury",51.25,59.81
+646,3614270659706,"Viktor & Rolf Spicebomb Extreme Eau de Parfum 90ml",N/A,4,"Acme; Haz; Classic; Fragrance Depot",51.5,54.60
+647,8011003900022,"VERSACE EROS M 3PCSET 3.4 EDT SPRAY / 5.0 S.GEL / 5ML *DISPLAY BOX*",N/A,4,"United; BS; Haz; Classic",52.5,57.25
+648,3614274000566,"PRADA PARADOXE VIRTUAL FLOWER 1.7OZ EDP WOMEN",N/A,4,"Nandansons; Haz; Classic; Fragrance Depot",54,57.20
+649,8054754403527,"D&G DEVOTION POUR HOMME EDP SP 3.4oz+10ML",N/A,4,"Aairie; Nandansons; BS; Luxury",55,59.95
+650,3432240506306,"Cartier Pasha De Cartier Eau de Toilette 100ml",N/A,4,"Acme; Nandansons; BS; Haz",56,57.80
+651,8011003817498,"Gianni Versace Versace Bright Crystal Eau De Toilette for Women | 6.7 oz / 200 ml - Spray",Gianni Versace,4,"Nandansons; BS; Classic; Fragrance Depot",57,59.70
+652,8011003846627,"VERSACE Eros Flame Men EDP (200ml)",N/A,4,"Nandansons; BS; Classic; Fragrance Depot",57,59.00
+653,8011003891092,"VERSACE Bright Crystal Wom Parfum EDP (90ml)",N/A,4,"BS; Haz; Classic; Fragrance Depot",57,59.38
+654,8435415032278,"JPG LE MALE PARFUM 2.5 EDP M (ONLY WITH PURCHASE OF RM)",Bodycology,4,"Aairie; Acme; Haz; Classic",58,60.30
+655,3365440358300,"Yves Saint Laurent Parisienne EDP for Women | 3 oz / 90 ml - SPR",Yves Saint Laurent,4,"Aairie; BS; Classic; Fragrance Depot",59.5,62.13
+656,3614274024753,"VAL BORN IN ROMA GREEN 1.7 L",AKRO,4,"Aairie; Acme; Haz; Classic",60.5,63.20
+657,3614274158113,"VIKTOR & ROLF SPICEBOMB DARK LEATHER 3.0OZ EDP MEN",N/A,4,"Nandansons; Haz; Classic; Fragrance Depot",61,66.00
+658,8435137764730,"L'Homme Prada Intense Eau De Parfum for Men | 3.4 oz / 100 ml - Spray",Prada,4,"Acme; Nandansons; Classic; Fragrance Depot",61.75,64.42
+659,3365440556386,"Yves Saint Laurent Opium EDT for Women | 3 oz / 90 ml",Yves Saint Laurent,4,"Nandansons; BS; Classic; Fragrance Depot",62,67.30
+660,8005610481005,"Gucci Bloom EDP for Women | 3.3 oz / 100 ml",Gucci,4,"Nandansons; United; Haz; Classic",62,63.70
+661,3432240505897,"CARTIER BAISER VOLE 3.4 PARFUM L",FRANCK BOCLET,4,"Aairie; Acme; Haz; Fragrance Depot",63,66.60
+662,3349668630035,"PACO RABANNE PHANTOM INTENSE EDP SP 100 ML REFILLABLE",N/A,4,"Acme; United; Haz; Classic",64.5,65.45
+663,3614273336383,"GIORGIO ARMANI EMPORIO ARMANI STRONGER WITH YOU ABSOLUTELY (M) PARFUM 100ML",N/A,4,"Aairie; BS; Classic; Fragrance Depot",65,68.38
+664,8411061083666,"CAROLINA H GOOD GIRL BLUSH ELIXIR EDP SP 1.7oz",NISHANE,4,"Acme; Nandansons; Classic; Luxury",65.5,80.42
+665,8411061083482,"212 VIP ROSE ELIXIR EDP 80 ML   ",NISHANE,4,"United; Haz; Classic; Fragrance Depot",65.5,69.00
+666,3349668579839,"Paco Rabanne 1 Million Parfum for Men | 3.4 oz / 100 ml - Spray",Paco Rabanne,4,"Aairie; Acme; Haz; Classic",66,67.20
+667,3432240026750,"Cartier Baiser Vole EDP for Women | 3.3 oz / 100 ml",Cartier,4,"Acme; Haz; Classic; Fragrance Depot",68.5,69.80
+668,3616305187321,"MARC JACOBS PERFECT ELIXIR 3.4  EDP L  (118595)",N/A,4,"Acme; Haz; Classic; Fragrance Depot",69,72.40
+669,8435137727087,"Prada Candy EDP for Women | 2.7 oz / 80 ml",Prada,4,"Acme; Nandansons; Classic; Fragrance Depot",69.5,72.25
+670,3616302020652,"BURBERRY Goddess Wom EDP (100ml)",N/A,4,"Aairie; Acme; Classic; Luxury",70,79.95
+671,3605533286555,"Lancome La Vie Est Belle L'EDP for Women | 3.4 oz / 100 ml",Lancome,4,"Acme; Nandansons; Classic; Fragrance Depot",70,73.83
+672,3614227693876,"BURBBERY HER(L) 3.4OZ EDP",N/A,4,"Nandansons; Haz; Classic; Fragrance Depot",70,72.50
+673,3349668589678,"Paco Rabanne Invictus Eau de Toilette 200ml",N/A,4,"Aairie; Nandansons; Haz; Classic",70.5,72.38
+674,3616305169273,"GUCCI FLORA GORGEOUS ORCHID (W) 100ML EDP",N/A,4,"BS; Classic; Luxury; Fragrance Depot",73.5,85.13
+675,3614273953696,"ACQUA DI GIO PROFONDO PARFUM 3.4OZ MEN",N/A,4,"Aairie; Nandansons; Classic; Luxury",77,86.00
+676,8435415012027,"JPG ULTRA MALE INTENSE 4.2 M (ONLY WITH PURCHASE OF RM)",N/A,4,"Nandansons; Haz; Classic; Fragrance Depot",78,81.20
+677,8435415012690,"Jean Paul Gaultier Le Male EDT for Men | 6.7 oz / 200 ml - SPR",Jean Paul Gaultier,4,"Aairie; BS; Haz; Classic",80.5,82.75
+678,3348900011687,"Christian Dior Poison EDT for Women | 3.4 oz / 100 ml",Christian Dior,4,"Aairie; Acme; BS; Fragrance Depot",80.5,82.00
+679,3614274025637,"Yves Saint Laurent Y L'Elixir 2.0 Parfum Concentre Sp Men",N/A,4,"Nandansons; BS; Haz; Classic",81.5,84.00
+680,8411061995754,"Carolina Herrera Very Good Girl Eau De Parfum for Women | 2.7 oz / 80 ml - Spray",Carolina Herrera,4,"Aairie; Nandansons; United; Luxury",86.5,96.50
+681,8435415076944,"JPG LE MALE ELIXIR 4.2 EDP M (ONLY WITH PURCHASE OF RM)",N/A,4,"Aairie; Nandansons; United; Classic",87.5,89.05
+682,3349668617067,"PACO R 1 MILLION ROYAL PARFUM 6.8oz",N/A,4,"Aairie; Nandansons; Haz; Classic",89.5,93.50
+683,8435415032360,"JEAN PAUL GAULTIER LE PARFUM 6.7 EDP M",Bodycology,4,"Aairie; Acme; Nandansons; Classic",96.5,99.83
+684,3614273953832,"Armani Acqua Di Gio Profondo Edp Spray 200 ml",N/A,4,"Nandansons; BS; Haz; Classic",96.5,99.00
+685,3614272761445,"Valentino Donna Born In Roma Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Valentino,4,"Aairie; Nandansons; Fragrance Depot; Haz",100,107.50
+686,888874007628,"BN9 Broadway Off Usx  EDP (100ml)",MARC JACOBS,4,"Fragrance Depot; French; Haz; Classic",125,165.10
+687,3508441104600,"Creed Love In Black Millesime for Women | 2.5 oz / 75 ml - SPR",Creed,4,"Aairie; Nandansons; Fragrance Depot; Classic",144.5,159.90
+688,888874006157,"BOND #9 LAFAYETTE STREET 3.3 EDP SPR (U)",AQUOLINA,4,"Classic; Nandansons; Fragrance Depot; Haz",189,202.67
+689,888874002760,"BOND #9 SCENT OF PEACE 3.4 EDP SPR (M)",LALIQUE,4,"Classic; Nandansons; Fragrance Depot; Haz",194,202.67
+690,3508441001114,"Creed Aventus EDP for Men | 3.4 oz / 100 ml - SPR",Creed,4,"Aairie; Acme; Nandansons; Fragrance Depot",228,240.17
+691,90174327003,"LIZ CLAIBORNE SPARK (M) COL MINI 0.18 CLSH",LALIQUE,3,"BS; Network; French",1,1.20
+692,8033866164359,"Aquolina Pink Sugar Shower Gel for Women | 8.45 oz / 250 ml",Aquolina,3,"Cosmo; French; TJS",1.5,1.87
+693,883991072016,"Pierre Cardin Body Spray for Men | 6 oz / 170 g",Pierre Cardin,3,"Network; French; TJS",1.5,2.38
+694,5425017732150,"Champs Cuba Black EDT for Men | 1.17 oz / 35 ml",Champs,3,"Network; Heritage; General",2.4,2.84
+695,719346630856,"Britney Spears Island Fantasy Body Mist 236ml",MARVIS,3,"Cosmo; ET; MTZ",3,3.72
+696,49398961036,"Khloe and Lamar Unbreakable Love Eau De Toilette Unisex | 3.4 oz / 100 ml - Spray",Khloe And Lamar,3,"BS; Cosmo; Network",3.3,5.66
+697,719346213806,"Giorgio Beverly Hills Red Fragrance Mist 236ml",N/A,3,"BS; Cosmo; MTZ",3.5,4.47
+698,3607340086908,"NAUTICA BLUE M 1.7 EDT SPRAY TESTER *CAP*",LANCOME,3,"Cosmo; Network; Haz",3.65,4.10
+699,8011003845187,"MOSCHINO TOY BOY - Moschino - EAU DE PARFUM MINIATURE  5 ml",Oribe,3,"Cosmo; CBS; MTZ",3.75,3.97
+700,7640111492115,"Parfums Gres Cabotine De Gres EDT for Women | 3.4 oz / 100 ml - SPR - Tester",Parfums Gres,3,"Cosmo; Network; MTZ",4,4.99
+701,715387003000,"United Colors of Benetton Hot EDT Unisex | 3.3 oz / 100 ml - SPR",United Colors of Benetton,3,"Network; CBS; MTZ",4,4.94
+702,3616303321932,"Adidas Ice Dive Eau de Toilette 100ml",N/A,3,"Haz; ET; MTZ",4.1,4.28
+703,3616303322052,"Adidas Victory League Eau de Toilette 100ml",ATELIER,3,"Cosmo; Luxury; MTZ",4.25,5.48
+704,3607345397542,"adidas Adidas Pure Game EDT for Men | 3.4 oz / 100 ml - SPR",Adidas,3,"Network; General; MTZ",4.25,4.44
+705,3386460032759,"MONT BLANC LEGEND - EAU DE TOILETTE MINIATURE4.5 ml Men",N/A,3,"Cosmo; CBS; MTZ",4.5,4.85
+706,5425017732396,"Champs Cuba Blue EDT for Men | 3.3 oz / 100 ml",Champs,3,"Network; Heritage; General",4.6,5.30
+707,35017009944,"Coty Jovan Musk Cologne for Women | 2 oz / 60 ml - SPR",Coty,3,"BS; Cosmo; Network",4.65,5.13
+708,811185020864,"PITBULL CUBA (W) EDP SP 3.4oz",MIN NEW YORK,3,"BS; Network; French",5,7.17
+709,7611160211767,"SWISS ARMY Victorinox Wood EDT (100ml)",MILLEFIORI MILANO,3,"Cosmo; MTZ; Perfume Center",5,5.58
+710,7630042401324,"Swiss Army Forget Me Not EDT 3.4 oz Spray L",N/A,3,"Cosmo; MTZ; Perfume Center",5,5.54
+711,8411114086279,"DISNEY FROZEN II ( Kids ) EDT SP 3.4 OZ - 8627",N/A,3,"BS; General; MTZ",5.45,5.74
+712,663350092356,"MARVEL BLACK PANTHER Kids EDT SP 3.4 OZ - 3758",N/A,3,"BS; General; MTZ",5.5,5.80
+713,8411114086231,"KIDS IRON MAN  AIR VAL MARVEL EDT 3.4oz",N/A,3,"Cosmo; General; MTZ",5.5,5.81
+714,663350092783,"AIR VAL DISNEY ENCANTO 3.4 OZ EDT",N/A,3,"General; ET; MTZ",5.5,5.88
+715,810876037662,"Marvel Captain Marvel Red Eau De Parfum 100ml",N/A,3,"Cosmo; Heritage; General",5.55,6.02
+716,719346021654,"GREY FLANNEL - EDT 1.0 OZ M",N/A,3,"Cosmo; ET; Perfume Center",5.85,6.13
+717,3614223708741,"COOL WATER 5.0 BODY SPRAY M  (119112)",N/A,3,"Cosmo; Haz; MTZ",6,6.08
+718,716393810156,"Ps Aftershave 4.0 Oz / 120 Ml for Men by Paul Sebastian",Paul Sebastian,3,"Cosmo; BS; Perfume Center",6.1,6.83
+719,85805199531,"SUNFLOWERS SUNLIGHT KISS/ELIZABETH ARDEN EDT SPRAY 3.3 OZ (100 ML) (W)",N/A,3,"BS; Cosmo; Perfume Center",6.25,6.65
+720,719346022040,"HALSTON Z 14 EDT SP 4.2oz TESTER",N/A,3,"Cosmo; BS; Perfume Center",6.25,7.48
+721,812256024194,"ARIANA GRANDE CLOUD BODY MIST 236ML",N/A,3,"Network; General; MTZ",6.25,7.69
+722,614514177013,"RASASI DAAREJ W 3.4 OZ EDP SP.",N/A,3,"French; MTZ; Perfume Center",6.25,6.67
+723,812256022381,"ARIANA GRANDE SWEET LIKE CANDY BODY MIST 236ML ",N/A,3,"General; ET; MTZ",6.25,7.08
+724,812256025269,"ARIANA GRANDE THANK U NEXT BODY MIST 236ML",MCM,3,"General; ET; MTZ",6.25,7.08
+725,719346266055,"Elizabeth Taylor Diamonds & Emeralds EDT for Women | 1.7 oz / 50 ml",Elizabeth Taylor,3,"BS; Cosmo; Perfume Center",6.4,6.64
+726,48295033044,"ASPEN (M) COL SP 4.0oz",N/A,3,"Network; BS; General",6.5,6.88
+727,3414206000714,"Joop Homme Deo for Men | 2.5 oz / 75 ml",Joop!,3,"Heritage; MTZ; Perfume Center",6.5,7.13
+728,8011003064601,"MOSCHINO UOMO M 4.2 EDT SPRAY TESTER ",YON-KA,3,"Network; Classic; Perfume Center",6.6,12.40
+729,3600550949292,"Gloria Vanderbilt Jardin � New York Eau De Parfum Fraiche 100ml",N/A,3,"BS; Heritage; Perfume Center",6.75,7.58
+730,4011700748945,"4711 Eau De Cologne 100ml",N/A,3,"Cosmo; BS; MTZ",6.9,6.95
+731,67724079101,"SUNG (M) EDT SP 3.4oz TESTER",Dolce & Gabbana,3,"Cosmo; BS; Perfume Center",6.9,7.37
+732,88300178445,"Calvin Klein Euphoria Deo for Men | 2.6 oz / 78 g",Calvin Klein,3,"Cosmo; French; Luxury",7,8.68
+733,837015001353,"Fred Hayman Hollywood Star EDP for Women | 3.4 oz / 100 ml",Fred Hayman,3,"Cosmo; BS; MTZ",7,7.61
+734,6291107454429,"LATTAFA ANA ABIYEDH LEATHER 2.0 EDP SP UNISEX  ",N/A,3,"French; PWW; MTZ",7,9.00
+735,85805574031,"WHITE TEA MANDARIN BLOSSOM EDT SP 1.7oz",N/A,3,"Cosmo; PWW; Perfume Center",7.05,9.10
+736,3610400000714,"GIORGIO VALENTI [W] ROSE NOIRE ABSOLU 3.3 Oz EDP SPR",Lancome,3,"BS; MTZ; Perfume Center",7.15,7.26
+737,614514178010,"RASASI DAAREJ M 3.4 OZ EDP SP.",N/A,3,"French; MTZ; Perfume Center",7.25,7.44
+738,6290360590806,"MAISON ALHAMBRA MONTAIGNE VANILLE (U) EDP 100 ml AE",N/A,3,"French; PWW; MTZ",7.25,8.38
+739,6291107459356,"AL HAMBRA PHILOS ROSSO 100ML EDP SPRAY",N/A,3,"French; MTZ; Perfume Center",7.25,8.23
+740,6291108735497,"AL HAMBRA EXCLUSIF ROSE 100ML EDP SPRAY",N/A,3,"PWW; MTZ; Perfume Center",7.25,9.66
+741,31655052755,"Coty Wild Musk Cologne for Women | 1.5 oz / 44 ml",Coty,3,"Cosmo; BS; General",7.3,8.10
+742,98691005206,"Liz Claiborne Curve EDT for Women | 3.4 oz / 100 ml - Tester",Liz Claiborne,3,"Cosmo; BS; Perfume Center",7.4,8.65
+743,716393041963,"Evyan White Shoulders Dusting Powder for Women | 2.6 oz / 75 g",Evyan,3,"Cosmo; BS; Perfume Center",7.5,7.85
+744,6290360590608,"Glacier Ultra by  MAISON ALHAMBRA 3.4 oz EDP for  MEN",N/A,3,"PWW; French; MTZ",7.75,10.25
+745,6290360591568,"LATTAFA AJAYEB DUBAI PORTRAIT 3.4 EDP U  (126262)",N/A,3,"PWW; French; MTZ",7.75,10.06
+746,6291108733905,"MAISON ALHAMBRA OLIVIA 2.7 EDP L  (125224)2",N/A,3,"PWW; French; MTZ",7.95,11.49
+747,7640111493693,"Jaguar Classic Red Eau de Toilette 100ml",N/A,3,"Cosmo; PWW; BS",8,9.37
+748,6290360591551,"Lattafa Ajayeb Dubai Eau de Parfum 100ml",Victoria's Secret,3,"PWW; French; MTZ",8,10.13
+749,6291107450452,"Lattafa Blue Oud Eau de Parfum 100ml",N/A,3,"French; MTZ; Classic",8,10.50
+750,6291107454412,"LATTAFA ANA ABIYEDH (U) EDP 60 ml",N/A,3,"French; PWW; MTZ",8,9.40
+751,6290360590820,"AL HAMBRA DARK DOOR SPORT 100ML EDP SPRAY",Victoria's Secret,3,"French; PWW; MTZ",8,9.95
+752,716393041772,"Elizabeth Taylor White Diamonds Body Powder for Women | 2.6 oz / 75 g",Elizabeth Taylor,3,"BS; General; Perfume Center",8,8.67
+753,6291106066715,"Lattafa Ramz Lattafa Gold Eau de Parfum 100ml",N/A,3,"French; MTZ; Perfume Center",8.25,9.39
+754,3616303461980,"David Beckham Classic Blue Eau de Toilette 100ml",N/A,3,"PWW; MTZ; Luxury",8.25,10.29
+755,6291106068184,"LATTAFA "OUD MOOD REMINISCENCE" EDP SPR 3.4 U (Clean)",N/A,3,"French; PWW; MTZ",8.45,9.98
+756,85805555313,"Elizabeth Arden Blue Grass EDP for Women | 3.3 oz / 100 ml",Elizabeth Arden,3,"Cosmo; BS; General",8.5,9.47
+757,3562700373145,"Jaguar Classic Black EDT for Men | 3.4 oz / 100 ml",Jaguar,3,"Network; BS; MTZ",8.5,8.80
+758,614514249048,"RASASI SHUHRAH M 3.0 EDP SP.",N/A,3,"PWW; MTZ; Perfume Center",8.5,9.28
+759,614514165010,"RASASI EGRA W 3.4 OZ EDP SP.",N/A,3,"French; PWW; Perfume Center",8.5,9.36
+760,719346117715,"Britney Spears Believe EDP for Women | 1.7 oz / 50 ml",Britney Spears,3,"PWW; BS; Perfume Center",8.5,10.00
+761,85805757748,"Elizabeth Arden Sunflowers EDT for Women | 3.4 oz / 100 ml",Elizabeth Arden,3,"BS; ET; Perfume Center",8.5,9.17
+762,98691005039,"Liz Claiborne Curve EDT for Women | 1.7 oz / 50 ml",Liz Claiborne,3,"Cosmo; PWW; Perfume Center",8.65,9.84
+763,844061006317,"EVA LONGORIA EVAMOUR BY EVA LONGORIA W 3.4",N/A,3,"Cosmo; BS; Perfume Center",8.75,9.68
+764,35017009104,"Coty Jovan Musk Aftershave for Men | 8 oz / 240 ml",Coty,3,"Cosmo; BS; Perfume Center",8.75,10.10
+765,614514249031,"RASASI SHUHRAH W 3.0 EDP SP.",N/A,3,"French; PWW; Perfume Center",8.75,9.58
+766,614514261057,"RASASI MARHA M 3.4 EDP SP.",N/A,3,"French; PWW; Perfume Center",8.75,9.88
+767,6291108735886,"AL HAMBRA AQUILO POUR HOMME 100ML EDP SPRAY",N/A,3,"French; PWW; MTZ",8.95,9.72
+768,6291107459141,"MAISON ALHAMBRA "BAROQUE ROUGE 540" 3.3 OZ EDP SPR [U]",N/A,3,"French; PWW; MTZ",8.95,9.58
+769,719346588911,"Elizabeth Taylor White Diamonds Body Lotion for Women | 6.8 oz / 200 g",Elizabeth Taylor,3,"Cosmo; PWW; Perfume Center",9,10.14
+770,7611160127686,"SWISS ARMY M 3.4 EDT SPRAY TESTER",MILLEFIORI MILANO,3,"Cosmo; French; MTZ",9,9.57
+771,3562700361005,"Jaguar EDT for Men | 3.4 oz / 100 ml",Jaguar,3,"Network; PWW; Perfume Center",9,9.50
+772,614514840665,"RASASI OUD AL-MUBAKHAR 3.4 EDP SP.",N/A,3,"French; PWW; Perfume Center",9,9.65
+773,6291107459707,"LATTAFA CONFIDENTIAL PRIVATE GOLD 3.4 EDP SPR (M)",N/A,3,"French; PWW; MTZ",9,10.40
+774,6294015150766,"FLAVIA VIA BELLE 3.4 EDP L  (127164)",N/A,3,"PWW; MTZ; Perfume Center",9,10.46
+775,85715261113,"HOLLISTER WAVE 2 3.4 EDP L  (110885)",N/A,3,"PWW; MTZ; Perfume Center",9,10.63
+776,6291108735749,"MAISON ALHAMBRA [W] ROSE PETALS 2.7 Oz EAU DE PARFUM SPR [PINK]",N/A,3,"PWW; French; MTZ",9,11.30
+777,5425039223254,"ASSALA PRIME AMEER(M)EDP SP 3.3oz(By PC design perfumes)                                             ",N/A,3,"PWW; MTZ; Perfume Center",9,9.62
+778,3610400038311,"CIGAR SUPREME NOIR 3.4 EDP  (128717)",N/A,3,"PWW; BS; MTZ",9,9.52
+779,837015000554,"Fred Hayman Hollywood EDT for Men | 3.4 oz / 100 ml",Fred Hayman,3,"PWW; BS; Perfume Center",9,9.83
+780,8411061081006,"A. Banderas Her Golden Secret Edt Spray 80 ml",N/A,3,"Haz; ET; MTZ",9,9.06
+781,719346065474,"Britney Spears Fantasy EDP for Women | 3.3 oz / 100 ml - Unboxed",Britney Spears,3,"Network; Classic; Perfume Center",9.25,11.25
+782,614514228012,"RASASI ENTEBAA W 3.4 OZ EDP SP.",N/A,3,"French; PWW; Perfume Center",9.25,9.87
+783,6291108734056,"Lattafa Hayaati Al Maleky Eau de Parfum 100ml",N/A,3,"French; PWW; MTZ",9.25,11.56
+784,5425017732334,"Cuba Gold by Cuba for Men - 4 Pc Gift Set 3.3oz EDT Spray, 1.17oz EDT Spray, 6.6oz Deodorant Spray, 3.3oz After Shave, Buckett",N/A,3,"PWW; Classic; Perfume Center",9.25,12.12
+785,7640111494133,"Parfums Gres Cabotine De Gres EDP for Women | 3.4 oz / 100 ml",Parfums Gres,3,"Cosmo; Heritage; Perfume Center",9.3,10.10
+786,6291108730317,"MAISON ALHAMBRA VICTORIOSO 3.4 EDP M  (124356)",N/A,3,"French; PWW; MTZ",9.45,10.11
+787,6291107459332,"LATTAFA PHILOS OPUS NOIR 3.4 EDP SPR (M)",N/A,3,"French; PWW; MTZ",9.5,10.00
+788,614514261026,"RASASI SORYANI W 3.0 EDP SP.",N/A,3,"French; PWW; Perfume Center",9.5,10.96
+789,614514164013,"RASASI EGRA(M)EDP SP 3.38oz(LI FREE)(REF164001)                                                      ",CLIVE CHRISTIAN,3,"French; PWW; Perfume Center",9.5,11.10
+790,614514261019,"RASASI SORYANI M 3.0 EDP SP.",N/A,3,"French; PWW; Perfume Center",9.5,10.38
+791,6291107456348,"Asdaaf Ameerat Al Arab Eau de Parfum 100ml",N/A,3,"French; PWW; MTZ",9.5,11.00
+792,837015004859,"Fred Hayman Touch EDT for Men | 3.4 oz / 100 ml",Fred Hayman,3,"PWW; Classic; Perfume Center",9.5,11.56
+793,3610400035129,"Miss Lomani Diamonds by Lomani for Women - 3.3 oz EDP Spray",GA,3,"PWW; BS; Perfume Center",9.5,10.23
+794,8054609783088,"PINK SUGAR LOLLIPINK W EDT/S 3.4",N/A,3,"PWW; Haz; Perfume Center",9.5,10.22
+795,85805574062,"ELIZABETH ARDEN WHITE TEA MANDARIN BLOSSOM (W) 400ML BODY CREAM",N/A,3,"Cosmo; PWW; Perfume Center",9.55,10.68
+796,3351500015238,"AZZARO CHROME LEGEND EDT SP 2.5oz",N/A,3,"BS; Haz; Perfume Center",9.65,12.30
+797,8411061082935,"ANTONIO BANDERAS KING OF SEDUCTION MEN  3.4 OZ EDT SP",N/A,3,"Cosmo; Haz; ET",9.75,10.27
+798,719346021814,"Geoffrey Beene Grey Flannel EDT for Men | 4 oz / 120 ml",Geoffrey Beene,3,"PWW; Classic; Perfume Center",9.75,11.74
+799,7640496670283,"Tommy Hilfiger Tommy Now Girl Eau De Toilette 30ml",N/A,3,"PWW; MTZ; Perfume Center",9.75,10.73
+800,67724070108,"Alfred Sung Sung EDT for Men | 3.4 oz / 100 ml",N/A,3,"PWW; Classic; Perfume Center",9.75,12.02
+801,719346450409,"Elizabeth Taylor Diamonds & Sapphires EDT for Women | 3.3 oz / 100 ml",Elizabeth Taylor,3,"PWW; CBS; Luxury",9.95,11.82
+802,6291106065060,"LATTAFA "KHALTAAT AL ARABIA ROYAL DELIGHT" EDP SPR 3.4 U (Clean)",N/A,3,"French; PWW; MTZ",10,10.81
+803,8033433735258,"ROBERTO CAPUCCI HER 3.4 EDP SP.",N/A,3,"French; PWW; Perfume Center",10,11.09
+804,6290360590592,"ALHAMBRA GLACIER LE NOIR 3.4 EAU DE PARFUM SPRAY FOR MEN",N/A,3,"PWW; French; MTZ",10,12.63
+805,8411061701034,"Antonio Banderas The Secret EDT for Men | 3.4 oz / 100 ml - SPR",Antonio Banderas,3,"PWW; CBS; MTZ",10,11.63
+806,98691021701,"Liz Claiborne Bora Bora Cologne for Men | 3.4 oz / 100 ml",N/A,3,"PWW; Classic; Perfume Center",10,12.19
+807,6291108735787,"MAISON ALHAMBRA BRIGHT PEACH 2.7 EDP L (125717)",N/A,3,"PWW; French; MTZ",10.25,11.78
+808,3610400037673,"LOMANI [M] AB SPIRIT MILLIONAIRE 2 PCS SET 3.3 Oz EAU DE PARFUM SPR+3.3 Oz SH/GEL [WINDOW BOX]",Biotherm,3,"PWW; BS; Perfume Center",10.25,11.44
+809,6294015166224,"ARMAF HUNTER JUNGLE  - EAU DE PARFUM SPRAY 3.3 oz",N/A,3,"BS; French; MTZ",10.25,13.58
+810,3495080306031,"Alyssa Ashley White Musk EDT for Women | 3.4 oz / 100 ml",Alyssa Ashley,3,"Cosmo; Luxury; Perfume Center",10.5,12.33
+811,719346140201,"Elizabeth Taylor Sparkling White Diamonds EDT for Women | 3.3 oz / 100 ml",Elizabeth Taylor,3,"Cosmo; PWW; Perfume Center",10.5,11.89
+812,719346158046,"Elizabeth Taylor Violet Eyes EDP for Women | 3.3 oz / 100 ml - SPR",Elizabeth Taylor,3,"Cosmo; PWW; Perfume Center",10.5,12.29
+813,719346020558,"Halston Z-14 Cologne for Men | 4.2 oz / 125 ml",Halston,3,"Network; BS; Classic",10.5,12.38
+814,4011700431502,"Maurer & Wirtz Tabac Original Aftershave for Men | 10.1 oz / 300 ml",Maurer & Wirtz,3,"French; PWW; MTZ",10.5,11.68
+815,3610400036621,"LOMANI AB SPIRIT MILLIONAIRE DARK FUSION EDP SP 3.4oz",N/A,3,"PWW; BS; Perfume Center",10.5,11.74
+816,8054609780551,"PINK SUGAR BERRY W EDT/S 3.4",N/A,3,"PWW; BS; Perfume Center",10.5,11.75
+817,6290360590646,"AL HAMBRA GLACIER BELLA 100ML EDP SPRAY",N/A,3,"PWW; French; MTZ",10.5,12.25
+818,603531001821,"XOXO W EDP/S 3.4",N/A,3,"French; BS; Perfume Center",10.7,10.86
+819,3614220735702,"Calvin Klein Euphoria Body Lotion for Women | 6.7 oz / 200 ml",Calvin Klein,3,"Cosmo; French; Classic",10.75,11.82
+820,6290360593685,"Rave Now Women Eau de Parfum 100ml",Victoria's Secret,3,"French; PWW; MTZ",10.75,12.21
+821,6291108733219,"LATTAFA OUDAIN 3.4 EDP U",N/A,3,"Cosmo; French; PWW",11,11.86
+822,4011700425501,"Maurer & Wirtz Tabac Original EDC for Men | 10.1 oz / 300 ml - SPL",Maurer & Wirtz,3,"Cosmo; PWW; MTZ",11,12.51
+823,719346065399,"Britney Spears Fantasy EDP for Women | 1.7 oz / 50 ml",Britney Spears,3,"Network; Classic; Perfume Center",11,12.56
+824,98691121258,"Liz Claiborne EDT for Women | 3.4 oz / 100 ml",N/A,3,"PWW; Classic; Perfume Center",11,13.09
+825,856515004053,"Hummer Fragrance Hummer Black EDT for Men | 4.2 oz / 125 ml",Hummer Fragrance,3,"PWW; CBS; Perfume Center",11,12.34
+826,719346077514,"White Shoulders Eau De Cologne Spray for Women by Evyan - 4.5 oz / 133 ml",Evyan,3,"PWW; Classic; Perfume Center",11,13.13
+827,22548181089,"Donna Karan Dkny Delicious Fresh Blossom EDP for Women | 1 oz / 30 ml",N/A,3,"PWW; Haz; Perfume Center",11,11.92
+828,861940000075,"JESSICA M NO .3 3.4 EDP L",N/A,3,"PWW; BS; Perfume Center",11,12.50
+829,614514331019,"RASASI HAWAS L 3.4 EDP SPRAY",PERRIS MONTE CARLO,3,"PWW; MTZ; Perfume Center",11,12.05
+830,6291107975405,"KHADLAJ - INTOXICATE 3.4 EDP SP.",N/A,3,"PWW; MTZ; Perfume Center",11,12.05
+831,6294015189599,"ARMAF ODYSSEY TYRANT 2.0 EDP M  (128640)",N/A,3,"PWW; MTZ; Perfume Center",11,12.31
+832,614514253069,"RASASI [W] JUNOON SATIN WOMEN 1.67 Oz EAU DE PARFUM SPR [GOLD BOX]",N/A,3,"PWW; MTZ; Perfume Center",11,12.70
+833,6085010093987,"Armaf Craze For Men Eau de Parfum 100ml",N/A,3,"BS; French; MTZ",11,14.17
+834,608940584330,"ECKO RED/MARC ECKO EDT SPRAY 3.4 OZ (100 ML) (M)",N/A,3,"French; PWW; Perfume Center",11.25,12.05
+835,614514152010,"RASASI KUN MUKHTALIFAN(M)EDP SP 3.38oz(LI FREE)                                                      ",N/A,3,"French; PWW; Perfume Center",11.25,12.49
+836,603531659008,"Michael Jordan 23 Cologne for Men | 3.4 oz / 100 ml",Michael Jordan,3,"PWW; BS; Perfume Center",11.25,13.08
+837,3355992000260,"Ted Lapidus Lapidus EDT for Men | 3.33 oz / 100 ml",Ted Lapidus,3,"BS; ET; MTZ",11.25,11.58
+838,6290360591605,"AL HAMBRA SCEPTRE OCEANA 100ML EDP SPRAY",N/A,3,"French; MTZ; Perfume Center",11.45,11.97
+839,855560005787,"Usher Femme  Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Usher,3,"Network; PWW; BS",11.47,14.74
+840,719346617307,"Liz Claiborne Curve Sport Cologne for Men | 4.2 oz / 125 ml",Liz Claiborne,3,"Cosmo; PWW; Perfume Center",11.5,12.60
+841,6291107456485,"Rave Now Eau de Parfum 100ml",N/A,3,"French; PWW; MTZ",11.5,12.63
+842,860006008642,"JESSICA McCLINTOCK LOVE(W)EDP SP 3.4oz(LI FREE)                                                      ",N/A,3,"PWW; BS; Perfume Center",11.5,12.51
+843,614514229019,"RASASI RUMZ AL RASASI 9325 - ZEB M 1.7 OZ EDP SP.",N/A,3,"PWW; United; Perfume Center",11.5,14.67
+844,6294015161496,"ARMAF LE PARFAIT AZURE 3.4oz",N/A,3,"CBS; French; MTZ",11.5,14.67
+845,719346296861,"HALSTON Z-14 3 PCS SET FOR MEN: 4.2 COLOGNE SPRAY + 3.4 AFTERSHAVE BALM + 3.4 HAIR & BODY WASH",HALSTON,3,"BS; Classic; Perfume Center",11.5,13.25
+846,8411061982105,"Antonio Banderas Blue Seduction For Women Eau De Toilette 80ml",N/A,3,"Haz; Classic; Luxury",11.5,14.08
+847,3360373000159,"Paloma Picasso EDP for Women | 1 oz / 30 ml - SPR",Paloma Picasso,3,"Cosmo; BS; Perfume Center",11.75,13.78
+848,6295199800751,"ARMAF ODYSSEY LIMONI FRESH 2.0 EDP M  (130943) - Emirates",N/A,3,"PWW; MTZ; Perfume Center",11.75,12.46
+849,614514132012,"RASASI FAQAT LIL RIJAL 1.7 EAU DE PARFUM SPRAY FOR MEN",N/A,3,"PWW; French; Perfume Center",11.9,12.91
+850,6290360590349,"Rave Now White Eau de Parfum 100ml",N/A,3,"French; PWW; MTZ",11.95,12.65
+851,6291107450193,"LATTAFA HAYAATI 3.4 EDP SPR (M)",N/A,3,"French; PWW; MTZ",11.95,12.74
+852,719346296823,"GREY FLANNEL 3 PCS SET: 4 OZ EAU DE TOILETTE SPRAY + 3.4 AFTER SHAVE BALM + 3.4 HAIR & BODY WASH",GEOFFREY BEENE,3,"PWW; BS; Perfume Center",11.95,12.87
+853,719346021777,"Geoffrey Beene Grey Flannel EDT for Men | 8 oz / 240 ml",Geoffrey Beene,3,"Network; Classic; Perfume Center",12,13.75
+854,6294015102246,"ARMAF LA PARFAIT L 3.4 EDP SPRAY ",Youngblood,3,"Network; MTZ; Luxury",12,14.69
+855,6290360590868,"Asdaaf Ameerat Al Arab Prive Rose Eau de Parfum 100ml",Victoria's Secret,3,"French; PWW; ET",12,12.60
+856,6290360597294,"LATTAFA - VELVET MUSK 3.4 EDP SP.",N/A,3,"United; French; MTZ",12,14.83
+857,88300605385,"CK ETERNITY (M) 1.0 OZ EDT SPRAY",N/A,3,"PWW; MTZ; Classic",12,15.17
+858,719346263467,"Liz Claiborne Curve Pink Blossom Eau De Toilette for Women | 3.4 oz / 100 ml - Spray",Liz Claiborne,3,"PWW; BS; Perfume Center",12,13.87
+859,20714080303,"Clinique Happy Cologne for Men | 1.7 oz / 50 ml",N/A,3,"PWW; BS; Perfume Center",12,13.64
+860,94922190017,"Christian Audigier Hardy Hearts & Daggers EDP for Women | 3.4 oz / 100 ml",N/A,3,"PWW; BS; Perfume Center",12,13.17
+861,6294015189575,"Armaf Odyssey Mandarine Sky Eau De Parfum 60 ml (man)",N/A,3,"PWW; BS; MTZ",12,13.76
+862,94922912176,"Christian Audigier Ed Hardy Love & Luck Love Is A Gamble EDT for Men | 3.4 oz / 100 ml",N/A,3,"PWW; Classic; Perfume Center",12,14.61
+863,608940585054,"STEVE MADDEN GOLDIE(W)EDP SP 3.4oz                                                                   ",N/A,3,"PWW; MTZ; Perfume Center",12,13.11
+864,6291108736579,"Maison Alhambra Kismet Magic Eau de Parfum 100ml",N/A,3,"PWW; French; MTZ",12,13.83
+865,6291107459196,"AL HAMBRA DELILAH POUR FEMME 100ML EDP SPRAY",N/A,3,"PWW; French; Classic",12,13.17
+866,8011003064083,"Moschino Uomo Eau de Toilette 75ml",N/A,3,"CBS; ET; MTZ",12,12.42
+867,719346564601,"Juicy Couture Couture Couture EDP for Women | 1 oz / 30 ml",Juicy Couture,3,"Cosmo; PWW; BS",12.1,13.15
+868,94922912282,"Christian Audigier Ed Hardy Love & Luck EDP for Women | 3.4 oz / 100 ml",N/A,3,"PWW; BS; Perfume Center",12.25,13.58
+869,6290360592725,"LATTAFA PRIDE RAW HUMAN 3.4 EDP  (125412)0",N/A,3,"United; French; MTZ",12.25,16.25
+870,6290360592695,"Lattafa Pride Affection 3.4 EDP Sp Unisex",N/A,3,"French; ET; MTZ",12.25,14.75
+871,6294015107098,"ARMAF LEGESI WOMAN EDP SP 3.4oz",N/A,3,"BS; French; MTZ",12.25,13.92
+872,98691045448,"Juicy Couture Dirty English EDT for Men | 3.4 oz / 100 ml - SPR",Juicy Couture,3,"Cosmo; Network; Classic",12.3,14.45
+873,88300603305,"Calvin Klein Obsession EDP for Women | 1.7 oz / 50 ml - SPR",Calvin Klein,3,"Cosmo; Network; MTZ",12.45,13.86
+874,844061000605,"Perry Ellis 360 EDT for Men | 1.7 oz / 50 ml",Perry Ellis,3,"Cosmo; PWW; BS",12.5,13.25
+875,3360373048861,"Cacharel Eden EDP for Women | 1 oz / 30 ml",Cacharel,3,"Cosmo; PWW; BS",12.5,13.42
+876,608940546246,"MARC ECKO BLUE 3.4 EDT SPR (M)",N/A,3,"PWW; BS; Classic",12.5,13.88
+877,855560005848,"USHER(W) EDP SP 3.4+3.4B/L+3.4S/G",N/A,3,"PWW; Classic; BS",12.5,17.70
+878,856515004015,"Hummer Fragrance Hummer EDT for Men | 4.2 oz / 125 ml",Hummer Fragrance,3,"PWW; CBS; Classic",12.5,14.00
+879,6298463856485,"PARIS CORNER QISSA PINK 3.4 EAU DE PARFUM SPRAY FOR WOMEN",GOUTAL PARIS,3,"PWW; MTZ; Classic",12.5,13.50
+880,603531784021,"Tommy Bahama Set Sail Martinique EDP for Women | 3.4 oz / 100 ml",Tommy Bahama,3,"PWW; BS; French",12.5,13.30
+881,603531784267,"Tommy Bahama Very Cool EDP for Women | 3.4 oz / 100 ml",Tommy Bahama,3,"PWW; BS; French",12.5,13.36
+882,603531784151,"Tommy Bahama For Her EDP for Women | 3.4 oz / 100 ml - SPR",Tommy Bahama,3,"PWW; BS; French",12.5,13.92
+883,6294015189551,"ARMAF ODYSSEY 2.0 EDP M  (128636)",N/A,3,"PWW; BS; MTZ",12.5,13.67
+884,697051000174,"Reyane Insurrection EDT for Men | 3.3 oz / 100 ml",Reyane,3,"PWW; CBS; Classic",12.75,14.75
+885,719346181051,"Halston Z-14 Cologne for Men | 8 oz / 236 ml",Halston,3,"Cosmo; PWW; BS",13,14.32
+886,603531784038,"Tommy Bahama Set Sail Martinique EDC for Men | 3.4 oz / 100 ml",Tommy Bahama,3,"PWW; BS; French",13,13.75
+887,6294015153583,"ARMAF TRES NUIT VALENTINA POUR FEMME EDP SP 3.4oz",JO MILANO,3,"CBS; BS; ET",13,14.33
+888,3386460132787,"MONT BLANC SIGNATURE ABSOLUE(W)EDP SP 1.0oz(LI FREE)                                                 ",Dolce & Gabbana,3,"Cosmo; Perfume Center; MTZ",13.3,14.60
+889,85715593009,"Oscar de la Renta Oscar Pour Lui EDT for Men | 3 oz / 90 ml - SPR",N/A,3,"Network; CBS; Classic",13.5,14.69
+890,3414200640015,"Joop Jump EDT for Men | 3.4 oz / 100 ml",Joop!,3,"BS; Haz; ET",13.5,14.00
+891,6291108735558,"AL HAMBRA JEAN LOWE MATIERE 100ML EDP SPRAY",N/A,3,"PWW; French; Classic",13.5,14.33
+892,3700066700735,"INSURRECTION II PURE M 3.4 EDT SPRAY ",N/A,3,"CBS; Classic; Luxury",13.5,14.80
+893,3351500020362,"AZZARO CHROME 1.0OZ EDT MEN",N/A,3,"MTZ; Classic; Luxury",13.5,17.42
+894,3414200204415,"Zino Davidoff Davidoff Adventure EDT for Men | 3.4 oz / 100 ml",Davidoff,3,"Haz; French; Luxury",13.75,21.00
+895,6291108738214,"AL QIAM GOLD 3.4oz EDP (M)",N/A,3,"French; MTZ; Luxury",13.75,21.58
+896,98691005008,"Liz Claiborne Curve Cologne for Men | 4.2 oz / 125 ml - Tester",Liz Claiborne,3,"Cosmo; BS; Classic",13.8,14.68
+897,3423470480986,"Issey Miyake L'Eau De Issey EDT for Women | 0.84 oz / 25 ml",Issey Miyake,3,"ET; MTZ; Classic",13.95,14.98
+898,6290360594231,"LATTAFA HAYAATIM 100ML EDP SPRAY",Victoria's Secret,3,"Aairie; PWW; French",14,31.33
+899,3360373054749,"Paloma Picasso EDT for Women | 3.4 oz / 100 ml",Paloma Picasso,3,"Cosmo; BS; ET",14,15.07
+900,3386460126632,"COACH OPEN ROAD EDT 60ML",N/A,3,"Cosmo; MTZ; Classic",14,15.90
+901,85715320711,"Parlux Fragrances Guess EDT for Men | 2.5 oz / 75 ml - SPR",N/A,3,"Network; ET; Classic",14,14.63
+902,8431754000541,"Jesus del Pozo Halloween EDT for Women | 3.4 oz / 100 ml - SPR - Tester",Jesus del Pozo,3,"Network; Haz; MTZ",14,14.88
+903,6294015102529,"ARMAF EL CIELO POUR HOMME EDP SP 3.4oz",N/A,3,"CBS; BS; MTZ",14,15.58
+904,6294015107135,"ARMAF RADICAL BLUE (M) EDP SP 3.4oz",N/A,3,"BS; French; MTZ",14,15.17
+905,6291108738481,"LATTAFA - SAKEENA 3.4 EDP SP.",N/A,3,"French; MTZ; Classic",14,16.17
+906,6290360592800,"LATTAFA NATURAL OUD 3.4 EDP SPR (M)",N/A,3,"French; MTZ; Classic",14,17.00
+907,6294015188622,"ARMAF "ODYSSEY CANDEE" EDP SPR 3.4 L (Clean)",N/A,3,"Perfume Center; MTZ; Classic",14,16.00
+908,20714881436,"Clinique Happy Heart Parfum for Women | 1.7 oz / 50 ml - SPR",N/A,3,"Network; BS; Classic",14.5,15.75
+909,3614272631915,"Diesel Spirit Of The Brave EDT 1.7 oz Spray M",Burberry,3,"Cosmo; French; Luxury",14.6,20.03
+910,31655644844,"CALVIN KLIEN MAN 3.4 EDT SP.",N/A,3,"French; MTZ; Luxury",14.75,18.42
+911,608940581391,"Paris Hilton Ruby Rush W 3.4 edp spr",N/A,3,"Cosmo; BS; Perfume Center",14.8,15.77
+912,6290360598352,"LATTAFA THE KINGDOM 3.4 EDP L  (128576)",N/A,3,"French; MTZ; Classic",14.9,16.47
+913,6294015109313,"ARMAF ODYSSEY POUR HOMME 100ML EDP SPRAY",N/A,3,"BS; MTZ; Classic",14.95,16.32
+914,3360373063703,"Cacharel Amor Amor EDT for Women | 1.7 oz / 50 ml",Cacharel,3,"Cosmo; BS; Perfume Center",15,15.75
+915,608940561744,"Kenneth Cole White EDP for Women | 3.4 oz / 100 ml",Kenneth Cole,3,"Cosmo; Network; BS",15,15.44
+916,716393810149,"Paul Sebastian Ps Cologne for Men | 4 oz / 120 ml - SPR",Paul Sebastian,3,"Cosmo; BS; French",15,15.92
+917,6291108738498,"Lattafa Emaan Eau de Parfum 100ml",N/A,3,"PWW; French; Classic",15,16.08
+918,3610400038380,"LOMANI [W] AB SPIRIT MILLIONAIRE "NAEIM" 3.3 Oz PARFUM SPR [WHITE-PINK BOX]",N/A,3,"PWW; BS; MTZ",15,15.00
+919,614514339046,"RASASI [W] RAA SOTOOR 3.33 Oz EAU DE PARFUM SPR",N/A,3,"United; French; MTZ",15,16.50
+920,3360374507206,"Cacharel Anais Anais L'Original EDT for Women | 1.7 oz / 50 ml",Cacharel,3,"BS; Haz; Perfume Center",15,16.75
+921,844061005105,"PERRY ELLIS 360 PiNK L 3.4oz ",Guess,3,"CBS; BS; Perfume Center",15,16.77
+922,614514331033,"RASASI HAWAS BLACK (M)3.4oz EDP SP",N/A,3,"Classic; ET; Perfume Center",15,24.63
+923,88300150410,"Calvin Klein Obsession Night EDP for Women | 3.4 oz / 100 ml",N/A,3,"BS; Perfume Center; Perfume Price",15,16.67
+924,6290171002048,"Afnan Supremacy Pink Pour Femme Eau De Parfum 100ml",N/A,3,"BS; French; MTZ",15,16.42
+925,27131086864,"Estee Lauder Beautiful EDP for Women | 1 oz / 30 ml",Estee Lauder,3,"Cosmo; Perfume Center; Classic",15.25,16.85
+926,3607342166875,"Vera Wang Lovestruck EDP for Women | 3.4 oz / 100 ml",Vera Wang Fragrances,3,"Cosmo; Perfume Center; Classic",15.25,16.75
+927,844061000636,"Perry Ellis Reserve EDT for Men | 3.4 oz / 100 ml",Perry Ellis,3,"CBS; Perfume Center; Classic",15.4,17.47
+928,6290171000983,"AFNAN SUPREMACY GOLD EDP SP 3.4oz",N/A,3,"BS; MTZ; Classic",15.45,17.23
+929,737052041490,"BOSS FEMME Tester ( W ) EDP SP 2.5 OZ ( no cap ) - Special",N/A,3,"Cosmo; French; Perfume Center",15.5,16.58
+930,27131595045,"Estee Lauder Sensuous EDP for Women | 1.7 oz / 50 ml",Estee Lauder,3,"Cosmo; Perfume Center; Classic",15.5,17.05
+931,6291108738238,"LATTAFA PRIDE ROYAL SAPPHIRE UNISEX 100ML EDP SPRAY",N/A,3,"United; French; MTZ",15.5,17.17
+932,6294015102253,"ARMAF LA ROSA - EAU DE PARFUM 3.4 oz Women",Youngblood,3,"CBS; Perfume Price; Luxury",15.5,19.17
+933,3616303463397,"CK ETERNITY REFLECTIONS WOMAN EDP SP 3.4oz",N/A,3,"Classic; French; Perfume Price",15.5,18.63
+934,608940552513,"Vince Camuto Fiori W 3.4 edp spr",N/A,3,"Classic; BS; Perfume Price",15.5,19.75
+935,6290360593135,"LATTAFA BADEE AL OUD HONOR & GLORY 3.4 EDP M  (125300)",N/A,3,"MTZ; Classic; Luxury",15.5,23.92
+936,3605972455338,"Polo Sport Fresh EDT 4.2 oz Spray M",N/A,3,"Cosmo; French; Classic",15.6,16.53
+937,3360373016341,"Cacharel Noa EDT for Women | 1.7 oz / 50 ml",Cacharel,3,"Cosmo; BS; Haz",15.7,16.23
+938,844061011212,"PERRY ELLIS 360 VERY BLUE M 3.4",N/A,3,"United; Perfume Center; Classic",15.95,17.82
+939,719346232982,"JUICY OUI JUICY COUTURE EDP SP 3.4oz TESTER",N/A,3,"Cosmo; Perfume Center; Classic",16,17.98
+940,844061001176,"Perry Ellis Perry 18 EDT for Men | 3.3 oz / 100 ml - SPR",Perry Ellis,3,"Network; BS; Perfume Center",16,17.38
+941,85805390600,"Elizabeth Arden 5th Avenue EDP for Women | 4.2 oz / 125 ml",N/A,3,"CBS; BS; Perfume Center",16,16.42
+942,608940521601,"Paris Hilton Just Me EDP for Women | 3.4 oz / 100 ml",Paris Hilton,3,"United; BS; Perfume Center",16,16.83
+943,608940580561,"Paris Hilton Pink Rush W 3.4 edp spr",ARD AL ZAAFRAN,3,"United; BS; Perfume Center",16,16.83
+944,3386460136334,"KATE SPADE CHERIE(W)EDP SP 3.3oz(LI FREE)                                                            ",N/A,3,"Classic; French; Perfume Center",16.2,22.68
+945,3386460071758,"JIMMY CHOO ILLICIT 3.4 EDP L TST W/CAP -  (107690)",N/A,3,"Cosmo; Classic; Perfume Center",16.25,18.86
+946,608940573914,"Kenneth Cole for Her Eau De Parfum for Women | 3.4 oz / 100 ml - Spray",Kenneth Cole,3,"Network; BS; French",16.5,16.88
+947,5060524510008,"Cristiano Ronaldo Cr7 Eau de Toilette 100ml",N/A,3,"United; Perfume Center; Perfume Price",16.5,19.10
+948,3360370600062,"Paloma Picasso EDP for Women | 1.7 oz / 50 ml",Paloma Picasso,3,"BS; Perfume Center; Classic",16.5,20.33
+949,3614227748484,"Burberry Weekend EDT for Men | 1.7 oz / 50 ml",Burberry,3,"Cosmo; Haz; Perfume Center",16.6,17.20
+950,6294022301106,"ANFAR PISTACHIO KUNAFA DUBAI CHOCOLATE 2.7 EDP SPR (M)",N/A,3,"Classic; Perfume Center; Perfume Price",16.75,19.44
+951,3386460149372,"TESTER TOUCH OF PINK (L) 3.0 EDT SP (WITH CAP)",N/A,3,"Cosmo; French; Perfume Center",17,18.08
+952,3614227748569,"BURBERRY WEEKEND 3.3 EDT SPR TESTER (MEN)",N/A,3,"Network; Classic; Luxury",17,20.60
+953,812256023999,"MINAJESTY 3.4 EDP L",N/A,3,"Network; CBS; Classic",17,17.88
+954,608940533369,"Paris Hilton Can Can EDP for Women | 3.4 oz / 100 ml",Paris Hilton,3,"Network; BS; ET",17,18.00
+955,8032529114076,"Salvatore Ferragamo Incanto Charms EDT for Women | 3.4 oz / 100 ml",Salvatore Ferragamo,3,"United; CBS; Perfume Price",17,17.33
+956,85715950086,"DKNY BE DELICIOUS FRESH BLOSSOM 3.4OZ EDP WOMEN",N/A,3,"United; Classic; Perfume Center",17,19.50
+957,85715950222,"DKNY NECTAR LOVE(W)EDP SP 3.4oz(LI FREE)                                                             ",N/A,3,"United; Classic; Perfume Center",17,19.25
+958,3616301623373,"Hugo Boss Hugo Energise EDT for Men | 2.5 oz / 75 ml",Hugo Boss,3,"Haz; ET; Perfume Center",17,17.30
+959,719346297257,"ED HARDY(W)(H/B)(LI FREE)2PC SET(3.4oz edp sp, 6.8oz Body Lotion)                                    ",N/A,3,"Classic; BS; Perfume Center",17,18.75
+960,6290171040682,"Afnan Supremacy Incense Eau De Parfum 100ml",N/A,3,"BS; Classic; Perfume Price",17,17.50
+961,608940557037,"Vince Camuto Homme Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Vince Camuto,3,"BS; Classic; Perfume Price",17,18.17
+962,844061012417,"Perry Ellis Pure Blue by Perry Ellis for Men - 3.4 oz EDT Spray",N/A,3,"United; Perfume Center; Perfume Price",17.05,17.60
+963,3616304062483,"Hugo Boss Jeans Eau de Toilette 75ml",N/A,3,"Cosmo; Perfume Center; Perfume Price",17.25,18.67
+964,844061009493,"360 Collection Noir by Perry Ellis for Men - 3.4 oz EDT Spray",N/A,3,"United; Perfume Center; Perfume Price",17.25,17.92
+965,810101501555,"Nicki Minaj Pink Friday EDP for Women | 3.4 oz / 100 ml - SPR",Nicki Minaj,3,"CBS; BS; Perfume Price",17.25,17.92
+966,3386460101059,"EXPLORER/MONT BLANC EDP SPRAY 1.0 OZ (30 ML) (M)",N/A,3,"Cosmo; Perfume Center; Classic",17.35,18.50
+967,3607342401426,"Calvin Klein Ck One Shock For Him Eau de Toilette 200ml",GIORGIO ARMANI,3,"Classic; French; Perfume Center",17.4,19.35
+968,3614227748729,"Burberry Touch EDT for Men | 1.7 oz / 50 ml - SPR",Burberry,3,"Network; Classic; Perfume Price",17.45,19.09
+969,3614223164462,"CK ALL 6.7 oz ",N/A,3,"Cosmo; CBS; BS",17.5,18.17
+970,608940559239,"Vince Camuto Bella Eau de Parfum  for Women | 3.4 oz / 100 ml - Spray",Vince Camuto,3,"Cosmo; BS; Perfume Price",17.5,18.75
+971,844061013872,"PERRY ELLIS VERY PINK L 3.4OZ EDP SPRAY - NEW",N/A,3,"United; Perfume Center; Perfume Price",17.5,18.33
+972,844061013193,"PERRY ELLIS "BOLD RED" 3.3 OZ EDT SPR [M]",N/A,3,"United; Perfume Center; Perfume Price",17.5,18.75
+973,85715950147,"DKNY Be Extra Delicious by Donna Karan for Women - 3.4 oz EDP Spray",N/A,3,"United; Perfume Center; Luxury",17.5,29.50
+974,6294015138320,"THE PRIDE ROUGE  - EAU DE PARFUM SPRAY 3.4 oz W",N/A,3,"CBS; BS; Perfume Price",17.5,19.58
+975,3614227748804,"BURBERRY TOUCH - EAU DE TOILETTE SPRAY 3.3 oz / 100 ml Men Tester",N/A,3,"Classic; Haz; French",17.5,19.00
+976,719346297097,"LC-Curve Black (M) 4pc Set (4.2COLS,3.4ASB,3.4SG,1.7DSTK)",N/A,3,"Classic; BS; Perfume Center",17.5,20.25
+977,3614273962391,"CHROME LEGEND 3.4 EDT SPRAY  NEW SIZE ",N/A,3,"Haz; Perfume Price; Luxury",17.5,20.00
+978,6290171072607,"Afnan 9PM pour femme W 3.4 edp spr Purple Box",N/A,3,"United; French; Perfume Price",17.75,18.42
+979,844061006164,"PERRY ELLIS COLLECTION W 3.4 O",N/A,3,"United; ET; Perfume Center",17.75,18.58
+980,6290360599441,"LATTAFA BADE'E AL OUD NOBLE BLUSH (U) EDP 100ML",LATTAFA,3,"French; Classic; Perfume Price",17.75,18.33
+981,844061009400,"360 CORAL 3.4 EDP L",N/A,3,"United; Classic; Perfume Center",17.9,20.35
+982,3386460025836,"Jimmy Choo EDT for Women | 3.3 oz / 100 ml - Tester",Jimmy Choo,3,"Cosmo; Network; Classic",18,18.94
+983,3386460048149,"JIMMY CHOO FLASH(W)(T)EDP SP 3.4oz(NO CAP,BOX)                                                       ",N/A,3,"Cosmo; Perfume Center; Perfume Price",18,19.50
+984,603531640013,"Bijan EDT for Men | 2.5 oz / 75 ml",Bijan,3,"Network; BS; Classic",18,18.38
+985,85715801067,"Alfred Dunhill Desire EDT for Men | 3.4 oz / 100 ml",N/A,3,"Network; Perfume Center; Classic",18,19.38
+986,6291108738276,"Lattafa Nebras Eau de Parfum 100ml",N/A,3,"United; Classic; French",18,19.50
+987,844061009462,"P.E. 360 COLLECTION ROSE W 3.4",N/A,3,"United; Perfume Center; Perfume Price",18,18.50
+988,739581121216,"Marcella Borghese Il Bacio EDP for Women | 3.4 oz / 100 ml - SPR",Marcella Borghese,3,"BS; Classic; Perfume Center",18,20.63
+989,844061014404,"PERRY ELLIS 1OZ M 3PC TRIO SET",N/A,3,"Classic; Perfume Center; Perfume Price",18,20.25
+990,608940540060,"Jessica Simpson Fancy Love EDP for Women | 3.4 oz / 100 ml - SPR",Jessica Simpson,3,"French; Classic; Perfume Price",18,19.33
+991,6290360590189,"Lattafa Maahir Legacy Lattafa Eau de Parfum 100ml",Victoria's Secret,3,"French; Classic; Perfume Price",18,18.17
+992,3360372009641,"Guy Laroche Fidji EDT for Women | 3.4 oz / 100 ml",Guy Laroche,3,"Cosmo; Network; Luxury",18.1,27.53
+993,85715336606,"GUESS UOMO ACQUA(M)EDT SP 3.4oz(LI FREE)                                                             ",N/A,3,"United; Perfume Center; Perfume Price",18.25,19.75
+994,737052351018,"Hugo Boss Boss 6 EDT for Men | 1.7 oz / 50 ml",Hugo Boss,3,"BS; Classic; Perfume Center",18.25,24.19
+995,85715806352,"Dunhill Icon Racing Blue EDP 3.4 oz Spray M",N/A,3,"Network; BS; Perfume Center",18.4,21.35
+996,3770004268207,"DUMONT - NITRO BLACK M 3.4 EDP SP.",N/A,3,"United; French; Perfume Center",18.4,20.13
+997,812256022527,"ARIANA GRANDE MOONLIGHT L 3.4 EDP SPRAY TESTER ....",N/A,3,"Classic; French; Perfume Center",18.4,19.23
+998,3386460137553,"JIMMY CHOO Rose Passion Wom EDP (60ml)",N/A,3,"Cosmo; Classic; Perfume Price",18.5,19.02
+999,3386460123525,"COACH DREAMS SUNSET/COACH EDP SPRAY 1.3 OZ (40 ML) (W)",Dolce & Gabbana,3,"Cosmo; Network; Classic",18.5,20.95
+1000,3616304203657,"Escada Sorbetto Rosso Limited Edition Eau De Toilette 100ml",N/A,3,"Haz; Classic; Perfume Price",18.5,21.00
+1001,85715167811,"Abercrombie & Fitch Naturally Fierce Eau De Parfum 100ml",N/A,3,"United; CBS; Luxury",18.5,23.17
+1002,6294015182880,"ARMAF Uniq Forever For Men 3.4oz Edp Spray",N/A,3,"United; CBS; Perfume Price",18.5,20.17
+1003,844061001084,"Perry Ellis Perry 18 EDP for Women | 3.4 oz / 100 ml",Perry Ellis,3,"CBS; ET; Perfume Center",18.5,19.00
+1004,8052464890354,"SALVATORE FERRAGAMO SAVANE DI SETA(U)EDP SP 3.4oz(LI FREE)                                           ",N/A,3,"United; Perfume Center; Perfume Price",18.75,25.67
+1005,3607347392637,"Joop! Jump Eau de Toilette 200ml",LANCOME,3,"Cosmo; Haz; Perfume Center",19,19.83
+1006,85715329875,"Guess Man Gold EDT 2.5 oz Spray + Body Spray 6.0 oz + Shower Gel 6.7 oz M",N/A,3,"United; CBS; Perfume Center",19,19.82
+1007,6291108738115,"LATTAFA PRIDE ETERNAL OUD 3.4 EDP U  (124235)",N/A,3,"United; French; Perfume Price",19,21.00
+1008,22548366455,"Michael Kors Wonderlust  Eau De Parfum for Women | 1.7 oz / 50 ml - Spray",Michael Kors,3,"BS; French; Classic",19,24.00
+1009,22548366462,"M KORS Wonderlust Wom EDP (30ml)",N/A,3,"BS; Classic; French",19,24.50
+1010,3454960014664,"Lalique EDP for Women | 3.4 oz / 100 ml",Lalique,3,"Cosmo; Perfume Center; Perfume Price",19.25,20.67
+1011,85715329912,"Guess by Marciano EDT 3.4 oz Spray + Shower Gel 6.7 oz + Body Spray 6.0 M",N/A,3,"Classic; Perfume Center; Luxury",19.25,23.31
+1012,844061014756,"360 PURPLE 3PC 3.4 EDP SPR, 3.0 S/G, 0.25 oz EDP MINI (W)",N/A,3,"Classic; Perfume Center; Perfume Price",19.4,21.54
+1013,3386460109581,"COACH DREAMS 1.35 ( W ) EDP SP 1.35 OZ",N/A,3,"Cosmo; Classic; Perfume Price",19.5,20.17
+1014,88300139507,"Calvin Klein Eternity Moment EDP for Women | 3.4 oz / 100 ml",Calvin Klein,3,"Cosmo; United; French",19.5,20.75
+1015,844061007963,"360 PURPLE ( W ) EDP SP 3.4 OZ",N/A,3,"United; Classic; Perfume Price",19.5,20.63
+1016,3760060761897,"NITRO BLUE by DUMONT 3.4 EDP SPR (M)",N/A,3,"United; Perfume Center; Classic",19.5,21.17
+1017,3605972386021,"RALPH LAUREN PONY 2 EDT 3.4oz",N/A,3,"United; Classic; French",19.5,20.50
+1018,3386460028462,"Mont Blanc Starwalker EDT for Men | 2.5 oz / 75 ml",Mont Blanc,3,"United; ET; Perfume Center",19.5,20.33
+1019,8436038834416,"Tous Man Sport EDT for Men | 3.4 oz / 100 ml",Tous,3,"ET; Perfume Center; Classic",19.5,20.92
+1020,6085010091051,"ARMAF LE FEMME EDP SP 3.4oz+1.7oz PARF B/S+3.4ozB/L+8.4oz B/M",N/A,3,"CBS; French; Perfume Price",19.5,22.42
+1021,3614226905147,"Burberry Brit Sheer Eau de Toilette 50ml",LANCOME,3,"Classic; Perfume Price; Luxury",19.5,23.00
+1022,3614226905161,"Burberry Brit EDT for Men | 1.7 oz / 50 ml",Burberry,3,"Classic; Haz; Perfume Center",19.65,21.10
+1023,3423478925557,"NARCISO RODRIGUEZ FOR HER EDT SP 1oz",N/A,3,"Cosmo; BS; Haz",19.75,23.75
+1024,844061016750,"SET PERRY ELLIS 360 VERY BLUE MEN ( 4 PC ) 3.4 OZ EDT SP / BODY SPR 6.8 OZ /  SHOWER GEL 3.0 S/OZ / MINI",N/A,3,"United; Perfume Center; Perfume Price",19.75,21.25
+1025,3614226905024,"BURBERRY TOUCH (W) EDP 100ML TESTER",N/A,3,"Classic; Haz; Perfume Price",19.75,22.31
+1026,3386460025812,"Jimmy Choo EDP for Women | 3.3 oz / 100 ml - SPR - Tester",Jimmy Choo,3,"Network; Classic; Perfume Price",20,21.70
+1027,6291100136605,"Al Haramain L'Aventure Blanche EDP for Women | 3.3 oz / 100 ml",Al Haramain,3,"United; Classic; Perfume Price",20,21.58
+1028,3616301623298,"Hugo Boss Boss Selection Eau De Toilette for Men | 3.3 oz / 100 ml - Spray",Hugo Boss,3,"United; Perfume Center; Perfume Price",20,21.08
+1029,8011003845507,"TOY 2/MOSCHINO EDP SPRAY NO CAP TESTER 3.4 OZ (100 ML) (W)",N/A,3,"Cosmo; Perfume Price; Luxury",20.25,27.92
+1030,844061009547,"360 BLACK(M)EDT SP 6.8oz                                                                             ",N/A,3,"United; Perfume Center; Perfume Price",20.35,22.28
+1031,855560005008,"Sean John Unforgivable EDT for Men | 4.2 oz / 125 ml",Sean John,3,"CBS; Perfume Center; Classic",20.4,23.47
+1032,85715330239,"SET SEDUCTIVE WOMEN ( 4 PC ) 2.5 OZ EDT / 3.4 OZ BL / MINI  / POUCH",N/A,3,"United; CBS; Perfume Price",20.45,20.82
+1033,3605520983979,"V&R FLOWER BOMB(L) 0.6OZ EDP",Adidas,3,"Cosmo; BS; French",20.5,24.58
+1034,8011003995943,"Versace Pour Homme M 1.0 edt spr",N/A,3,"Cosmo; Haz; Perfume Center",20.5,21.67
+1035,3360370600192,"Paloma Picasso EDP for Women | 3.4 oz / 100 ml",Paloma Picasso,3,"Network; Classic; Perfume Center",20.5,22.80
+1036,8018365140103,"Gianni Versace Versace L'Homme EDT for Men | 3.3 oz / 100 ml",Gianni Versace,3,"United; Classic; Perfume Center",20.5,22.00
+1037,6291100130597,"AL HARAMAIN AVENTURE INTENSE 3.4 EDP M  (121423)",N/A,3,"United; ET; Perfume Center",20.5,21.25
+1038,6291100130092,"Al Haramain L'aventure Gold Eau De Parfum 100ml",Victoria's Secret,3,"United; CBS; Perfume Center",20.55,21.68
+1039,3386460126595,"Coach Wild Rose Eau De Parfum 30ml",Dolce & Gabbana,3,"Cosmo; Classic; Perfume Price",20.75,21.58
+1040,8011003839292,"MOSCHINO Toy2 Wom EDP (50ml)",N/A,3,"Cosmo; Classic; Perfume Center",20.75,22.63
+1041,88300162543,"Calvin Klein Euphoria EDP for Women | 1.7 oz / 50 ml",N/A,3,"Network; Classic; French",21,23.75
+1042,6290362340126,"SET LATTAFA ASAD ( 3 PC )3.4 OZ EDP / 6.7 OZ DEO / 1.7 OZ HAIRMIST",N/A,3,"United; ET; Perfume Price",21,21.50
+1043,8431754502519,"HALLOWEEN MAN ROCK ON ( M ) EDT SP 4.2 OZ",N/A,3,"United; Perfume Center; Perfume Price",21,23.33
+1044,6294015168136,"ARMAF MISS DAZZLING EDP SP 3.4oz",N/A,3,"BS; Classic; French",21,22.63
+1045,6290171075141,"AFNAN KIAANA ANGEL WOMEN 3.4 OZ EDP SP",N/A,3,"Classic; Haz; French",21,22.31
+1046,812256024286,"Ariana Grande Thank U Next Eau De Parfum 50ml",N/A,3,"Classic; Perfume Center; Perfume Price",21,23.63
+1047,3595471024787,"MERCEDES BENZ [M] INTENSE 4.0 Oz EDT SPR [CYLINDER BOTTLE]",N/A,3,"Classic; French; Perfume Price",21,27.13
+1048,6297001158029,"ORIENTICA XO XCLUSIF OUD SPORT 2.0 UNISEX EXTRAIT DE PARFUM SP  ",N/A,3,"ET; Perfume Center; Perfume Price",21,22.25
+1049,8011003864072,"MOSCHINO Toy2 Bubble Gum USX EDT (50ml)",Kristin Ess,3,"Cosmo; Perfume Center; Perfume Price",21.25,22.40
+1050,3616302931897,"Lacoste Booster Eau De Toilette for Men | 4.2 oz / 125 ml - Spray - New Packaging",Lacoste,3,"Network; United; French",21.5,24.17
+1051,3386460036528,"BOUCHERON Jaipur Homme EDP for Men | 3.3 oz / 100 ml",BOUCHERON,3,"CBS; Perfume Center; Perfume Price",21.5,22.50
+1052,6290171071518,"Afnan Tabacco Rush Eau De Parfum 80ml",N/A,3,"United; Classic; Perfume Price",21.75,22.56
+1053,3616301799597,"EAU DE LACOSTE L.12.12 ROSE  EAU FRACHIE -  EAU DE TOILETTE SPRAY 3.3 oz",MAISON�FRANCIS�KURKDJIAN,3,"Nandansons; Perfume Center; PWW",22,25.83
+1054,6290171075288,"AFNAN 9PM REBEL (RED) UNISEX 3.4 OZ EDP SP",N/A,3,"United; Perfume Center; Perfume Price",22,22.60
+1055,6290360598888,"LATTAFA AFEEF MEN 3.4 OZ EDP SP",N/A,3,"United; Perfume Center; Luxury",22,26.83
+1056,3760269849549,"LEMPICKA By LOLITA LEMPICKA ( M ) EDT SP 3.4 OZ",N/A,3,"United; Classic; ET",22,24.63
+1057,3616304966545,"CALVIN KLEIN Ck One Unisex 3.4oz Edt Spray, 5.0oz Deo (H Box)",N/A,3,"United; Perfume Center; PWW",22,26.30
+1058,3386460036429,"BOUCHERON Boucheron EDP for Men | 3.3 oz / 100 ml",BOUCHERON,3,"Classic; Perfume Center; Luxury",22,26.50
+1059,3386460102995,"Rochas Byzance Eau De Parfum for Women | 3 oz / 90 ml - Spray - 2019 Edition",Rochas,3,"BS; Classic; Perfume Center",22,22.75
+1060,6290360599113,"LATTAFA HIS CONFESSION 3.4 OZ EDP SP",N/A,3,"Classic; French; Perfume Price",22,24.00
+1061,3423473020257,"Dolce & Gabbana Light Blue EDT for Women | 0.84 oz / 25 ml",Dolce & Gabbana,3,"Acme; Classic; Perfume Price",22.5,24.30
+1062,3360377032750,"RALPH LAUREN Polo Black EDT for Men | 2.5 oz / 75 ml",RALPH LAUREN,3,"Network; Classic; Haz",22.5,24.63
+1063,892456000518,"ANIMALE (M) EDT SP 6.7oz(LI FREE)                                                                    ",YVES SAINT LAURENT,3,"United; Perfume Center; Perfume Price",22.5,23.25
+1064,6290360375694,"Liquid Brun by French Avenue  3.4oz EDP Spray for MEN",FRENCH AVENUE,3,"United; Classic; Perfume Price",22.5,25.25
+1065,8034097954429,"SALVATORE FERRAGAMO SIGNORINA(W)EDT SP 3.4oz(LI FREE)                                                ",N/A,3,"United; Perfume Center; Perfume Price",22.5,24.00
+1066,6291106813524,"AL HARAMAIN GOLD CRYSTAL OUDH(M)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)(NEW)                            ",N/A,3,"United; Perfume Center; PWW",22.5,28.83
+1067,98691047695,"Juicy Couture Viva La Juicy EDP for Women | 1.7 oz / 50 ml - SPR",N/A,3,"Haz; Perfume Center; Perfume Price",22.5,23.50
+1068,3351500018024,"Azzaro Cologne Intense (M) 3.4 oz edt spray",N/A,3,"United; Perfume Price; Luxury",22.75,29.58
+1069,3616305433589,"CK OBSESSION (M) EDT SP 4.2+2.6 DEO+3.4 ASB",N/A,3,"BS; Classic; Perfume Center",22.75,25.56
+1070,3614273693509,"D BY DIESEL U EDT/S 3.4",N/A,3,"BS; CBS; Luxury",22.9,30.47
+1071,3386460086349,"COACH FOR MEN(M) 1.3OZ EDT",DOLCE & GABBANA,3,"Cosmo; Classic; Perfume Price",23,23.31
+1072,853503006143,"Ellipsis by Derek Lam for Women - 5.9 oz EDP Spray                                                   ",N/A,3,"PWW; ET; Perfume Center",23,30.25
+1073,853503006112,"Derek Lam 10 Crosby Hi-Fi Eau de Parfum 175ml",N/A,3,"PWW; ET; Perfume Center",23,30.25
+1074,3386460127950,"Montblanc Legend Red Eau De Parfum 100ml",N/A,3,"BS; ET; Perfume Price",23,23.83
+1075,719346257091,"VIVA LA JUICY NEON 3.4 EDP",N/A,3,"BS; Classic; Perfume Price",23.25,25.81
+1076,6291108737323,"MUSAMAM 3.4oz EDP (M)",N/A,3,"United; Classic; French",23.5,25.88
+1077,878813000254,"Animale by Animale for Women - 3 Pc Gift Set 3.4oz EDP Spray, 3.4oz Body Lotion, 3.4oz Shower Gel",N/A,3,"United; PWW; Perfume Price",23.5,25.57
+1078,85805255176,"Elizabeth Arden Red Door 3.3 EDT Sp + 1.0 EDT Sp Women Travel Set",N/A,3,"Classic; Perfume Center; PWW",23.75,25.00
+1079,3386460149334,"L'HOMME LACOSTE 3.3oz EDT SP (M)",N/A,3,"Cosmo; United; Perfume Price",24,24.83
+1080,737052713984,"HGO GREEN (M) 4.2OZ EDT SP",N/A,3,"PWW; Network; French",24,28.28
+1081,6290360592039,"LATTAFA PRIDE PEACE & LOVE 3.4 EDP U  (128571)",N/A,3,"PWW; French; Perfume Price",24,29.25
+1082,20714999346,"Clinique Aromatics Elixir Parfum for Women | 3.3 oz / 100 ml",N/A,3,"PWW; CBS; Classic",24,30.31
+1083,88300105519,"CK ETERNITY(M) 3.4 OZ EDT",N/A,3,"Network; United; Luxury",24,27.83
+1084,3614229823813,"TESTER HUGO GREEN 4.2 SP M",N/A,3,"Network; Classic; Perfume Price",24,24.33
+1085,844061015548,"PERRY 18 4PC 3.4 EDT SPR, 6.0 DEO SPRAY, 3.0 S/G, .25 oz MINI (MEN)",N/A,3,"Network; BS; Classic",24,25.88
+1086,3360377031937,"RALPH LAUREN Polo Blue EDT for Men | 4.2 oz / 125 ml - SPR - Tester",RALPH LAUREN,3,"Network; Classic; Haz",24,24.50
+1087,6290360593036,"LATTAFA PRIDE PISA 100ML EDP SPRAY",N/A,3,"United; French; Perfume Price",24,25.17
+1088,844061015531,"SET 360 WOMAN (4PCS) 3.4+BMIST 4.0 3.0 SG + .25 EDT  ",N/A,3,"United; Classic; Perfume Price",24,26.10
+1089,730870263112,"Escada Sentiment EDT for Women | 2.5 oz / 75 ml",Escada,3,"United; Classic; Perfume Center",24,27.13
+1090,8011003991457,"MOSCHINO I Love Love EDT for Women | 3.4 oz / 100 ml",MOSCHINO,3,"CBS; Perfume Center; Perfume Price",24,24.50
+1091,3423222090722,"ISSEY MIYAKE L'Eau D'Issey Vetiver Men EDT (100ml)",MARINA DE BOURBON,3,"Cosmo; BS; Perfume Price",24.2,29.73
+1092,8011003825721,"Gianni Versace Versace Dylan Blue Eau De Toilette for Men | 1 oz / 30 ml - Spray",Gianni Versace,3,"Cosmo; PWW; Classic",24.25,29.38
+1093,85715565105,"Bella Essence by Oscar de la Renta for Women - 3.4 oz EDP Spray",N/A,3,"Cosmo; Perfume Center; PWW",24.25,25.98
+1094,844061014664,"PERRY ELLIS 360 RED M 4 PC SET",N/A,3,"Network; United; Perfume Center",24.25,26.08
+1095,27131261612,"Estee Lauder Modern Muse EDP for Women | 1.7 oz / 50 ml",N/A,3,"Classic; Perfume Center; PWW",24.4,26.80
+1096,3386460097338,"JIMMY CHOO FEVER 2.0 EDP W",Dolce & Gabbana,3,"Cosmo; PWW; Perfume Price",24.5,27.00
+1097,3147758034905,"Lancome Tresor EDP for Women | 1 oz / 30 ml",Lancome,3,"Nandansons; Haz; PWW",24.5,26.67
+1098,6294015188202,"ARMAF CHECKMATE QUEEN WOMEN 3.4 OZ  EDP SP",N/A,3,"United; BS; Classic",24.5,26.13
+1099,3386460149150,"LACOSTE EAU DE LACOSTE BLANC L.12.12 "EAU INTENSE" M 3.4 EDT SPRAY",N/A,3,"United; Classic; Perfume Price",24.5,28.25
+1100,8011003838066,"Moschino Pink Fresh Couture  Eau De Toilette for Women | 3.4 oz / 100 ml - Spray",MOSCHINO,3,"United; BS; Perfume Price",24.5,25.42
+1101,3616305433596,"CK OBSESSION EDP SP 3.4+6.7BL+0.5 MINI",N/A,3,"BS; Classic; PWW",24.5,28.18
+1102,3614272631908,"Diesel Spirit Of The Brave EDT 4.2 oz Spray M",Burberry,3,"BS; Classic; Luxury",24.5,30.38
+1103,3386460131230,"ROCHAS GIRL EDP SP 3.3oz+15ML EDT SP +B/L 3.3oz",N/A,3,"BS; Perfume Center; PWW",24.5,27.77
+1104,873824001108,"John Varvatos Vintage EDT for Men | 4.2 oz / 125 ml",John Varvatos,3,"Classic; Perfume Center; PWW",24.5,26.33
+1105,6291100131273,"AL HARAMAIN OPPULENT SAPPHIRE 3.4 EDP U -  (115399)",N/A,3,"Perfume Center; PWW; Perfume Price",24.5,26.86
+1106,3386460078313,"Coach Eau De Parfum 50ml",N/A,3,"Cosmo; Network; Classic",24.7,25.90
+1107,8018365500099,"Gianni Versace Versace Man Eau Fraiche EDT for Men | 3.4 oz / 100 ml - SPR - Tester",Gianni Versace,3,"Cosmo; Network; CBS",24.75,25.05
+1108,8052464897070,"Roberto Cavalli Signature Edp Spray 75 ml",Image,3,"Nandansons; Perfume Center; PWW",24.75,27.05
+1109,3616304966736,"OBSESSION M SET 4.0 EDT + 2.5 D. STICK + 3.4 ASB + 3.4 SG",N/A,3,"Classic; French; Perfume Price",24.75,27.31
+1110,8011003993802,"Gianni Versace Versace Bright Crystal EDT for Women | 1 oz / 30 ml - SPR",Gianni Versace,3,"Cosmo; Classic; Perfume Price",25,25.88
+1111,8052464897124,"ROBERTO CAVALLI NERO ASSOLUTO(W)EDP SP 2.5oz                                                         ",N/A,3,"Nandansons; Perfume Center; PWW",25,26.97
+1112,6291100131297,"AL HARAMAIN OPPULENT SAFFRON 3.4 EDP U  (115398)",N/A,3,"PWW; Perfume Center; Perfume Price",25,30.88
+1113,6291100132171,"AL HARAMAIN AMBER OUD TOBACCO EDP 2.0 OZ SPR (M)",N/A,3,"PWW; Network; Perfume Center",25.25,30.31
+1114,8011003845163,"MOSCHINO Toy Boy Men EDP TST (100ml)",N/A,3,"Cosmo; Classic; Haz",25.35,27.46
+1115,3346470114739,"GUERLAIN LA PETITE ROBE NOIRE EDT 50ML ",N/A,3,"Cosmo; Haz; Perfume Center",25.5,25.83
+1116,3137370207023,"Nina Ricci L'Air Du Temps EDT for Women | 1.7 oz / 50 ml",Nina Ricci,3,"Cosmo; Perfume Center; Classic",25.5,28.00
+1117,3760060766625,"DUMONT - NITRO 8 PCS MINI SET : Black + Pour Homme + Green + Intense + Platinum + Red + White + Blue 10ml each",N/A,3,"Nandansons; French; Perfume Center",25.5,26.17
+1118,8052464896837,"Roberto Cavalli Paradiso Azzurro Edp Spray 75 ml",N/A,3,"Nandansons; Perfume Center; PWW",25.5,27.60
+1119,6291106813753,"AL HARAMAIN BON CHERIE VIOLETTE(W)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)                               ",N/A,3,"PWW; United; Perfume Center",25.5,30.38
+1120,783320416118,"BVLGARI MAN TERRAE ESSENCE 2.0 EDP SP  ",Keratin Complex,3,"PWW; Haz; Perfume Center",25.5,30.36
+1121,6291106813494,"AL HARAMAIN LA LUNE(U)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)(NEW)                                      ",N/A,3,"PWW; United; Perfume Center",25.5,30.91
+1122,737052483214,"Lacoste Essential EDT for Men | 4.2 oz / 125 ml",Lacoste,3,"Network; BS; French",25.5,26.50
+1123,6290360592985,"LATTAFA NICHE EMARATI ZIKRA 100ML EDP SPRAY",N/A,3,"United; Classic; French",25.5,27.13
+1124,6294015196429,"ARMAF "CONNOISSEUR" EDP SPR 3.6 L (Clean)",N/A,3,"United; Classic; Perfume Price",25.5,26.75
+1125,6294015163957,"ARMAF LE PARFAITY AZURE POUR FEMME EDP SP6.7oz",N/A,3,"BS; Perfume Center; PWW",25.5,27.67
+1126,6294015163964,"ARMAF LE PARFAIT POUR FEMME PANACHE 6.8oz",N/A,3,"BS; Perfume Center; PWW",25.5,27.67
+1127,3605971670978,"Ralph Lauren Polo Red Rush Eau De Toilette 75ml",N/A,3,"Cosmo; Nandansons; Classic",25.75,26.25
+1128,3616305446527,"COOL WATER 5 PCS SET FOR MEN: 4.2 EAU DE TOILETTE SPRAY + 2.4 DEODORANT STICK + 2.5 SHOWER GEL + 2.5 AFTER SHAVE BALM + 0.5 EAU DE TOILETTE SPRAY",DAVIDOFF,3,"Nandansons; PWW; Perfume Center",25.75,28.44
+1129,3614226904966,"Burberry Brit Sheer EDT for Women | 3.3 oz / 100 ml",Burberry,3,"Cosmo; Network; Luxury",26,31.83
+1130,6290171075905,"AFNAN 9 AM DIVE 5.0 EDP SPRAY",N/A,3,"Nandansons; United; Classic",26,27.50
+1131,6291100132645,"AL HARAMAIN [M] L`AVENTURE 6.76 Oz EDP SPR [LARGE SIZE]",N/A,3,"PWW; Network; Perfume Center",26,31.33
+1132,3614273927949,"Mugler Alien Goddess Supra Florale Eau de Parfum 30ml",N/A,3,"PWW; Perfume Center; Perfume Price",26,29.94
+1133,8011003839094,"VERSACE DYLAN BLUE POUR FEMME 1.0 ( W ) Parfum SP 1.0 OZ",N/A,3,"Cosmo; PWW; Classic",26.1,31.40
+1134,3346132400705,"HERMES Un Jardin Sur Le Toit Wom EDT (30ml)",N/A,3,"Cosmo; PWW; Perfume Center",26.25,28.67
+1135,3346132600051,"Herm�s Le Jardin De Monsieur Li Eau de Toilette 30ml",N/A,3,"Cosmo; PWW; Perfume Center",26.25,28.75
+1136,3386460086363,"COACH NEW YORK/COACH EDT SPRAY TESTER 3.3 OZ (100 ML) (M)",Dolce & Gabbana,3,"Nandansons; Classic; Perfume Price",26.5,27.17
+1137,3137370357339,"NINA RICCI NINA FLEUR(W)EDT SP 2.7oz(LI FREE)                                                        ",CHANEL,3,"Nandansons; PWW; Perfume Center",26.5,30.35
+1138,6291100136285,"AL HARAMAIN JUNOON 2.5 EDP L  (116661)",Jane Iredale,3,"Nandansons; PWW; Classic",26.5,28.61
+1139,3614273872287,"AZZARO Chrome For Men 3.4 OZ Parfum* Spray New",N/A,3,"PWW; Perfume Center; Perfume Price",26.5,30.21
+1140,3351500980086,"AZZARO POUR HOMME 6.8 EDT M",Coach,3,"PWW; Network; Haz",26.5,30.38
+1141,8431754462516,"Halloween M 4.2 edt spr",N/A,3,"United; Classic; Perfume Price",26.5,29.00
+1142,844061013308,"360 PURPLE by PERRY ELLIS 4PC 3.4 EDP SPR, 4.0 BODY MIST, 3.0 SG, 0.25 oz EDT MINI (W)",N/A,3,"United; Classic; PWW",26.5,27.51
+1143,3614226905284,"Burberry Weekend EDP for Women | 3.3 oz / 100 ml",Burberry,3,"Classic; Perfume Price; Luxury",26.5,30.38
+1144,6291106813777,"AL HARAMAIN FLORAL FAIR(W)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)(NEW)                                  ",REPLAY,3,"PWW; United; Perfume Center",26.75,30.35
+1145,8052464896530,"Uomo by Salvatore Ferragamo for Men - 3.4 oz EDT Spray",Salvatore Ferragamo,3,"Aairie; PWW; Perfume Price",27,30.75
+1146,3614273070232,"Emporio Armani He Eau de Toilette 50ml",N/A,3,"Aairie; Classic; Perfume Price",27,28.63
+1147,3351500016600,"AZZARO WANTED (M) EDT SP 1.7oz",N/A,3,"Acme; PWW; Classic",27,30.51
+1148,3349668576180,"TESTER X'S BLACK 3.4 EDT M NEW",N/A,3,"Cosmo; Perfume Center; Perfume Price",27,31.17
+1149,8011003997015,"Gianni Versace Versace Versense EDT for Women | 1.7 oz / 50 ml",Gianni Versace,3,"Nandansons; PWW; Perfume Center",27,30.27
+1150,608940586907,"PARIS HILTON HEIRESS 4PC WOMEN GIFT SET - 3.4OZ EDP + 3.0OZ BODY LOTION + 3.0OZ SHOWER GEL + 0.33OZ EDP",N/A,3,"PWW; BS; Classic",27,30.22
+1151,3607342378353,"Calvin Klein Eternity Aqua EDT for Men | 6.7 oz / 200 ml",Calvin Klein,3,"PWW; Haz; Perfume Center",27,29.51
+1152,3360373001774,"Cacharel EDT for Men | 3.3 oz / 100 ml",Cacharel,3,"PWW; BS; Perfume Center",27,30.08
+1153,3616305433466,"CK ONE 2 PCS SET: 6.7 EAU DE TOILETTE SPRAY + 6.7 SKIN MOISTURIZER",CALVIN KLEIN,3,"Network; Classic; Perfume Price",27,29.50
+1154,6294015151084,"ARMAF CLUB DE NUIT - EAU DE PARFUM SPRAY 6.7 oz Women",N/A,3,"Network; United; Perfume Price",27,27.67
+1155,844061015678,"SET PERRY ELLIS 360 RED MEN  (4 PC )3.4 OZ EDT / 6.0 OZ DEO SP / 3.0 OZ SG  / MINI",N/A,3,"United; Classic; PWW",27,28.50
+1156,8057971180882,"Dolce & Gabbana Light Blue EDT for Women | 3.4 oz / 100 ml - Tester",Dolce & Gabbana,3,"Acme; Haz; Perfume Center",27.25,34.29
+1157,3423473026785,"Dolce & Gabbana EDT for Men | 4.2 oz / 125 ml - Tester",Dolce & Gabbana,3,"Nandansons; Classic; Perfume Price",27.25,28.42
+1158,783381025342,"MARILYN MIGLIN PHEROMONE ( W ) EDP SP 3.4 OZ",N/A,3,"Cosmo; Nandansons; BS",27.5,30.67
+1159,8011003826711,"MOSCHINO Fresh Couture Wom EDT (100ml)",N/A,3,"PWW; BS; Classic",27.5,29.50
+1160,6291100132089,"AL HARAMAIN BLANCHE FRENCH COLLECTION(U)EDP SP 3.33oz(LI FREE)                                       ",Peter Thomas Roth,3,"PWW; United; Perfume Center",27.5,36.85
+1161,6294015164152,"ARMAF ICONIC  - EAU DE PARFUM SPRAY 3.3 oz Men",N/A,3,"PWW; United; Perfume Center",27.5,30.00
+1162,6291100130153,"Al Haramain Amber Oud Blue Edition Eau De Parfum 60ml",Victoria's Secret,3,"PWW; United; Classic",27.5,30.90
+1163,783320403903,"Bulgari Man Wood Neroli Eau De Parfum 60ml",N/A,3,"PWW; Classic; Perfume Center",27.5,31.52
+1164,8052086377479,"Salvatore Ferragamo Uomo Urban Feel Eau De Toilette 100ml",bareMinerals,3,"Classic; PWW; Luxury",27.5,30.38
+1165,8052464891306,"Salvatore Ferragamo Signorina W 3.4 edp  spr",N/A,3,"PWW; Classic; Perfume Center",27.75,31.55
+1166,8057971183609,"Dolce & Gabbana Q Eau De Parfum for Women | 3.3 oz / 100 ml - Spray - Tester",Dolce & Gabbana,3,"Acme; Classic; Perfume Price",28,29.20
+1167,3614273662598,"Viktor & Rolf Good Fortune Eau De Parfum 30ml",N/A,3,"Cosmo; PWW; Classic",28,32.16
+1168,8011003809257,"TT- Versace Eros M 3.4 edt spr w/box and cap",N/A,3,"Cosmo; Network; Haz",28,28.17
+1169,8011003995493,"VERSACE BRIGHT CRYSTAL (L) TESTER EDT 90 ml W/O CAP",Carolina Herrera,3,"Cosmo; Network; Classic",28,29.67
+1170,3386460095464,"Coach Signature Eau De Parfum for Women | 3.3 oz / 100 ml - Spray",Coach,3,"PWW; Classic; Perfume Price",28,30.20
+1171,608940586310,"PARIS HILTON W EDP/S SET 3.4 4PC",N/A,3,"PWW; United; Classic",28,30.30
+1172,763511100019,"Donna Karan Dkny EDP for Women | 3.4 oz / 100 ml",Donna Karan,3,"PWW; Classic; Perfume Price",28,31.11
+1173,8057971183791,"DOF DOLCE VIOLET EDT 50ML",N/A,3,"PWW; BS; Perfume Center",28,31.64
+1174,3605970416003,"RALPH LAUREN Polo Red EDT for Men | 4.2 oz / 125 ml",RALPH LAUREN,3,"Network; United; Classic",28,29.33
+1175,3614274306552,"AMOR AMOR W EDT/S SET 3.4 2PC",N/A,3,"BS; Perfume Center; Classic",28,30.00
+1176,3386460126588,"Coach Wild Rose Eau De Parfum 50ml",Dolce & Gabbana,3,"Cosmo; Classic; Perfume Price",28.4,29.13
+1177,8057971180479,"The One by Dolce and Gabbana for Women - 1 oz EDP Spray",N/A,3,"Nandansons; BS; Classic",28.5,29.25
+1178,8056860210754,"Ferragamo Uomo Signature Eau De Parfum 100 ml (man)",N/A,3,"PWW; Haz; Perfume Price",28.5,34.50
+1179,6290360598796,"LATTAFA PETRA 3.4 EDP SPR (W)",N/A,3,"Classic; French; Perfume Price",28.5,30.75
+1180,9349830100957,"MESSI 3.4 EDP M  (129730)",N/A,3,"Nandansons; Classic; Perfume Price",29,32.00
+1181,3386460119276,"JIMMY CHOO I Want Choo Wom EDP (40ml)",N/A,3,"Nandansons; Classic; Perfume Price",29,29.50
+1182,8057971187843,"D&G Q  INTENSE (W) EDP SP 1.7oz",N/A,3,"PWW; BS; Perfume Price",29,33.88
+1183,6291109270188,"IMPERIAL GOLD LE MOTIF COLLECTION - Orientica  - EAU DE PARFUM SPRAY 2.9 oz / 87 ml",N/A,3,"PWW; Perfume Center; Perfume Price",29,33.37
+1184,8057971188109,"DG LIGHT BLUE 1.7 EDT M NEW 2025  (129943)",N/A,3,"Aairie; BS; Classic",29.5,30.75
+1185,3386460074827,"Montblanc Legend Spirit Eau de Toilette 100ml",Dolce & Gabbana,3,"Aairie; Network; Perfume Price",29.5,30.83
+1186,7640233340066,"Elie Saab Le Parfum Essentiel Eau de Parfum 90ml",SMN,3,"Cosmo; PWW; Perfume Center",29.5,34.54
+1187,3349666010532,"Paco Rabanne Ultraviolet EDP for Women | 2.7 oz / 80 ml",Paco Rabanne,3,"Acme; Nandansons; Perfume Center",29.75,30.06
+1188,3423222048044,"ISSEY MIYAKE Eau & Cedre Intense EDT (100ml)",N/A,3,"Aairie; PWW; Perfume Price",30,34.42
+1189,8011003825769,"VERSACE Dylan Blue Men EDT TST (100ml)",N/A,3,"Cosmo; Network; Classic",30,31.00
+1190,3386460095495,"Coach Poppy EDP for Women | 3.4 oz / 100 ml - SPR",Coach,3,"Nandansons; PWW; Classic",30,37.00
+1191,6295199801116,"ARMAF CLUB DE NUIT MALEKA (W) EDP 105 ml AE",ARMAF,3,"Nandansons; Classic; Perfume Price",30,31.00
+1192,6291106813678,"AL HARAMAIN BLACK OUD(U)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)(NEW)                                    ",N/A,3,"PWW; United; Perfume Center",30,33.70
+1193,6291106815009,"AL HARAMAIN GREEN DUBAI(U)EXTRAIT DE PARFUM SP 3.33oz(LI FREE)                                       ",N/A,3,"PWW; United; Perfume Center",30,33.08
+1194,8057971180899,"Dolce & Gabbana Light Blue Pour Homme EDT for Men | 4.2 oz / 125 ml - Tester",Dolce & Gabbana,3,"Acme; Network; Haz",30.5,32.08
+1195,3360372012825,"RALPH LAUREN Polo EDT for Men | 4 oz / 118 ml",RALPH LAUREN,3,"Nandansons; Perfume Center; Classic",31,33.08
+1196,6294015165012,"ARMAF [M] PRIVATE KEY TO MY LIFE 3.4 Oz EXTRAIT DE PARFUM SPR [BLUE]",N/A,3,"PWW; Classic; French",31,36.95
+1197,8011003839100,"VERSACE Dylan Blue Wom EDP (50ml)",N/A,3,"Cosmo; Classic; Perfume Center",31.45,34.49
+1198,8052464895564,"Salvatore Ferragamo Bright Leather EDT M 100 ml",N/A,3,"Aairie; PWW; Classic",31.5,34.66
+1199,3423478974654,"ISSEY MIYAKE Fusion D'Issey Men EDT (100ml)",N/A,3,"Aairie; United; Perfume Price",31.5,32.00
+1200,3760060762184,"DUMONT [U] BOROUJ MODERNITY 2.87 Oz EAU DE PARFUM SPR",N/A,3,"Aairie; French; Perfume Center",31.5,34.75
+1201,8057971187423,"D&G LIGHT BLUE(M) 2.5 EDT+1.7 BL HARD BOX",N/A,3,"PWW; BS; Perfume Center",31.5,34.41
+1202,8052464895823,"Salvatore Ferragamo Signorina Misteriosa EDP W 100 ml",N/A,3,"PWW; Perfume Price; Luxury",31.5,36.75
+1203,8057971188215,"D&G LIGHT BLUE 3.3 EDT SPR TESTER (WOMEN)",N/A,3,"Classic; Perfume Price; Luxury",31.5,33.88
+1204,3274872487376,"GIVENCHY GENTLEMAN 3.3 EDT SP ORIGINAL BLACK BOX  ",N/A,3,"Nandansons; PWW; Perfume Center",31.65,35.41
+1205,8018365070264,"Gianni Versace Versace Crystal Noir EDP for Women | 1.7 oz / 50 ml",Gianni Versace,3,"PWW; Classic; Perfume Center",31.75,36.17
+1206,8054754403602,"DOLCE & GABBANA 4 PC Variety SET for Men ",N/A,3,"Nandansons; Classic; Perfume Price",32,34.25
+1207,850049716628,"MICHAEL KORS GORGEOUS SET 3.4oz EDP SP+5ml EDP SP+3.4oz BODY LOTION+3.4oz S.G (L) H.B",N/A,3,"PWW; BS; Perfume Price",32,37.69
+1208,3616305433770,"Calvin Klein Ck One 6.7 EDT Sp + 1.7 EDT Sp  Set Unisex",N/A,3,"BS; Classic; Perfume Price",32,34.50
+1209,3614229829037,"MY BURBERRY BLUSH (L) 1.6 OZ EDP SPRAY",Gucci,3,"BS; Perfume Price; Fragrance Depot",32,40.50
+1210,8052464895649,"Ferragamo Intense Leather by Salvatore Ferragamo for Men - 3.4 oz EDP Spray",Salvatore Ferragamo,3,"Aairie; PWW; Perfume Price",32.5,35.89
+1211,8052464896332,"Salvatore Ferragamo Ferragamo Red Leather 3Pcs ( EDP100ml+ EDP10ml+Shampoo And Shower Gel 100ml) Set",N/A,3,"Classic; French; Haz",32.5,34.88
+1212,3274878122868,"AMARIGE by GIVENCHY 3.3 EDT SPR TESTER (WOMEN)",N/A,3,"Aairie; Cosmo; Classic",32.51,33.38
+1213,8057971182060,"Dolce & Gabbana Dolce Rose Eau De Toilette for Women | 2.5 oz / 75 ml - Spray",Dolce & Gabbana,3,"Aairie; Nandansons; Perfume Price",33,34.50
+1214,3605972454539,"Ralph Lauren Polo Cologne Intense for Men | 4 oz / 118 ml - Spray",RALPH LAUREN,3,"PWW; United; Perfume Price",33,36.38
+1215,3423222080952,"NARCISO RODRIGUEZ ALL OF ME 23 (W) 1.7oz EDP SP",N/A,3,"Aairie; BS; Classic",33.5,35.38
+1216,3423222016234,"DOLCE & GABANNA DOLCE ROSE 2.5 EDT W",N/A,3,"Aairie; Classic; Luxury",33.5,38.38
+1217,3386460123501,"COACH DREAMS SUNSET EDP SP 3.0oz",N/A,3,"Cosmo; Perfume Price; Luxury",34,37.67
+1218,3423478901285,"NARCISO RODRIGUEZ For Her EDP TST (100ml)",N/A,3,"Cosmo; Classic; Perfume Price",34,38.58
+1219,3607341471727,"Calvin Klein Eternity EDT for Men | 6.7 oz / 200 ml",Calvin Klein,3,"PWW; United; Luxury",34,38.19
+1220,3616305805867,"Calvin Klein Ck One 6.7 4PC Set Unisex",Calvin Klein,3,"PWW; BS; Classic",34,36.96
+1221,810101504655,"Ariana Grande Moonlight 3PC Women Set (Window Box)",N/A,3,"United; Classic; Perfume Price",34,35.50
+1222,850050062479,"BHARARA GODDESS WOMEN 3.4 OZ EDP SP",N/A,3,"Aairie; United; Perfume Price",35,37.83
+1223,8054754400724,"Dolce & Gabbana Dolce & Gabbana Light Blue Pour Homme 3 Pc. Gift Set for Men | S/G 1.7 oz + EDT SPR 2.5 oz + EDT SPL 0.15 oz",Dolce & Gabbana,3,"Nandansons; Classic; Luxury",35,41.83
+1224,8052464898879,"SALVATORE FERRAGAMO UOMO SIGNATURE(M)(D/F)3PC SET(3.4oz edp sp,3.4oz Shampoo&Shower Gel,3.4oz A/S)   ",N/A,3,"PWW; Classic; Luxury",35,37.04
+1225,8011003845347,"Gianni Versace Versace Eros Flame Eau De Parfum for Men | 1.7 oz / 50 ml - Spray",Gianni Versace,3,"PWW; BS; Perfume Price",35,36.34
+1226,810101504648,"ARIANA GRANDE [W] SWEET LIKE CANDY 3 PCS SET 3.4 Oz EDP SPR+3.4 Oz B/L+4.0 Oz B.MIST [WINDOW BOX]",N/A,3,"PWW; BS; Classic",35,37.33
+1227,812256029755,"Ariana Grande Thank U Next 3 Pc. Gift Set for Women | Bath & S/G 3.4 oz + EDP SPR 3.4 oz + Body Souffle 3.4 oz",Ariana Grande,3,"PWW; Classic; Perfume Price",35,38.29
+1228,6291100130115,"Al Haramain Amber Oud White Edition Eau De Parfum 100ml",Victoria's Secret,3,"PWW; United; Classic",35,39.35
+1229,8411061723838,"212 VIP by CAROLINA HERRERA 3.4 EDT SPR TESTER (MEN)",N/A,3,"Network; Classic; Perfume Price",35,37.33
+1230,8411061906934,"212 SEXY - Carolina Herrera - EAU DE TOILETTE SPRAY 3.3 oz  Men Tester",N/A,3,"Network; Classic; Perfume Price",35,37.33
+1231,3760327810030,"AL HARAMAIN Amber Oud Exclusif Sport Unisex 2.0oz Extrait De Parfum Spray",N/A,3,"Classic; Perfume Price; Luxury",35,43.50
+1232,8057971183029,"Dolce & Gabbana Dolce Lily Eau De Toilette for Women | 2.5 oz / 75 ml - Spray",Dolce & Gabbana,3,"Aairie; PWW; Classic",35.5,39.40
+1233,3616304966729,"CALVIN KLEIN My Euphoria For Women  set with a 3.4 oz EDP, and  a 0.33 oz EDP Spray (HB) New",N/A,3,"Nandansons; Classic; French",36,37.63
+1234,3386460145213,"MONT BLANC LEGEND SPIRIT (M) SET EDT 100ML + EDT 7.5ML + SG 100ML",MONT BLANC,3,"Nandansons; Classic; Perfume Price",36,37.83
+1235,812256029731,"ARIANA GRANDE SWEET LIKE CANDY EDP SP 3.4+3.4BL+3.4BSG",N/A,3,"United; Classic; Perfume Price",36,36.17
+1236,768614102021,"SHISEIDO ZEN 3.4 EDP SP L",N/A,3,"PWW; United; Haz",36.25,43.18
+1237,3346470301863,"GUERLAIN L'HOMME IDEAL 3.3 EDT M",N/A,3,"Aairie; BS; Perfume Price",36.5,37.83
+1238,85715940032,"DONNA KARAN CASHMERE MIST 1 OZ EAU DE PARFUM SPRAY FOR WOMEN",DONNA KARAN NEW YORK,3,"Nandansons; PWW; Perfume Price",36.5,38.39
+1239,3614226969316,"TIFFANY SHEER EDT 1.7 W",N/A,3,"Nandansons; PWW; Classic",36.5,40.20
+1240,6291106813036,"Al Haramain Amber Oud Ruby Eau De Parfum 100ml",N/A,3,"PWW; United; Luxury",36.5,49.67
+1241,3346130009610,"Terre D' Hermes EDT for Men | 1.6 oz / 50 ml",Hermes,3,"BS; Classic; Perfume Price",36.5,39.50
+1242,850049716635,"MICHAEL KORS WONDERLUST SET 3.4oz EDP -3.4B/L-3.4S/GEL -4ML EDP (L)",N/A,3,"PWW; BS; Perfume Price",37,41.05
+1243,3386460101035,"Montblanc Explorer Eau De Parfum 100ml",N/A,3,"Network; BS; Perfume Price",37,38.33
+1244,3386460144230,"Mont Blanc Legend Blue 3.3 EDP Sp Men",N/A,3,"Classic; Perfume Price; Fragrance Depot",37,54.00
+1245,3614273070270,"Giorgio Armani Emporio Armani EDP for Women | 3.4 oz / 100 ml",Giorgio Armani,3,"Aairie; Acme; Classic",38,39.00
+1246,8011003827343,"Versace Eros Pour Femme Eau de Toilette 100ml",N/A,3,"Cosmo; Nandansons; Network",38,42.42
+1247,6291100130559,"Al Haramain Amber Oud Ruby Edition Eau de Parfum 120ml",American Crew,3,"Nandansons; BS; Luxury",38,55.25
+1248,3274872457270,"KENZO JUNGLE (W) EDP SP 3.4oz",N/A,3,"Nandansons; PWW; BS",38,40.71
+1249,8057971183500,"Dolce & Gabbana Light Blue  Summer Vibes Eau De Toilette for Women | 3.3 oz / 100 ml - Spray",Dolce & Gabbana,3,"PWW; BS; Luxury",38,42.75
+1250,3760327810023,"AL HARAMAIN AMBER OUD EXCLUSIF EMERALD 2.0 EDP U  (119481)",N/A,3,"Classic; Perfume Price; Luxury",38,46.33
+1251,737052339207,"Gucci Guilty EDT for Men | 1.6 oz / 50 ml - SPR",Gucci,3,"BS; Classic; Perfume Price",38.25,38.75
+1252,850050062042,"BHARARA NICHE ( Unisex ) Parfum SP 3.4 OZ",N/A,3,"Aairie; Nandansons; Perfume Price",38.5,40.38
+1253,810101506062,"ARIANA GRANDE THANK YOU NEXT 2.0 3.4 EDP SPR (W) *** NEW ***",N/A,3,"United; Classic; Perfume Price",38.5,40.00
+1254,3614271994721,"Giorgio Armani Si Passione Eau De Parfum 30ml",N/A,3,"Aairie; Nandansons; PWW",38.95,40.31
+1255,850050062066,"BHARARA DOUBLE BLEU POUR HOMME 3.4 EDP SP  ",N/A,3,"Aairie; Perfume Price; Fragrance Depot",39,42.00
+1256,3346470147393,"LA PETITE ROBE NOIRE EDP 100ML",N/A,3,"Aairie; BS; Haz",39,44.50
+1257,3614229461336,"Gucci Bloom Ambrosia Di Fiori Intense Eau De Parfum 50ml",GUCCI,3,"Cosmo; United; French",39,43.91
+1258,3386460083287,"Montblanc Legend Spirit Eau De Toilette 200ml",Dolce & Gabbana,3,"Cosmo; Perfume Price; Fragrance Depot",39.5,42.10
+1259,8057971180424,"D&G Uomo EDT (125ml)",N/A,3,"Cosmo; United; Perfume Price",39.5,41.25
+1260,8057971185481,"Dolce & Gabbana Q 2 Pc. Gift Set for Women | EDP SPR 3.3 oz + EDP SPR 0.33 oz",Dolce & Gabbana,3,"Nandansons; BS; Classic",39.5,40.38
+1261,850050062684,"BB [U] BHARARA ENCHANTED 3.4 Oz EAU DE PARFUM SPR [UNISEX-PURPLE] *** NOT FOR ONLINE",N/A,3,"Aairie; Classic; Perfume Price",40,43.67
+1262,3614273927925,"Mugler Alien Goddess Supra Florale Eau de Parfum 60ml",N/A,3,"Cosmo; Haz; Perfume Price",40,44.08
+1263,8011003893775,"Moschino Toy 2 100ml",N/A,3,"Nandansons; United; Haz",40,42.75
+1264,719346266246,"JUICY VIVA LA JUICY EDP SP 3.4oz+4.2ozB/S+MINI",N/A,3,"Nandansons; Network; Perfume Price",40,40.00
+1265,3614274476002,"ANGEL ALIEN 3PC 1.0 EDP SPR, B/L, S/M (W)",N/A,3,"PWW; Classic; Perfume Price",40.5,45.67
+1266,3274872432918,"Givenchy Ysatis Eau De Toilette for Women | 3.3 oz / 100 ml - Spray - New Packaging",Givenchy,3,"Aairie; Classic; Perfume Price",41,43.00
+1267,8011003889419,"Moschino Toy 2 3PC Women Set",N/A,3,"BS; Classic; Haz",41,43.50
+1268,8057971184590,"Dolce & Gabbana Dolce Garden Eau De Parfum for Women | 2.5 oz / 75 ml - Spray",Dolce & Gabbana,3,"Aairie; Classic; Luxury",41.5,45.50
+1269,8018365071469,"Gianni Versace Versace Crystal Noir EDT for Women | 3 oz / 90 ml",Gianni Versace,3,"Cosmo; United; Classic",41.5,43.92
+1270,8436603331647,"TOUS LOVEME THE EMERALD ELIXIR (W) ELIXIR PARFUM 90ML",N/A,3,"Aairie; Classic; Perfume Price",42,43.00
+1271,3423473021001,"D&G THE ONE (W) EDP SP 2.5oz",N/A,3,"Acme; Nandansons; Luxury",42,47.80
+1272,3346133500022,"HERMES H24 Men EDT (100ml)",N/A,3,"PWW; French; Fragrance Depot",42,45.00
+1273,3616304957666,"HUGO BOSS The Scent Men EDT (100ml+DS 75ml+SG 100ml)",N/A,3,"United; Classic; Perfume Price",42,47.00
+1274,810101504679,"Ariana Grande Thank U Next 2.0 3PC Women Set (Window Box)",N/A,3,"United; Classic; Perfume Price",42,44.17
+1275,3423222108281,"NARCISO RODRIGUEZ ALL OF ME INTENSE 3.4 EDP L  (118597)",N/A,3,"Nandansons; BS; Perfume Price",42.5,43.50
+1276,6294015180367,"ARMAF "CLUB DE NUIT INTENSE" PARFUM SPR 3.6 M (Limited Edition 2024) (Clean)",N/A,3,"United; BS; Perfume Price",42.5,46.67
+1277,3760022730664,"JULIETTE H GUN Moscuw Mule  EDP (100ml)",ARD AL ZAAFRAN,3,"Aairie; Nandansons; Fragrance Depot",43,48.17
+1278,3614270659652,"Viktor & Rolf Spicebomb Extreme Eau de Parfum 50ml",N/A,3,"Acme; Classic; Fragrance Depot",43,44.38
+1279,3605972910240,"POLO 67 4.0OZ EDT MEN",N/A,3,"Classic; Perfume Price; Fragrance Depot",43,47.50
+1280,3614273662581,"VIKTOR & ROLF GOOD FORTUNE 3.0 EDP W",N/A,3,"Cosmo; Haz; Fragrance Depot",43.25,58.25
+1281,3614273638869,"AZZARO MOST WANTED 1.7 PARFUM M",N/A,3,"BS; Classic; Haz",43.5,49.50
+1282,3274872423008,"GIVENCHY Gentleman Intense Men EDT (100ml)",N/A,3,"Aairie; BS; Perfume Price",44,46.50
+1283,8054754407235,"DG LIGHT BLUE LOVE IN CAPRI 3.4 EDP L  (129966)",N/A,3,"Aairie; BS; Luxury",44,48.00
+1284,8057971187911,"Dolce & Gabbana K  Eau De Parfum Intense  for Men | 3.3 oz / 100 ml - Spray - Intense",Dolce & Gabbana,3,"Aairie; BS; Classic",44,45.50
+1285,3760022730466,"JULIETTE H GUN Sunny Side Up INC EDP (100ml)",L.A. Looks,3,"Aairie; Classic; Fragrance Depot",44,48.50
+1286,850051043002,"JO MILANO [W] GAME OF SPADES "QUEEN" 3.4 Oz PARFUM SPR [PINK]",N/A,3,"Aairie; Nandansons; United",44,47.00
+1287,3349668612598,"Paco Rabanne 1 Million EDT for Men | 1.7 oz / 50 ml - SPR",Paco Rabanne,3,"Acme; Nandansons; Classic",44,44.80
+1288,3439600056662,"THIERRY MUGLER ANGEL L 3.4 *EDP* SPRAY TESTER",N/A,3,"Cosmo; Nandansons; Classic",44,46.69
+1289,3423473053958,"NARCISO RODRIGUEZ Narciso Ambree Wom EDP (90ml)",N/A,3,"Nandansons; United; BS",44,48.50
+1290,3386460150187,"Lacoste L.12.12 Blanc EDT 3PC Men Set (Hard Box)",N/A,3,"Nandansons; Classic; Perfume Price",44,45.50
+1291,783320423451,"Bvlgari Man Rain Essence Giftset 115 ml",N/A,3,"Nandansons; BS; French",44,48.20
+1292,3386460115483,"Jimmy Choo Man Blue 6.7 EDT Sp Men",N/A,3,"Network; Classic; Perfume Price",44,44.67
+1293,8054754403282,"Dolce & Gabbana K 3.3 EDP Sp Men (New UPC)",Estee Lauder,3,"Network; BS; Perfume Price",44,46.33
+1294,3616301976097,"GUCCI Guilty Wom EDT TST (90ml)",N/A,3,"Cosmo; Classic; French",44.5,45.69
+1295,3607342221482,"MARC JACOBS Daisy Eau So Fresh Wom EDT TST (125ml)",DIESEL,3,"Nandansons; Classic; Perfume Price",44.5,46.63
+1296,860009248601,"JO MILANO [M] GAME OF SPADES "KING" 3.4 Oz PARFUM SPR [GOLD]",N/A,3,"Aairie; Classic; Perfume Price",45,45.33
+1297,850050062394,"BHARARA PEACE MEN 3.4 OZ EDP SP",N/A,3,"Aairie; United; Perfume Price",45,48.08
+1298,850050062387,"BHARARA PLACID MEN 3.4 OZ EDP SP",N/A,3,"Aairie; United; Perfume Price",45,47.75
+1299,3760260458788,"MONTALE HOLY NEROLI (U) EDP 100 ml FR",N/A,3,"Nandansons; Perfume Price; Fragrance Depot",45,51.67
+1300,3386460126298,"MONCLER POUR FEMME EDP 150ML",N/A,3,"Fragrance Depot; Classic; Perfume Price",45,90.25
+1301,3760265190201,"AOUD LINE - Mancera -  EAU DE PARFUM SPRAY 4.0 oz Women",N/A,3,"French; Perfume Price; Fragrance Depot",45,50.50
+1302,860009248632,"JO MILANO [M] GAME OF SPADES "WIN" 3.4 Oz PARFUM SPR [BLACK-GREEN]",N/A,3,"Aairie; Classic; Perfume Price",45.5,45.83
+1303,8057971181353,"Dolce & Gabbana Light Blue Eau Intense Eau De Parfum for Women | 3.3 oz / 100 ml - Spray",Dolce & Gabbana,3,"Classic; Perfume Price; Luxury",45.5,52.50
+1304,3349668599417,"PACO OLYMPEA SOLAR INTENSE W 2.7 EDP SP  ",N/A,3,"Acme; Cosmo; United",45.75,47.94
+1305,850050062295,"BB [M] BHARARA VIKING DUBAI 3 PCS SET 3.4 Oz EDP SPR+1.0 Oz PARFUM +6.0 Oz B.LOTION [HARD BOX]",N/A,3,"Aairie; United; Perfume Price",46,53.17
+1306,3605520293405,"VIKTOR & ROLF Flowerbomb Wom EDP TST (100ml)",N/A,3,"Haz; Classic; Fragrance Depot",46,50.00
+1307,8054754400748,"Dolce & Gabbana The One 3PC Women Set",N/A,3,"Aairie; BS; Classic",46.5,49.50
+1308,8054754403381,"DOLCE & GABBANA "THE ONE" M 3PCSET 3.4 EDT SPRAY / 1.7 S.GEL / 10ML *DISPLAY BOX*",N/A,3,"Aairie; BS; Luxury",47,54.67
+1309,850049716321,"M KORS Pour Femme EDP (100ml)",N/A,3,"Aairie; Perfume Price; Fragrance Depot",47.5,50.50
+1310,6291109270584,"VELVET GOLD - Orientica  - EAU DE PARFUM SPRAY 2.7 oz / 80 ml",N/A,3,"United; Classic; Perfume Price",47.5,49.33
+1311,8011003823536,"Gianni Versace Versace Eros Pour Femme EDP for Women | 3.4 oz / 100 ml",Gianni Versace,3,"Aairie; Perfume Price; Fragrance Depot",48,50.50
+1312,8057971180356,"Dolce & Gabbana Light Blue Pour Homme EDT for Men | 6.7 oz / 200 ml",Dolce & Gabbana,3,"Nandansons; Haz; Perfume Price",48,48.63
+1313,8435415092760,"JPG "LE MALE ESSENCE" MINITURES [M]",N/A,3,"Nandansons; Classic; Perfume Price",48,48.50
+1314,3760265192007,"MUSKY GARDEN - Mancera - EAU DE PARFUM SPRAY  4.0 oz Women",N/A,3,"Nandansons; French; Fragrance Depot",48,54.75
+1315,8411061723760,"Carolina Herrera 212 Vip Men EDT for Men | 3.4 oz / 100 ml - SPR",Carolina Herrera,3,"United; Perfume Price; Luxury",48,56.42
+1316,8011003861224,"Gianni Versace Versace Eros Eau De Parfum for Men | 3.4 oz / 100 ml - Spray",Gianni Versace,3,"BS; Classic; Perfume Price",48,48.17
+1317,3614274024784,"VAL BORN IN ROMA GREEN 1.7 M",LANCOME,3,"Aairie; Acme; Haz",48.5,50.81
+1318,3386460147347,"GIFT SET COACH BLUE MEN 100 ML EDT SP+100 ML SHGEL+ 15  HARD BOX",N/A,3,"Classic; Perfume Price; Luxury",48.5,54.83
+1319,3614273308229,"Viktor & Rolf Spicebomb Infrared Eau De Toilette 90ml",N/A,3,"Aairie; Nandansons; Fragrance Depot",49,55.75
+1320,8011003899999,"VERSACE DYLAN BLUE 3PC 3.4 SPR, 5.0 S/G, 5ML MINI TRAVEL (M)",N/A,3,"United; BS; Classic",49,50.83
+1321,3349668630332,"rabanne MILLION GOLD Eau de Parfum Intense 50 ml",N/A,3,"Aairie; Acme; Perfume Price",49.5,49.63
+1322,850051043026,"JO MILANO [M] GAME OF SPADES "BOSTON" 3.4 Oz PARFUM SPR [BLACK]",N/A,3,"Aairie; United; Classic",49.5,51.17
+1323,3760265191284,"MANCERA WILD ROSE AOUD 4.0 EDP U  (113898)",N/A,3,"Nandansons; French; Fragrance Depot",49.5,53.40
+1324,3349668614653,"PACO FAME PARFUM SP 1.7oz",N/A,3,"Aairie; BS; Classic",50,57.00
+1325,3614227693920,"BURBBERY HER(L) 1.7OZ EDP",LANCOME,3,"Acme; Classic; Fragrance Depot",50,55.00
+1326,3349668579822,"Paco Rabanne 1 Million Parfum 50ml",N/A,3,"Acme; Haz; Fragrance Depot",50,52.25
+1327,8435137765362,"L'Homme Prada L'Eau Eau De Toilette for Men | 3.3 oz / 100 ml - Spray",Prada,3,"Acme; Classic; Fragrance Depot",50,55.75
+1328,3346130009603,"Terre D' Hermes EDT for Men | 3.3 oz / 100 ml",HERM�S,3,"Cosmo; Nandansons; Classic",50,50.79
+1329,3386460141703,"I WANT CHOO LE PARFUM BY JIMMY CHOO(L) 3.3 OZ EDP SP",N/A,3,"Cosmo; BS; Fragrance Depot",50.25,57.75
+1330,3614223113347,"CHLOE NOMADE EDP 75ML",N/A,3,"Aairie; Nandansons; Classic",50.5,53.00
+1331,3614273638852,"AZZARO The Most Wanted  For Men 3.4 oz Parfum Spray New",N/A,3,"Acme; Haz; Classic",50.5,52.50
+1332,850051043095,"JO MILANO GAME OF SPADES FULL HOUSE 3.4 PARFUM  (118657)",N/A,3,"Aairie; United; Classic",51,52.33
+1333,3614273636568,"ARMANI CODE (M) EDT SP 2.5oz REFILLABLE",N/A,3,"Acme; Classic; Fragrance Depot",51,52.38
+1334,8057971180462,"Intenso by Dolce and Gabbana for Men - 6.7 oz EDP Spray",N/A,3,"BS; Classic; Luxury",51,57.17
+1335,3614229833812,"TIFFANY & CO Tiffany Rose Gold  Wom EDP (75ml)",N/A,3,"BS; Classic; Fragrance Depot",51,63.00
+1336,783320420573,"Bvlgari Omnia Crystalline Edt Spray 50 ml",N/A,3,"Cosmo; Nandansons; Classic",51.15,53.29
+1337,3349668617043,"PACO ONE MILLION ROYAL MEN 1.7 EDP SP  ",VAN CLEEF & ARPELS,3,"Aairie; Haz; Classic",51.5,52.17
+1338,8011003893362,"Versace Pour Femme Dylan Blue 3.3 EDP 4PC Women Set (Hard Box)",Versace,3,"United; Haz; Classic",51.5,55.33
+1339,3274872441057,"GIVENCHY GENTLEMAN BOISEE 3.4 EDP M",N/A,3,"Aairie; Classic; Fragrance Depot",52,57.50
+1340,3360375010972,"Giorgio Armani Armani Code Pour Femme EDP for Women | 2.5 oz / 75 ml",Giorgio Armani,3,"United; Classic; Luxury",52.5,62.67
+1341,3274872448780,"GIVENCHY Gentleman Society Men EDP TST (100ml)",N/A,3,"Aairie; Acme; Classic",53,55.00
+1342,3349668508587,"Paco Rabanne Lady Million EDP for Women | 2.7 oz / 80 ml",Paco Rabanne,3,"Acme; United; Haz",53,55.38
+1343,3607342221208,"Marc Jacobs Daisy Eau So Fresh EDT for Women | 4.25 oz / 125 ml",Marc Jacobs,3,"Nandansons; Classic; Fragrance Depot",53,55.50
+1344,8011003811274,"VERSACE OUD NOIR ( M ) EDP SP 3.4 OZ",N/A,3,"Nandansons; Classic; Fragrance Depot",53,55.75
+1345,3365440002197,"Yves Saint Laurent Paris EDT for Women | 4.2 oz / 125 ml - SPR",Yves Saint Laurent,3,"BS; Haz; Classic",53,56.83
+1346,850051043316,"Jo Milano Game of Spades Opal 3.4 Parfum Sp Unisex",N/A,3,"Aairie; United; Classic",53.5,55.83
+1347,850051043071,"JO MILANO [M] GAME OF SPADES "YELLOW SAPPHIRE" 3.4 Oz PARFUM SPR",N/A,3,"Aairie; United; Classic",54,54.83
+1348,8054754403510,"D&G DEVOTION EDP SP 3.4oz +10ml EDP",N/A,3,"Nandansons; BS; Classic",54,54.88
+1349,3616305181473,"SET MARC JACOBS PERFECT W 3.3 EDP SP + 2.5 BODY LOTION (TRAVEL SET)  ",N/A,3,"Nandansons; Haz; Classic",54,55.88
+1350,3349668515660,"Paco Rabanne Invictus EDT for Men | 3.4 oz / 100 ml",Paco Rabanne,3,"Aairie; Haz; Classic",54.5,54.83
+1351,3274872441033,"GIVENCHY Gentleman 3.4oz Edp Spray New",N/A,3,"Aairie; Classic; Fragrance Depot",55,57.17
+1352,8011003872077,"VERSACE Eros Men Parfum (100ml)",N/A,3,"Nandansons; BS; Fragrance Depot",55,56.67
+1353,8011003893294,"VERSACE YELLOW DIAMOND 3.0 EDT L+3.4BL+3.4SG+SMALL CASE  (113086)",N/A,3,"United; BS; Classic",55,59.50
+1354,3760265192076,"MANCERA Hindu Kush Usx EDP (120ml)",N/A,3,"French; Classic; Fragrance Depot",55,55.88
+1355,8011003899807,"VERSACE BRIGHT CRYSTAL EDT 90 ML+BSG 100 ML+ EDT 5 ML GIFT SET ",N/A,3,"United; BS; Classic",55.5,58.00
+1356,8011003891061,"VERSACE Crystal Noir Wom Parfum (90ml)",N/A,3,"BS; Haz; Fragrance Depot",56.5,59.83
+1357,3432240506610,"CARTIER LA PANTHERE 3.3OZ EDT WOMEN",N/A,3,"Aairie; Nandansons; BS",57,60.75
+1358,3614229820805,"Burberry Hero M 5.0 edt spr",Gucci,3,"Nandansons; Classic; Fragrance Depot",57,64.00
+1359,3614274081183,"FLOWER BOMB TIGER LILY(W)EDP SP 3.4oz(LI FREE)                                                       ",N/A,3,"Haz; Classic; Fragrance Depot",58,70.33
+1360,3386460156011,"JIMMY CHOO I WANT CHOO 3PC 3.3 EDP SPR, 3.3 B/L, 7.5 ML MINI (W)",N/A,3,"Nandansons; Classic; Luxury",58.5,65.13
+1361,8435137759781,"Prada Luna Rossa Carbon Eau De Toilette for Men | 3.3 oz / 100 ml - Spray",Prada,3,"BS; French; Fragrance Depot",58.5,61.00
+1362,3614273067768,"VIKTOR&ROLF SPICEBOMB NIGHT VISION 3.04 EDP M",CK,3,"Acme; Haz; Fragrance Depot",59,61.85
+1363,3349668628681,"PACO RABANNE INVICTUS M 2PCSET 3.4 EDT SPRAY / 20ML EDT SPRAY *PICTURE BOX* ",N/A,3,"Nandansons; BS; Classic",59,59.75
+1364,8435415091268,"JPG LA BELLE PARADISE GARDEN 1.7OZ EDP WOMEN",EL,3,"Acme; Nandansons; Classic",59.5,60.70
+1365,8435137749607,"L'Homme Prada  Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Prada,3,"French; Classic; Fragrance Depot",59.5,65.13
+1366,3346470143227,"GUERLAIN CHAMPS-ELYS�ES EDT 75ML ",N/A,3,"Aairie; BS; Fragrance Depot",59.75,63.25
+1367,3614270561658,"YSL MON PARIS 50ML EDP *",N/A,3,"Nandansons; Haz; Classic",60,62.50
+1368,8435415030885,"JPG Scandal M 3.4 edt spr",Bodycology,3,"United; Haz; Fragrance Depot",61.5,63.83
+1369,3365440787919,"Yves Saint Laurent Black Opium Eau De Parfum for Women | 1.6 oz / 50 ml - Spray",Yves Saint Laurent,3,"Haz; Classic; Fragrance Depot",61.5,65.00
+1370,3349668635115,"PACO RABANNE INVICTUS 3 PCS SET: 3.4 EAU DE TOILETTE SPRAY + 0.34 EAU DE TOILETTE SPRAY + 5.1 DEODORANT SPRAY (METAL)",PACO RABANNE,3,"Nandansons; Haz; Classic",63,64.75
+1371,3605521879721,"Viktor & Rolf Bon Bon EDP for Women | 3.04 oz / 90 ml - SPR",Viktor & Rolf,3,"Haz; Classic; Fragrance Depot",63,67.17
+1372,3616305258533,"CHLOE SIGNATURE 3 PCS SET 3.4 EDP + 3.4 BL + 0.33 EDP ",N/A,3,"Aairie; French; Haz",64,66.88
+1373,3616303048181,"GUCCI FLORA GORGEOUS JASMINE 3.3 EDP W",N/A,3,"Acme; Classic; Fragrance Depot",64,68.88
+1374,8435415098946,"Gaultier Edt 100 Vapo+Body Lotion 75+Mini Vapo 6 Ml",N/A,3,"Nandansons; Haz; Classic",64,66.88
+1375,3360377029699,"RALPH LAUREN Ralph Lauren Blue EDT for Women | 4.2 oz / 125 ml",RALPH LAUREN,3,"Fragrance Depot; Haz; Classic",64,89.63
+1376,3349668630448,"PACO RABANNE FAME INTENSE EDP SP 80 ML REFILLABLE",N/A,3,"Acme; Nandansons; Classic",65,65.70
+1377,3616302779994,"Marc Jacobs Perfect Intense 3.4 OZ EDP SP",N/A,3,"BS; Classic; Fragrance Depot",66,72.00
+1378,3616304175916,"GUCCI "GUILTY ELIXIR" 2.0 OZ EDP SPR [W]",JULIETTE HAS A GUN,3,"Acme; Classic; Fragrance Depot",66.5,72.63
+1379,3614227758162,"Gucci Guilty Pour Femme Eau de Parfum 90ml",N/A,3,"United; Classic; Luxury",66.5,75.17
+1380,8411061056738,"CH BAD BOY DAZZLING GARDEN ( M ) EDT SP 3.4 OZ - Damaged Box",NISHANE,3,"Nandansons; Classic; Luxury",67.5,74.38
+1381,8435415011341,"Jean Paul Gaultier Classique EDT for Women | 3.4 oz / 100 ml - SPR",Jean Paul Gaultier,3,"Aairie; Haz; Classic",68,68.33
+1382,8435415099073,"Jean Paul Gaultier Le Male 3PC Men Travel Set",N/A,3,"Nandansons; Haz; Classic",68.5,73.00
+1383,3614274222999,"YSL CINEMA 2.8 EDP SP.",N/A,3,"French; Classic; Fragrance Depot",68.5,70.88
+1384,3365440332546,"Yves Saint Laurent Elle EDP for Women | 3 oz / 90 ml - SPR",Yves Saint Laurent,3,"French; Classic; Fragrance Depot",68.5,70.13
+1385,8411061057056,"CAROLINA HERRERA BAD BOY EXTREME M 3.4 *EDP* SPRAY ..",N/A,3,"Acme; Classic; Luxury",69,74.88
+1386,783320420672,"Bvlgari Omnia Coral 3.4 EDT Sp Women",N/A,3,"Classic; Luxury; Fragrance Depot",69,84.67
+1387,3614274121377,"YSL Black Opium Giftset 52 ml",N/A,3,"Nandansons; Haz; Classic",69.5,71.63
+1388,3614273953849,"ACQUA DI GIO PROFONDO REFILLABLE M EDP 100ML",N/A,3,"Aairie; BS; Haz",70.5,73.00
+1389,3616305267207,"Gucci Bloom 3PC Gift Set For Women",Gucci,3,"Aairie; Haz; Classic",71.5,72.75
+1390,8411061002865,"CAROLINA HERRERA BAD BOY 5OZ EDP ***",N/A,3,"BS; Haz; Classic",71.5,76.67
+1391,3614274158137,"SPICE BOMB DARK LEATHER 5.0 EDP SPRAY (NEW)",N/A,3,"Nandansons; Classic; Fragrance Depot",72,78.33
+1392,3614270561634,"Yves Saint Laurent Mon Paris EDP for Women | 3 oz / 90 ml - SPR",Yves Saint Laurent,3,"Aairie; Nandansons; Classic",74,79.50
+1393,8011003890811,"VERSACE Eros Energy Pour Homme EDP (200ml)",N/A,3,"BS; Haz; Classic",76,76.83
+1394,783320420610,"Bvlgari Omnia Amethyste Edt Spray 100 ml",N/A,3,"Classic; Luxury; Fragrance Depot",76,85.25
+1395,3348900321861,"Christian Dior Dune EDT for Men | 3.4 oz / 100 ml",Christian Dior,3,"United; Classic; Fragrance Depot",76.5,77.67
+1396,3616304061943,"BURBERRY FOR HER ELIXIR 3.4 EDP SPR (W)",N/A,3,"Acme; Classic; Fragrance Depot",78,82.38
+1397,3349668644933,"PACO RABANNE MILLION GOLD ELIXIR (M) PARFUM INTENSE 100 ml FR",PACO RABANNE,3,"Acme; Fragrance Depot; Haz",78.5,96.80
+1398,8435415091251,"GAULTIER LA BELLE PARADISE GARDEN EDP SP 100 ML",EL,3,"Acme; BS; Haz",79,81.13
+1399,3614273672412,"Valentino Uomo Born In Roma Coral Fantasy Eau De Toilette for Men | 3.4 oz / 100 ml - Spray",Valentino,3,"Aairie; Classic; Fragrance Depot",79.5,80.83
+1400,3614274076202,"YSL OPIUM BLACK OVER RED EDP SP 90 ML",SERGE LUTENS,3,"Nandansons; BS; Fragrance Depot",81,86.25
+1401,3614273852814,"YSL MYSELF ( M ) EDP SP 3.4 OZ",N/A,3,"Nandansons; Classic; Fragrance Depot",84,89.67
+1402,8435415091275,"JPG LE BEAU PARA GARDEN 4.2 M (ONLY WITH PURCHASE OF RM)",Estee Lauder,3,"Nandansons; Haz; Classic",84.5,88.25
+1403,3614273760164,"Prada Paradoxe   Eau De Parfum for Women | 3 oz / 90 ml (Refillable) - Spray - Refillable",Prada,3,"Aairie; Nandansons; Fragrance Depot",87,91.00
+1404,3349668630356,"PACO RABANNE MILLION GOLD INTENSE 6.8OZ EDP MEN",N/A,3,"Aairie; Nandansons; Haz",88,97.63
+1405,3348900425309,"Christian Dior Hypnotic Poison EDT for Women | 3.4 oz / 100 ml",Dior,3,"BS; Classic; Fragrance Depot",88,90.00
+1406,3348900103870,"Christian Dior Dune EDT for Women | 3.4 oz / 100 ml",Christian Dior,3,"BS; Classic; Fragrance Depot",88,89.33
+1407,3616304175893,"GUCCI GUILTY ELIXIR 2.0 EDP SPR (M)",JULIETTE HAS A GUN,3,"Aairie; Acme; Fragrance Depot",89,94.50
+1408,8411061083789,"CAROLINA HERRERA BAD BOY COBALT ELIXIR 5.0OZ EDP MEN",NISHANE,3,"Aairie; Haz; Fragrance Depot",90,95.83
+1409,8411061106228,"VERY GOOD ELIXIR EDP 80 ML ",N/A,3,"Nandansons; United; Haz",90.5,101.25
+1410,3348900838185,"Christian Dior Dior Homme Intense EDP for Men | 3.4 oz / 100 ml",Dior,3,"Acme; Classic; Fragrance Depot",92,98.75
+1411,888066000079,"Tom Ford Black Orchid EDP Unisex | 3.4 oz / 100 ml - SPR",Tom Ford,3,"Nandansons; Haz; Fragrance Depot",92.5,98.63
+1412,3348900606715,"Christian Dior Pure Poison EDP for Women | 3.3 oz / 100 ml - SPR",Christian Dior,3,"Fragrance Depot; French; Classic",93.5,103.00
+1413,3348901250146,"Christian Dior Sauvage EDT for Men | 3.4 oz / 100 ml - SPR",Christian Dior,3,"Aairie; Acme; Fragrance Depot",95,97.50
+1414,3349668600298,"PACO RABANNE "ONE MILLION ELIXIR"  6.7 OZ EDP SPR [M]",N/A,3,"BS; Haz; Fragrance Depot",96,99.00
+1415,3700458603040,"MEMO PARIS ITALIAN LEATHER 2.5 EDP SPR (UNISEX)",LIQUIDES IMAGINAIRES,3,"Aairie; Fragrance Depot; Classic",98,107.88
+1416,8435415102346,"JEAN PAUL G LE MALE LE PARFUM INT 4.2 EDP M  (123213)",N/A,3,"Aairie; Haz; Classic",98.5,101.17
+1417,888874000476,"BOND NO. 9 PARK AVENUE 3.3 EAU DE PARFUM SPRAY",TIZIANA TERENZI,3,"Nandansons; Fragrance Depot; Haz",103,119.00
+1418,3348900147324,"Christian Dior Fahrenheit EDT for Men | 6.8 oz / 200 ml - SPR",Christian Dior,3,"BS; Classic; Luxury",105.5,123.50
+1419,888066152051,"Tom Ford Eau d'Ombré Leather Eau De Toilette 100 ml (man)",N/A,3,"Nandansons; BS; Classic",107,108.25
+1420,3348901368247,"C DIOR Sauvage Men EDP (100ml)",N/A,3,"Acme; Luxury; Fragrance Depot",110,117.50
+1421,3701415902572,"Initio Oud For Greatness Eau de Parfum 50ml",N/A,3,"Nandansons; Fragrance Depot; Classic",113.5,137.13
+1422,3348901321129,"DIOR SAUVAGE EDT 200ML",N/A,3,"Acme; United; Classic",120,122.75
+1423,8054320900702,"XERJOFF TONY IOMMI MONKEY SPECIAL (U) PARFUM 50ML",N/A,3,"Acme; Fragrance Depot; BS",122,139.75
+1424,888874002777,"THE SCENT OF PEACE M EDP 50ML",COACH,3,"Fragrance Depot; Haz; Classic",124,136.33
+1425,3700578502377,"GODOLPHIN - Marly - EAU DE PARFUM SPRAY 4.2 oz Men",MAISON CRIVELLI,3,"Nandansons; Haz; Classic",125.5,150.38
+1426,888874008076,"BOND #9 NEW YORK FOREVER 3.3 EDP SPR (W)",JEANNE ARTHES,3,"Nandansons; Haz; Classic",130,133.88
+1427,3508445604618,"CREED Love in White Wom EDP TST (75ml)",N/A,3,"Aairie; Fragrance Depot; Haz",132,135.67
+1428,3508440561022,"CREED Green Irish Tweed Men EDP TST (100ml)",N/A,3,"Aairie; Haz; Classic",135,141.83
+1429,888874007888,"BOND NO 9 THE SCENT OF PEACE NATURAL HER EDP 100ML",BATH & BODY WORKS,3,"Acme; Fragrance Depot; Haz",136.5,145.13
+1430,3508440561053,"CREED Silver Mountain Water Men EDP TST (100ml)",N/A,3,"Aairie; Fragrance Depot; Haz",138,149.33
+1431,888874007703,"BOND #9 LAFAYETTE STREET 1.7 EDP SPR (W)",KHADLAJ,3,"Fragrance Depot; Haz; Classic",139,141.50
+1432,8033488155070,"XERJOFF XJ 1861 NAXOS (U) EDP 100ML",N/A,3,"Aairie; Fragrance Depot; BS",139.5,146.50
+1433,3348901428545,"DIOR SAUVAGE EDP 200ML",N/A,3,"Acme; Fragrance Depot; Classic",140,146.00
+1434,3701415900844,"INITIO OUD FOR HAPPINESS 3.0 U",N/A,3,"Acme; Fragrance Depot; Classic",151,171.50
+1435,888874008441,"BOND NO.9 NEW YORK BEEKMAN PLACE (U) EDP 100ML",BOND NO.9,3,"Nandansons; Fragrance Depot; Haz",156.5,162.88
+1436,3508441001381,"CREED Viking Cologne Men EDP (100ml)",N/A,3,"Fragrance Depot; Haz; Classic",157,180.33
+1437,3700578502919,"PARFUMS DE MARLY Perseus Wom EDP (125ml)",N/A,3,"Acme; Fragrance Depot; Haz",162.5,168.63
+1438,3508441001060,"Creed Royal Water Millesime for Men | 3.3 oz / 100 ml - SPR",Creed,3,"Aairie; Classic; Fragrance Depot",168.75,179.38
+1439,3508441001084,"Creed Himalaya Millesime for Men | 3.3 oz / 100 ml - SPR",Creed,3,"Aairie; Fragrance Depot; French",170,181.25
+1440,3508441001077,"CREED Tabarome Men EDP (100ml)",N/A,3,"Classic; Nandansons; Fragrance Depot",170.5,180.20
+1441,3508441001091,"CREED Original Vetiver Men EDP (100ml)",N/A,3,"Aairie; Classic; Fragrance Depot",172.5,180.00
+1442,3700559606735,"MAISON FK BACCARAT ROUGE 540 EXTRAIT 3x11ML EDP U  (122360)",ALEX SIMONE,3,"Classic; Nandansons; Fragrance Depot",175,183.80
+1443,888066024099,"TOM FORD OUD WOOD 3.4 EDP U",N/A,3,"Classic; Nandansons; Fragrance Depot",179.5,194.83
+1444,3508441104662,"Creed Aventus For Her Millesime for Women | 2.5 oz / 75 ml - SPR",Creed,3,"Aairie; Acme; Fragrance Depot",184,187.00
+1445,3508441001022,"Creed Green Irish Tweed Millesime for Men | 3.3 oz / 100 ml - SPR",Creed,3,"Aairie; Nandansons; Fragrance Depot",185,187.50
+1446,3508441001107,"Creed Original Santal Millesime Unisex | 3.3 oz / 100 ml - SPR",Creed,3,"Aairie; Fragrance Depot; Nandansons",185,186.67
+1447,3700578504364,"PARFUMS DE MARLY Althair Men EDP (125ml)",N/A,3,"Classic; Fragrance Depot; Haz",209.5,210.75
+1448,3700559603116,"Maison Francis Kurkjian Baccarat Rouge 540 Eau De Parfum Unisex | 2.4 oz / 70 ml - Spray",Maison Francis Kurkjian,3,"Aairie; Nandansons; Fragrance Depot",280,301.00

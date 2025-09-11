@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Export</title>
+</head>
+<body>
+    <h1>Test Export Download</h1>
+    <button id="testExport">Test Export</button>
+    
+    <script>
+    document.getElementById('testExport').addEventListener('click', async () => {
+        try {
+            console.log('Starting export test...');
+            
+            const response = await fetch('http://localhost:3000/api/watchlist/export', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    data: [
+                        { upc: '123', item_name: 'Test Item', lowest_price: 10 }
+                    ],
+                    columns: ['upc', 'item_name', 'lowest_price']
+                })
+            });
+            
+            console.log('Response status:', response.status);
+            console.log('Response headers:', response.headers);
+            
+            if (response.ok) {
+                const blob = await response.blob();
+                console.log('Blob size:', blob.size);
+                console.log('Blob type:', blob.type);
+                
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'test-export.xlsx';
+                a.style.display = 'none';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+                
+                console.log('Download should have triggered');
+            } else {
+                console.error('Export failed:', response.status);
+            }
+        } catch (error) {
+            console.error('Export error:', error);
+        }
+    });
+    </script>
+</body>
+</html>
