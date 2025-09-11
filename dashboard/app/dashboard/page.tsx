@@ -168,7 +168,11 @@ export default function Dashboard() {
       const result = await response.json();
       
       if (response.ok) {
-        setVendorBreakdowns(prev => new Map([...prev, [upc, result]]));
+        setVendorBreakdowns(prev => {
+          const newMap = new Map(prev);
+          newMap.set(upc, result);
+          return newMap;
+        });
       } else {
         console.error('Error fetching vendor breakdown:', result.error);
       }
