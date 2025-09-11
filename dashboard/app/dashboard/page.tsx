@@ -157,7 +157,11 @@ export default function Dashboard() {
       return; // Already loaded
     }
 
-    setLoadingVendors(prev => new Set([...prev, upc]));
+    setLoadingVendors(prev => {
+      const newSet = new Set(prev);
+      newSet.add(upc);
+      return newSet;
+    });
     
     try {
       const response = await fetch(`/api/watchlist/item-vendors?upc=${encodeURIComponent(upc)}`);
