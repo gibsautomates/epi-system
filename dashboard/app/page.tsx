@@ -8,6 +8,15 @@ export default function HomePage() {
 
   const reports = [
     {
+      title: 'New Items Watchlist',
+      description: 'Track vendor offers for items not in inventory. Monitor price trends and vendor changes.',
+      icon: Package,
+      route: 'http://localhost:3001',
+      color: 'bg-blue-500',
+      stats: 'Standalone App',
+      external: true
+    },
+    {
       title: 'Order Summary',
       description: 'View daily orders, track fulfillment status, and analyze order patterns.',
       icon: ShoppingCart,
@@ -115,7 +124,13 @@ export default function HomePage() {
             return (
               <div
                 key={report.route}
-                onClick={() => router.push(report.route)}
+                onClick={() => {
+                  if (report.external) {
+                    window.open(report.route, '_blank');
+                  } else {
+                    router.push(report.route);
+                  }
+                }}
                 className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow cursor-pointer overflow-hidden group"
               >
                 <div className={`h-2 ${report.color}`} />
