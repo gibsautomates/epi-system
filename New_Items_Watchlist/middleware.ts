@@ -6,6 +6,11 @@ const USERNAME = process.env.BASIC_AUTH_USERNAME || 'admin';
 const PASSWORD = process.env.BASIC_AUTH_PASSWORD || 'password';
 
 export function middleware(request: NextRequest) {
+  // Skip auth for local development
+  if (process.env.NODE_ENV === 'development') {
+    return NextResponse.next();
+  }
+  
   // Skip auth for API routes and static files
   if (
     request.nextUrl.pathname.startsWith('/api') ||
