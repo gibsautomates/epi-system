@@ -90,6 +90,8 @@ export default function Dashboard() {
   const [data, setData] = useState<ItemData[]>([]);
   const [metrics, setMetrics] = useState<DashboardMetrics | null>(null);
   const [loading, setLoading] = useState(true);
+  const [loadingMessage, setLoadingMessage] = useState('Initializing...');
+  const [loadingProgress, setLoadingProgress] = useState(10);
   const [refreshing, setRefreshing] = useState(false);
   
   // Filters
@@ -130,8 +132,28 @@ export default function Dashboard() {
       setRefreshing(true);
     } else {
       setLoading(true);
+      setLoadingMessage('Connecting to database...');
+      setLoadingProgress(20);
     }
     try {
+      // Update loading message
+      if (!isRefresh) {
+        setTimeout(() => {
+          setLoadingMessage('Fetching vendor offers...');
+          setLoadingProgress(40);
+        }, 500);
+        
+        setTimeout(() => {
+          setLoadingMessage('Processing inventory data...');
+          setLoadingProgress(60);
+        }, 1500);
+        
+        setTimeout(() => {
+          setLoadingMessage('Calculating metrics...');
+          setLoadingProgress(80);
+        }, 2500);
+      }
+      
       // Add timestamp to prevent caching
       const response = await fetch(`/api/watchlist/dashboard-view?t=${Date.now()}`, {
         cache: 'no-store'
@@ -147,12 +169,22 @@ export default function Dashboard() {
       }
       
       const result = await response.json();
+      
+      if (!isRefresh) {
+        setLoadingMessage('Finalizing dashboard...');
+        setLoadingProgress(95);
+      }
+      
       console.log('Dashboard data received:', {
         totalItems: result.items?.length,
         metrics: result.metrics
       });
       setData(result.items || []);
       setMetrics(result.metrics);
+      
+      if (!isRefresh) {
+        setLoadingProgress(100);
+      }
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
       alert(`Failed to load dashboard data: ${error instanceof Error ? error.message : 'Unknown error'}`);
@@ -243,15 +275,15 @@ export default function Dashboard() {
   // Calculate filtered metrics
   const filteredMetrics = useMemo(() => {
     const filtered = data.filter(item => {
-      // Search filter
+      // Search filter - with null safety
       if (searchQuery) {
         const query = searchQuery.toLowerCase();
-        if (
-          !item.upc.toLowerCase().includes(query) &&
-          !item.item_name.toLowerCase().includes(query) &&
-          !item.brand?.toLowerCase().includes(query) &&
-          !item.sku?.toLowerCase().includes(query)
-        ) {
+        const upcMatch = item.upc?.toLowerCase().includes(query) || false;
+        const nameMatch = item.item_name?.toLowerCase().includes(query) || false;
+        const brandMatch = item.brand?.toLowerCase().includes(query) || false;
+        const skuMatch = item.sku?.toLowerCase().includes(query) || false;
+        
+        if (!upcMatch && !nameMatch && !brandMatch && !skuMatch) {
           return false;
         }
       }
@@ -585,8 +617,29 @@ export default function Dashboard() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-screen">
-        <div className="text-xl">Loading dashboard...</div>
+      <div className="flex items-center justify-center h-screen bg-gray-50">
+        <div className="text-center space-y-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full">
+            <RefreshCw className="w-8 h-8 text-blue-600 animate-spin" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-semibold text-gray-900">Loading Dashboard</h2>
+            <p className="mt-2 text-gray-600">{loadingMessage}</p>
+          </div>
+          <div className="w-64 mx-auto">
+            <div className="bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div 
+                className="bg-blue-600 h-full rounded-full transition-all duration-500 ease-out" 
+                style={{ width: `${loadingProgress}%` }}
+              ></div>
+            </div>
+            <div className="mt-2 flex justify-between text-xs text-gray-500">
+              <span>{loadingProgress}%</span>
+              <span>Please wait...</span>
+            </div>
+            <p className="mt-3 text-sm text-gray-500">This may take 30-60 seconds for large datasets</p>
+          </div>
+        </div>
       </div>
     );
   }
