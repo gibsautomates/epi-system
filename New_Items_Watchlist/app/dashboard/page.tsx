@@ -112,7 +112,7 @@ export default function Dashboard() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 50;
 
-  // Vendor breakdown
+  // Vendor breakdown - initialize with empty collections
   const [expandedRows, setExpandedRows] = useState<Set<string>>(new Set());
   const [vendorBreakdowns, setVendorBreakdowns] = useState<Map<string, VendorBreakdown>>(new Map());
   const [loadingVendors, setLoadingVendors] = useState<Set<string>>(new Set());
@@ -164,7 +164,8 @@ export default function Dashboard() {
 
   // Fetch vendor breakdown for specific item
   const fetchVendorBreakdown = async (upc: string) => {
-    if (vendorBreakdowns.has(upc)) {
+    // Check if already loaded with null safety
+    if (vendorBreakdowns?.has?.(upc)) {
       return; // Already loaded
     }
 
@@ -175,7 +176,10 @@ export default function Dashboard() {
       const result = await response.json();
       
       if (response.ok) {
-        setVendorBreakdowns(prev => new Map(Array.from(prev.entries()).concat([[upc, result]])));
+        setVendorBreakdowns(prev => {
+          const entries = prev ? Array.from(prev.entries()) : [];
+          return new Map(entries.concat([[upc, result]]));
+        });
       } else {
         console.error('Error fetching vendor breakdown:', result.error);
       }
@@ -211,7 +215,7 @@ export default function Dashboard() {
     paginatedData.forEach(item => {
       allUPCs.add(item.upc);
       // Fetch vendor breakdown for items that haven't been fetched yet
-      if (!vendorBreakdowns.has(item.upc)) {
+      if (!vendorBreakdowns?.has?.(item.upc)) {
         fetchVendorBreakdown(item.upc);
       }
     });
@@ -467,8 +471,8 @@ export default function Dashboard() {
 
   // Vendor breakdown component
   const VendorBreakdown = ({ upc }: { upc: string }) => {
-    const breakdown = vendorBreakdowns.get(upc);
-    const isLoading = loadingVendors.has(upc);
+    const breakdown = vendorBreakdowns?.get?.(upc);
+    const isLoading = loadingVendors?.has?.(upc) || false;
 
     if (isLoading) {
       return (
@@ -807,11 +811,11 @@ export default function Dashboard() {
             <h2 className="text-lg font-semibold">Items</h2>
             <div className="flex space-x-2">
               <button
-                onClick={expandedRows?.size > 0 ? collapseAllRows : expandAllRows}
+                onClick={(expandedRows?.size || 0) > 0 ? collapseAllRows : expandAllRows}
                 className="px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center"
-                title={expandedRows?.size > 0 ? "Collapse All" : "Expand All"}
+                title={(expandedRows?.size || 0) > 0 ? "Collapse All" : "Expand All"}
               >
-                {expandedRows?.size > 0 ? (
+                {(expandedRows?.size || 0) > 0 ? (
                   <>
                     <Minimize2 className="w-4 h-4 mr-2" />
                     Collapse All
@@ -963,7 +967,7 @@ export default function Dashboard() {
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 {paginatedData.map((item, index) => {
-                  const isExpanded = expandedRows.has(item.upc);
+                  const isExpanded = expandedRows?.has?.(item.upc) || false;
                   return (
                     <>
                       <tr key={`${item.upc}-${index}`} className="hover:bg-gray-50">
