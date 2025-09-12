@@ -132,26 +132,59 @@ export default function Dashboard() {
       setRefreshing(true);
     } else {
       setLoading(true);
-      setLoadingMessage('Connecting to database...');
-      setLoadingProgress(20);
+      setLoadingMessage('Initializing connection...');
+      setLoadingProgress(10);
     }
     try {
-      // Update loading message
+      // Update loading messages with more accurate timing
       if (!isRefresh) {
+        // Quick initial stages (0-3 seconds)
         setTimeout(() => {
-          setLoadingMessage('Fetching vendor offers...');
-          setLoadingProgress(40);
+          setLoadingMessage('Connecting to database...');
+          setLoadingProgress(20);
+        }, 100);
+        
+        setTimeout(() => {
+          setLoadingMessage('Authenticating...');
+          setLoadingProgress(30);
         }, 500);
         
         setTimeout(() => {
-          setLoadingMessage('Processing inventory data...');
-          setLoadingProgress(60);
-        }, 1500);
+          setLoadingMessage('Fetching vendor offers...');
+          setLoadingProgress(40);
+        }, 1000);
         
         setTimeout(() => {
-          setLoadingMessage('Calculating metrics...');
-          setLoadingProgress(80);
-        }, 2500);
+          setLoadingMessage('Loading inventory data...');
+          setLoadingProgress(50);
+        }, 1500);
+        
+        // Main loading phase - this is where it takes time
+        setTimeout(() => {
+          setLoadingMessage('Processing 40,000+ items... This may take a few minutes');
+          setLoadingProgress(60);
+        }, 2000);
+        
+        // Slow incremental progress during long fetch (simulate progress)
+        let currentProgress = 60;
+        const progressInterval = setInterval(() => {
+          if (currentProgress < 90) {
+            currentProgress += 0.5; // Slow increment
+            setLoadingProgress(Math.min(currentProgress, 90));
+            
+            // Update message periodically
+            if (currentProgress === 70) {
+              setLoadingMessage('Still processing... Analyzing vendor data');
+            } else if (currentProgress === 80) {
+              setLoadingMessage('Almost there... Calculating metrics');
+            } else if (currentProgress === 85) {
+              setLoadingMessage('Finalizing dashboard data...');
+            }
+          }
+        }, 2000); // Update every 2 seconds
+        
+        // Store interval ID to clear it later
+        (window as any).__loadingInterval = progressInterval;
       }
       
       // Add timestamp to prevent caching
@@ -171,7 +204,13 @@ export default function Dashboard() {
       const result = await response.json();
       
       if (!isRefresh) {
-        setLoadingMessage('Finalizing dashboard...');
+        // Clear the progress interval
+        if ((window as any).__loadingInterval) {
+          clearInterval((window as any).__loadingInterval);
+          delete (window as any).__loadingInterval;
+        }
+        
+        setLoadingMessage('Rendering dashboard...');
         setLoadingProgress(95);
       }
       
@@ -184,13 +223,26 @@ export default function Dashboard() {
       
       if (!isRefresh) {
         setLoadingProgress(100);
+        setTimeout(() => {
+          setLoadingMessage('Complete!');
+        }, 100);
       }
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
+      // Clear interval on error
+      if ((window as any).__loadingInterval) {
+        clearInterval((window as any).__loadingInterval);
+        delete (window as any).__loadingInterval;
+      }
       alert(`Failed to load dashboard data: ${error instanceof Error ? error.message : 'Unknown error'}`);
     } finally {
       setLoading(false);
       setRefreshing(false);
+      // Ensure interval is cleared
+      if ((window as any).__loadingInterval) {
+        clearInterval((window as any).__loadingInterval);
+        delete (window as any).__loadingInterval;
+      }
     }
   };
 
@@ -627,17 +679,33 @@ export default function Dashboard() {
             <p className="mt-2 text-gray-600">{loadingMessage}</p>
           </div>
           <div className="w-64 mx-auto">
-            <div className="bg-gray-200 rounded-full h-3 overflow-hidden">
+            <div className="bg-gray-200 rounded-full h-3 overflow-hidden relative">
               <div 
-                className="bg-blue-600 h-full rounded-full transition-all duration-500 ease-out" 
+                className={`bg-blue-600 h-full rounded-full transition-all duration-500 ease-out ${
+                  loadingProgress >= 60 && loadingProgress < 90 ? 'animate-pulse' : ''
+                }`}
                 style={{ width: `${loadingProgress}%` }}
-              ></div>
+              >
+                {/* Add shimmer effect when loading */}
+                {loadingProgress >= 60 && loadingProgress < 90 && (
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer"></div>
+                )}
+              </div>
             </div>
             <div className="mt-2 flex justify-between text-xs text-gray-500">
-              <span>{loadingProgress}%</span>
-              <span>Please wait...</span>
+              <span className={loadingProgress >= 60 && loadingProgress < 90 ? 'animate-pulse' : ''}>
+                {Math.floor(loadingProgress)}%
+              </span>
+              <span className="animate-pulse">Processing...</span>
             </div>
-            <p className="mt-3 text-sm text-gray-500">This may take 30-60 seconds for large datasets</p>
+            <p className="mt-3 text-sm text-gray-500">
+              {loadingProgress < 50 
+                ? 'Initializing...'
+                : loadingProgress < 90
+                ? 'Processing 40,000+ items (this takes 2-3 minutes)'
+                : 'Almost complete...'
+              }
+            </p>
           </div>
         </div>
       </div>
