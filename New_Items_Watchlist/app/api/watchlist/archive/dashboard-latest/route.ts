@@ -72,7 +72,7 @@ export async function GET() {
     let allOffers: any[] = [];
     
     // Process each vendor's latest file
-    for (const [vendor, latestDate] of vendorLatestDates) {
+    for (const [vendor, latestDate] of Array.from(vendorLatestDates.entries())) {
       console.log(`  Fetching ${vendor} data from ${latestDate}...`);
       
       let vendorOffers: any[] = [];
@@ -243,8 +243,8 @@ export async function GET() {
 
       // Determine status
       const dateArray = Array.from(item.dates).sort();
-      const firstSeen = dateArray[0];
-      const lastSeen = dateArray[dateArray.length - 1]; // This will be the actual last seen
+      const firstSeen = dateArray[0] as string;
+      const lastSeen = dateArray[dateArray.length - 1] as string; // This will be the actual last seen
       
       const daysSinceFirst = Math.floor(
         (new Date().getTime() - new Date(firstSeen).getTime()) / (1000 * 60 * 60 * 24)

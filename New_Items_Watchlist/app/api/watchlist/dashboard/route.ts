@@ -190,8 +190,8 @@ export async function GET() {
 
       // Determine status
       const dateArray = Array.from(item.dates).sort();
-      const firstSeen = dateArray[0];
-      const lastSeen = dateArray[dateArray.length - 1];
+      const firstSeen = dateArray[0] as string;
+      const lastSeen = dateArray[dateArray.length - 1] as string;
       
       const daysSinceFirst = Math.floor(
         (new Date().getTime() - new Date(firstSeen).getTime()) / (1000 * 60 * 60 * 24)

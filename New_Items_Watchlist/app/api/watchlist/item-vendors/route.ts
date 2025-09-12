@@ -17,22 +17,22 @@ export async function GET(request: Request) {
 
     console.log(`Fetching vendor breakdown for UPC: ${upc}`);
 
-    // Get all vendor offers for this UPC in the last 21 days
+    // Use vendor_offers_latest_new - the same source as the dashboard
+    // This view already filters to only show latest file per vendor within 21 days
     const { data: vendorOffers, error } = await supabase
-      .from('vendor_offers')
+      .from('vendor_offers_latest_new')
       .select(`
         vendor,
         price,
         qty,
-        location,
+        vendor_location,
         date,
         sku,
         msrp
       `)
       .eq('upc', upc)
-      .gte('date', new Date(Date.now() - 21 * 24 * 60 * 60 * 1000).toISOString().split('T')[0])
-      .not('price', 'is', null)
-      .order('date', { ascending: false });
+      .order('vendor', { ascending: true })
+      .order('price', { ascending: true });
 
     if (error) {
       console.error('Error fetching vendor offers:', error);
@@ -48,26 +48,57 @@ export async function GET(request: Request) {
           international_vendors: 0,
           lowest_price: null,
           highest_price: null,
-          total_qty: 0
-        }
+          total_qty: 0,
+          domestic_qty: 0,
+          price_range: 0
+        },
+        upc
       });
     }
 
-    // Get latest offer from each vendor (vendor_offers are already ordered by date desc)
-    const latestOffers = new Map();
+    // Deduplicate vendors - keep only ONE offer per vendor (prioritize lowest valid price)
+    const vendorMap = new Map();
     vendorOffers.forEach(offer => {
-      if (!latestOffers.has(offer.vendor)) {
-        latestOffers.set(offer.vendor, offer);
+      const existing = vendorMap.get(offer.vendor);
+      
+      if (!existing) {
+        // First occurrence of this vendor - always add it
+        vendorMap.set(offer.vendor, {
+          vendor: offer.vendor,
+          price: offer.price,
+          qty: offer.qty,
+          location: offer.vendor_location || 'Unknown',
+          date: offer.date,
+          sku: offer.sku,
+          msrp: offer.msrp
+        });
+      } else {
+        // Vendor already exists - update only if this offer has a better (lower) valid price
+        const hasValidPrice = offer.price && offer.price > 0;
+        const existingHasValidPrice = existing.price && existing.price > 0;
+        
+        if (hasValidPrice && (!existingHasValidPrice || offer.price < existing.price)) {
+          // This offer has a valid price that's better than existing
+          vendorMap.set(offer.vendor, {
+            vendor: offer.vendor,
+            price: offer.price,
+            qty: offer.qty,
+            location: offer.vendor_location || 'Unknown',
+            date: offer.date,
+            sku: offer.sku,
+            msrp: offer.msrp
+          });
+        }
       }
     });
 
-    const vendors = Array.from(latestOffers.values());
+    const vendors = Array.from(vendorMap.values());
 
     // Calculate summary statistics
     const domesticVendors = vendors.filter(v => v.location === 'Domestic');
     const internationalVendors = vendors.filter(v => v.location === 'International');
     
-    const prices = vendors.map(v => v.price).filter(p => p !== null);
+    const prices = vendors.map(v => v.price).filter(p => p !== null && p > 0);
     const quantities = vendors.map(v => v.qty || 0);
 
     const summary = {

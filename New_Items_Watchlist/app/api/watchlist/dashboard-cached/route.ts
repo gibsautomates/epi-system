@@ -48,8 +48,8 @@ export async function GET(request: NextRequest) {
     if (!summaryError && summary) {
       // If RPC function exists, use it (you'd need to create this in Supabase)
       const result = {
-        items: summary.items,
-        metrics: summary.metrics
+        items: (summary as any).items,
+        metrics: (summary as any).metrics
       };
       
       cache = result;

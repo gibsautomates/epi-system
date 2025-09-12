@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Search, Download, Settings, TrendingUp, TrendingDown, Minus, Filter, X, ChevronDown, RefreshCw, Database, Package, CheckCircle, ChevronRight, ChevronUp } from 'lucide-react';
+import { Search, Download, Settings, TrendingUp, TrendingDown, Minus, Filter, X, ChevronDown, RefreshCw, Database, Package, CheckCircle, ChevronRight, ChevronUp, Maximize2, Minimize2 } from 'lucide-react';
 
 interface ItemData {
   upc: string;
@@ -157,14 +157,14 @@ export default function Dashboard() {
       return; // Already loaded
     }
 
-    setLoadingVendors(prev => new Set([...prev, upc]));
+    setLoadingVendors(prev => new Set(Array.from(prev).concat([upc])));
     
     try {
       const response = await fetch(`/api/watchlist/item-vendors?upc=${encodeURIComponent(upc)}`);
       const result = await response.json();
       
       if (response.ok) {
-        setVendorBreakdowns(prev => new Map([...prev, [upc, result]]));
+        setVendorBreakdowns(prev => new Map(Array.from(prev.entries()).concat([[upc, result]])));
       } else {
         console.error('Error fetching vendor breakdown:', result.error);
       }
@@ -172,7 +172,7 @@ export default function Dashboard() {
       console.error('Error fetching vendor breakdown:', error);
     } finally {
       setLoadingVendors(prev => {
-        const newSet = new Set(prev);
+        const newSet = new Set(Array.from(prev));
         newSet.delete(upc);
         return newSet;
       });
@@ -181,7 +181,7 @@ export default function Dashboard() {
 
   // Toggle row expansion
   const toggleRowExpansion = async (upc: string) => {
-    const newExpandedRows = new Set(expandedRows);
+    const newExpandedRows = new Set(Array.from(expandedRows));
     
     if (newExpandedRows.has(upc)) {
       newExpandedRows.delete(upc);
@@ -192,6 +192,23 @@ export default function Dashboard() {
     }
     
     setExpandedRows(newExpandedRows);
+  };
+
+  // Expand/Collapse all rows
+  const expandAllRows = async () => {
+    const allUPCs = new Set<string>();
+    paginatedData.forEach(item => {
+      allUPCs.add(item.upc);
+      // Fetch vendor breakdown for items that haven't been fetched yet
+      if (!vendorBreakdowns.has(item.upc)) {
+        fetchVendorBreakdown(item.upc);
+      }
+    });
+    setExpandedRows(allUPCs);
+  };
+
+  const collapseAllRows = () => {
+    setExpandedRows(new Set());
   };
 
   // Get unique vendors for filter
@@ -585,7 +602,7 @@ export default function Dashboard() {
 
       {/* Metrics Cards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-white rounded-lg shadow p-6">
             <div className="text-3xl font-bold text-gray-900">
               {metrics?.total_new_items.toLocaleString()}
@@ -603,40 +620,6 @@ export default function Dashboard() {
               {metrics?.active_vendors}
             </div>
             <div className="text-sm text-gray-500 mt-1">Active Vendors</div>
-          </div>
-          
-          {/* Data Fetch Summary */}
-          <div className="bg-gray-100 rounded-lg p-4 border border-gray-300">
-            <div className="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1">
-              <Database className="w-3 h-3" />
-              Data Fetch Summary
-            </div>
-            <div className="space-y-1 text-xs text-gray-600">
-              <div className="flex items-center justify-between">
-                <span className="flex items-center gap-1">
-                  <Package className="w-3 h-3" />
-                  Vendor Offers:
-                </span>
-                <span className="font-mono font-semibold">
-                  {metrics?.vendor_offers_fetched?.toLocaleString() || '0'}
-                </span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="flex items-center gap-1">
-                  <CheckCircle className="w-3 h-3" />
-                  Inventory:
-                </span>
-                <span className="font-mono font-semibold">
-                  {metrics?.inventory_records_fetched?.toLocaleString() || '0'}
-                </span>
-              </div>
-              <div className="flex items-center justify-between border-t pt-1 mt-1">
-                <span className="text-[10px]">Unique Inventory:</span>
-                <span className="font-mono text-[10px]">
-                  {metrics?.inventory_records_in_set?.toLocaleString() || '0'}
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -735,11 +718,7 @@ export default function Dashboard() {
                   onChange={(e) => setLocationFilter(e.target.value as any)}
                 >
                   <option value="all">All Locations</option>
-                  <option value="domestic">Has Domestic Vendors</option>
-                  <option value="international">Has International Vendors</option>
-                  <option value="mixed">Mixed (Both Domestic & International)</option>
-                  <option value="domestic_only">Exclusively Domestic</option>
-                  <option value="international_only">Exclusively International</option>
+                  <option value="domestic_only">Domestic Vendors Only</option>
                 </select>
               </div>
 
@@ -816,6 +795,23 @@ export default function Dashboard() {
           <div className="px-6 py-4 border-b flex justify-between items-center">
             <h2 className="text-lg font-semibold">Items</h2>
             <div className="flex space-x-2">
+              <button
+                onClick={expandedRows.size > 0 ? collapseAllRows : expandAllRows}
+                className="px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center"
+                title={expandedRows.size > 0 ? "Collapse All" : "Expand All"}
+              >
+                {expandedRows.size > 0 ? (
+                  <>
+                    <Minimize2 className="w-4 h-4 mr-2" />
+                    Collapse All
+                  </>
+                ) : (
+                  <>
+                    <Maximize2 className="w-4 h-4 mr-2" />
+                    Expand All
+                  </>
+                )}
+              </button>
               <button
                 onClick={() => setShowColumnSettings(!showColumnSettings)}
                 className="px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center"
