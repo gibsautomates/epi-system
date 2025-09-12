@@ -168,7 +168,7 @@ export default function Dashboard() {
       return; // Already loaded
     }
 
-    setLoadingVendors(prev => new Set(Array.from(prev).concat([upc])));
+    setLoadingVendors(prev => new Set(Array.from(prev || []).concat([upc])));
     
     try {
       const response = await fetch(`/api/watchlist/item-vendors?upc=${encodeURIComponent(upc)}`);
@@ -183,7 +183,7 @@ export default function Dashboard() {
       console.error('Error fetching vendor breakdown:', error);
     } finally {
       setLoadingVendors(prev => {
-        const newSet = new Set(Array.from(prev));
+        const newSet = new Set(Array.from(prev || []));
         newSet.delete(upc);
         return newSet;
       });
@@ -192,7 +192,7 @@ export default function Dashboard() {
 
   // Toggle row expansion
   const toggleRowExpansion = async (upc: string) => {
-    const newExpandedRows = new Set(Array.from(expandedRows));
+    const newExpandedRows = new Set(Array.from(expandedRows || []));
     
     if (newExpandedRows.has(upc)) {
       newExpandedRows.delete(upc);
@@ -807,11 +807,11 @@ export default function Dashboard() {
             <h2 className="text-lg font-semibold">Items</h2>
             <div className="flex space-x-2">
               <button
-                onClick={expandedRows.size > 0 ? collapseAllRows : expandAllRows}
+                onClick={expandedRows?.size > 0 ? collapseAllRows : expandAllRows}
                 className="px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center"
-                title={expandedRows.size > 0 ? "Collapse All" : "Expand All"}
+                title={expandedRows?.size > 0 ? "Collapse All" : "Expand All"}
               >
-                {expandedRows.size > 0 ? (
+                {expandedRows?.size > 0 ? (
                   <>
                     <Minimize2 className="w-4 h-4 mr-2" />
                     Collapse All
