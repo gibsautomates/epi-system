@@ -136,6 +136,16 @@ export default function Dashboard() {
       const response = await fetch(`/api/watchlist/dashboard-view?t=${Date.now()}`, {
         cache: 'no-store'
       });
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Dashboard API error:', response.status, errorData);
+        alert(`Error loading data: ${errorData.error || 'Unknown error'}\n${errorData.details || ''}`);
+        setData([]);
+        setMetrics(null);
+        return;
+      }
+      
       const result = await response.json();
       console.log('Dashboard data received:', {
         totalItems: result.items?.length,
@@ -145,6 +155,7 @@ export default function Dashboard() {
       setMetrics(result.metrics);
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
+      alert(`Failed to load dashboard data: ${error instanceof Error ? error.message : 'Unknown error'}`);
     } finally {
       setLoading(false);
       setRefreshing(false);
