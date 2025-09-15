@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { Package, ShoppingCart, TrendingUp, FileText, BarChart3, Users, Send, Database } from 'lucide-react';
+import { Package, ShoppingCart, TrendingUp, FileText, BarChart3, Users, Send, Database, FileSpreadsheet } from 'lucide-react';
 
 export default function HomePage() {
   const router = useRouter();
@@ -11,7 +11,7 @@ export default function HomePage() {
       title: 'New Items Watchlist',
       description: 'Track vendor offers for items not in inventory. Monitor price trends and vendor changes.',
       icon: Package,
-      route: '/dashboard',
+      route: '/new_items_list',
       color: 'bg-blue-500',
       stats: 'Track new inventory items'
     },
@@ -24,12 +24,12 @@ export default function HomePage() {
       stats: 'Active'
     },
     {
-      title: 'Orders Comparison Table',
-      description: 'Compare channel performance: Today vs Yesterday vs Last Week with percentage changes.',
-      icon: BarChart3,
-      route: '/orders/table',
-      color: 'bg-blue-500',
-      stats: 'Active'
+      title: 'UPC Batch Lookup',
+      description: 'Generate vendor comparison reports for multiple UPCs. Paste UPC list and see all vendor prices in a matrix view.',
+      icon: FileSpreadsheet,
+      route: '/upc-lookup',
+      color: 'bg-indigo-500',
+      stats: 'New Feature'
     },
     {
       title: 'Consolidate Needlist',
@@ -76,8 +76,16 @@ export default function HomePage() {
             return (
               <div
                 key={report.route}
-                onClick={() => router.push(report.route)}
-                className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow cursor-pointer overflow-hidden group"
+                onClick={() => {
+                  if (report.stats !== 'Coming Soon') {
+                    router.push(report.route);
+                  }
+                }}
+                className={`bg-white rounded-lg shadow overflow-hidden group ${
+                  report.stats !== 'Coming Soon'
+                    ? 'hover:shadow-lg transition-shadow cursor-pointer'
+                    : 'opacity-75 cursor-not-allowed'
+                }`}
               >
                 <div className={`h-2 ${report.color}`} />
                 <div className="p-6">

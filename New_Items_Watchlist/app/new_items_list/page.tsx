@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Search, Download, Settings, TrendingUp, TrendingDown, Minus, Filter, X, ChevronDown, RefreshCw, Database, Package, CheckCircle, ChevronRight, ChevronUp, Maximize2, Minimize2 } from 'lucide-react';
+import { Search, Download, Settings, TrendingUp, TrendingDown, Minus, Filter, X, ChevronDown, RefreshCw, Database, Package, CheckCircle, ChevronRight, ChevronUp, Maximize2, Minimize2, FileSpreadsheet } from 'lucide-react';
 
 interface ItemData {
   upc: string;
@@ -327,67 +327,72 @@ export default function Dashboard() {
   // Calculate filtered metrics
   const filteredMetrics = useMemo(() => {
     const filtered = data.filter(item => {
-      // Search filter - with null safety
-      if (searchQuery) {
-        const query = searchQuery.toLowerCase();
-        const upcMatch = item.upc?.toLowerCase().includes(query) || false;
-        const nameMatch = item.item_name?.toLowerCase().includes(query) || false;
-        const brandMatch = item.brand?.toLowerCase().includes(query) || false;
-        const skuMatch = item.sku?.toLowerCase().includes(query) || false;
-        
-        if (!upcMatch && !nameMatch && !brandMatch && !skuMatch) {
-          return false;
-        }
-      }
+      try {
+        // Search filter - with null safety
+        if (searchQuery && searchQuery.trim() !== '') {
+          const query = searchQuery.toLowerCase();
+          const upcMatch = (item.upc || '').toString().toLowerCase().includes(query);
+          const nameMatch = (item.item_name || '').toString().toLowerCase().includes(query);
+          const brandMatch = (item.brand || '').toString().toLowerCase().includes(query);
+          const skuMatch = (item.sku || '').toString().toLowerCase().includes(query);
 
-      // Vendor filter
-      if (selectedVendors.length > 0) {
-        const vendorList = Array.isArray(item.vendor_list) 
-          ? item.vendor_list 
-          : (typeof item.vendor_list === 'string' ? item.vendor_list.split(', ') : []);
-        const hasSelectedVendor = selectedVendors.some(v => 
-          vendorList.includes(v)
-        );
-        if (!hasSelectedVendor) return false;
-      }
+          if (!upcMatch && !nameMatch && !brandMatch && !skuMatch) {
+            return false;
+          }
+        }
 
-      // Location filter
-      if (locationFilter === 'domestic') {
-        // Show items that have at least one domestic vendor
-        if (item.domestic_vendor_count === 0) {
-          return false;
+        // Vendor filter
+        if (selectedVendors.length > 0) {
+          const vendorList = Array.isArray(item.vendor_list)
+            ? item.vendor_list
+            : (typeof item.vendor_list === 'string' ? item.vendor_list.split(', ') : []);
+          const hasSelectedVendor = selectedVendors.some(v =>
+            vendorList.includes(v)
+          );
+          if (!hasSelectedVendor) return false;
         }
-      } else if (locationFilter === 'international') {
-        // Show items that have at least one international vendor
-        const internationalCount = item.total_vendor_count - item.domestic_vendor_count;
-        if (internationalCount === 0) {
-          return false;
-        }
-      } else if (locationFilter === 'domestic_only') {
-        // Show ONLY items that have exclusively domestic vendors
-        if (item.domestic_vendor_count === 0 || 
-            item.total_vendor_count > item.domestic_vendor_count) {
-          return false;
-        }
-      } else if (locationFilter === 'international_only') {
-        // Show ONLY items that have exclusively international vendors
-        if (item.domestic_vendor_count > 0) {
-          return false;
-        }
-      } else if (locationFilter === 'mixed') {
-        // Show items that have BOTH domestic AND international vendors
-        const internationalCount = item.total_vendor_count - item.domestic_vendor_count;
-        if (item.domestic_vendor_count === 0 || internationalCount === 0) {
-          return false;
-        }
-      }
 
-      // Vendor count filter
-      if (item.domestic_vendor_count < minVendorCount) {
+        // Location filter
+        if (locationFilter === 'domestic') {
+          // Show items that have at least one domestic vendor
+          if ((item.domestic_vendor_count || 0) === 0) {
+            return false;
+          }
+        } else if (locationFilter === 'international') {
+          // Show items that have at least one international vendor
+          const internationalCount = (item.total_vendor_count || 0) - (item.domestic_vendor_count || 0);
+          if (internationalCount === 0) {
+            return false;
+          }
+        } else if (locationFilter === 'domestic_only') {
+          // Show ONLY items that have exclusively domestic vendors
+          if ((item.domestic_vendor_count || 0) === 0 ||
+              (item.total_vendor_count || 0) > (item.domestic_vendor_count || 0)) {
+            return false;
+          }
+        } else if (locationFilter === 'international_only') {
+          // Show ONLY items that have exclusively international vendors
+          if ((item.domestic_vendor_count || 0) > 0) {
+            return false;
+          }
+        } else if (locationFilter === 'mixed') {
+          // Show items that have BOTH domestic AND international vendors
+          const internationalCount = (item.total_vendor_count || 0) - (item.domestic_vendor_count || 0);
+          if ((item.domestic_vendor_count || 0) === 0 || internationalCount === 0) {
+            return false;
+          }
+        }
+
+        // Vendor count filter
+        if ((item.domestic_vendor_count || 0) < minVendorCount) {
+          return false;
+        }
+
+        return true;
+      } catch (error) {
+        console.error('Error filtering item:', error, item);
         return false;
       }
-
-      return true;
     });
     
     // Calculate metrics for filtered data
@@ -721,6 +726,14 @@ export default function Dashboard() {
             <h1 className="text-2xl font-bold text-gray-900">New Items Watchlist Dashboard</h1>
             <div className="flex items-center gap-4">
               <button
+                onClick={() => window.location.href = '/upc-lookup'}
+                className="px-3 py-1 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 flex items-center gap-2"
+                title="UPC Batch Lookup"
+              >
+                <FileSpreadsheet className="w-4 h-4" />
+                UPC Lookup
+              </button>
+              <button
                 onClick={() => fetchDashboardData(true)}
                 disabled={refreshing}
                 className="px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
@@ -814,8 +827,15 @@ export default function Dashboard() {
                     type="text"
                     placeholder="Search by UPC, Item Name, Brand, or SKU..."
                     className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
+                    value={searchQuery || ''}
+                    onChange={(e) => {
+                      try {
+                        setSearchQuery(e.target.value || '');
+                      } catch (error) {
+                        console.error('Error updating search query:', error);
+                        setSearchQuery('');
+                      }
+                    }}
                   />
                 </div>
               </div>
