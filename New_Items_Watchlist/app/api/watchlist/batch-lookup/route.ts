@@ -97,6 +97,21 @@ export async function POST(request: NextRequest) {
       return !foundUPCs.has(normalized);
     });
 
+    // Check which items exist in current inventory to get their SKUs
+    const upcList = Array.from(itemsByUPC.keys());
+    const { data: inventoryItems } = await supabase
+      .from('current_inventory')
+      .select('upc_text, SKU')
+      .in('upc_text', upcList);
+
+    // Create a map of UPC to SKU for quick lookup
+    const skuMap = new Map();
+    inventoryItems?.forEach(item => {
+      // Normalize the UPC for comparison
+      const normalizedUPC = String(item.upc_text).trim().replace(/^0+/, '') || '0';
+      skuMap.set(normalizedUPC, item.SKU);
+    });
+
     // Process items with vendor information and statistics
     const itemsWithVendors = Array.from(itemsByUPC.values()).map(item => {
         const vendors = item.vendors; // Already sorted by price from the query
@@ -118,6 +133,7 @@ export async function POST(request: NextRequest) {
           upc: item.upc,
           item_name: item.item_name || 'Unknown Item',
           brand: item.brand || 'Unknown Brand',
+          sku: skuMap.get(item.upc) || null, // Get SKU from inventory if exists
           vendors: vendors,
           // Add statistics
           medianPrice: medianPrice,

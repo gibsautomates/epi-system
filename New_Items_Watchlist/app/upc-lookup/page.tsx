@@ -16,6 +16,7 @@ interface ItemData {
   upc: string;
   item_name: string;
   brand: string;
+  sku?: string | null;
   vendors: VendorOffer[];
   // Summary statistics
   medianPrice?: number;
@@ -280,6 +281,9 @@ export default function UPCLookupPage() {
                       <th className="sticky left-[300px] z-10 bg-gray-50 px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
                         Brand
                       </th>
+                      <th className="sticky left-[400px] z-10 bg-gray-50 px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        SKU
+                      </th>
                       <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
                         Median Price
                       </th>
@@ -324,6 +328,15 @@ export default function UPCLookupPage() {
                         </td>
                         <td className="sticky left-[300px] z-10 bg-white px-4 py-3 whitespace-nowrap text-sm text-gray-900 border-r">
                           {item.brand}
+                        </td>
+                        <td className="sticky left-[400px] z-10 bg-white px-4 py-3 whitespace-nowrap text-sm border-r">
+                          {item.sku ? (
+                            <span className="font-medium text-green-600" title="Item exists in inventory">
+                              {item.sku}
+                            </span>
+                          ) : (
+                            <span className="text-gray-400">New Item</span>
+                          )}
                         </td>
                         <td className="px-4 py-3 text-center text-sm font-medium text-gray-900 border-r">
                           ${item.medianPrice?.toFixed(2) || '0.00'}
