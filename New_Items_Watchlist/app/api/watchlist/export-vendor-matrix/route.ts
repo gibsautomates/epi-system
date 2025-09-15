@@ -35,7 +35,13 @@ export async function POST(request: NextRequest) {
     const columns = [
       { header: 'UPC', key: 'upc', width: 15 },
       { header: 'Item Name', key: 'item_name', width: 40 },
-      { header: 'Brand', key: 'brand', width: 20 }
+      { header: 'Brand', key: 'brand', width: 20 },
+      { header: 'Median Price', key: 'medianPrice', width: 12 },
+      { header: 'Avg Price', key: 'avgPrice', width: 12 },
+      { header: 'Lowest Price', key: 'lowestPrice', width: 12 },
+      { header: 'Lowest Vendor', key: 'lowestVendor', width: 20 },
+      { header: 'Qty Available', key: 'lowestVendorQty', width: 12 },
+      { header: 'Vendor Count', key: 'vendorCount', width: 12 }
     ];
 
     // Add vendor columns (price and qty for each vendor)
@@ -53,7 +59,13 @@ export async function POST(request: NextRequest) {
       const row: any = {
         upc: item.upc,
         item_name: item.item_name,
-        brand: item.brand
+        brand: item.brand,
+        medianPrice: item.medianPrice || 0,
+        avgPrice: item.avgPrice || 0,
+        lowestPrice: item.lowestPrice || 0,
+        lowestVendor: item.lowestVendor || '-',
+        lowestVendorQty: item.lowestVendorQty || '-',
+        vendorCount: item.vendorCount || 0
       };
 
       // Add vendor data

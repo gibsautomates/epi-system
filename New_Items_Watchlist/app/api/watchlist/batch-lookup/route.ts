@@ -24,12 +24,22 @@ export async function POST(request: NextRequest) {
 
     const body = await request.json();
     console.log('Request body:', body);
-    const { upcs } = body;
+    let { upcs } = body;
 
     if (!upcs || !Array.isArray(upcs) || upcs.length === 0) {
       console.error('Invalid UPCs:', upcs);
       return NextResponse.json({ error: 'Invalid UPCs provided' }, { status: 400 });
     }
+
+    // Normalize UPCs: remove leading zeros and convert to numbers for database comparison
+    const normalizedUPCs = upcs.map(upc => {
+      const cleaned = String(upc).trim();
+      // Remove leading zeros but keep at least one digit
+      const withoutLeadingZeros = cleaned.replace(/^0+/, '') || '0';
+      return withoutLeadingZeros;
+    });
+
+    console.log('Normalized UPCs:', normalizedUPCs);
 
     // Limit to 500 UPCs
     if (upcs.length > 500) {
@@ -39,11 +49,12 @@ export async function POST(request: NextRequest) {
     console.log(`Processing batch lookup for ${upcs.length} UPCs`);
 
     // Fetch data for all UPCs from the enhanced view
-    console.log('Querying database for UPCs:', upcs);
+    // Use normalized UPCs for database query (numbers without leading zeros)
+    console.log('Querying database for normalized UPCs:', normalizedUPCs);
     const { data: items, error } = await supabase
       .from('new_items_dashboard_enhanced')
       .select('*')
-      .in('upc', upcs);
+      .in('upc', normalizedUPCs);
 
     console.log('Database query result - Items found:', items?.length || 0);
 
@@ -53,9 +64,12 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Database query failed', details: error.message }, { status: 500 });
     }
 
-    // Find which UPCs were not found (convert to strings for comparison)
+    // Find which UPCs were not found (compare normalized versions)
     const foundUPCs = new Set(items?.map(item => String(item.upc)) || []);
-    const notFoundUPCs = upcs.filter(upc => !foundUPCs.has(String(upc)));
+    const notFoundUPCs = upcs.filter(upc => {
+      const normalized = String(upc).trim().replace(/^0+/, '') || '0';
+      return !foundUPCs.has(normalized);
+    });
 
     // Fetch detailed vendor information for each found item
     const itemsWithVendors = await Promise.all(
@@ -67,17 +81,39 @@ export async function POST(request: NextRequest) {
           .eq('upc', item.upc)
           .order('price', { ascending: true });
 
+        const vendors = (vendorData || []).map(v => ({
+          vendor: v.vendor,
+          price: v.price,
+          qty: v.qty,
+          location: v.vendor_location,
+          sku: v.sku
+        }));
+
+        // Calculate statistics
+        const prices = vendors.map(v => v.price).filter(p => p > 0);
+        const sortedPrices = [...prices].sort((a, b) => a - b);
+        const medianPrice = sortedPrices.length > 0
+          ? sortedPrices.length % 2 === 0
+            ? (sortedPrices[sortedPrices.length / 2 - 1] + sortedPrices[sortedPrices.length / 2]) / 2
+            : sortedPrices[Math.floor(sortedPrices.length / 2)]
+          : 0;
+        const avgPrice = prices.length > 0
+          ? prices.reduce((sum, p) => sum + p, 0) / prices.length
+          : 0;
+        const lowestPriceVendor = vendors.length > 0 ? vendors[0] : null; // Already sorted by price
+
         return {
           upc: String(item.upc),
           item_name: item.item_name || 'Unknown Item',
           brand: item.brand || 'Unknown Brand',
-          vendors: (vendorData || []).map(v => ({
-            vendor: v.vendor,
-            price: v.price,
-            qty: v.qty,
-            location: v.vendor_location,
-            sku: v.sku
-          }))
+          vendors: vendors,
+          // Add statistics
+          medianPrice: medianPrice,
+          avgPrice: avgPrice,
+          lowestPrice: lowestPriceVendor?.price || 0,
+          lowestVendor: lowestPriceVendor?.vendor || '-',
+          lowestVendorQty: lowestPriceVendor?.qty || 0,
+          vendorCount: vendors.length
         };
       })
     );

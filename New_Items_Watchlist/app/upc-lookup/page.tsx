@@ -17,6 +17,13 @@ interface ItemData {
   item_name: string;
   brand: string;
   vendors: VendorOffer[];
+  // Summary statistics
+  medianPrice?: number;
+  avgPrice?: number;
+  lowestPrice?: number;
+  lowestVendor?: string;
+  lowestVendorQty?: number;
+  vendorCount?: number;
 }
 
 interface ReportData {
@@ -273,6 +280,24 @@ export default function UPCLookupPage() {
                       <th className="sticky left-[300px] z-10 bg-gray-50 px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
                         Brand
                       </th>
+                      <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Median Price
+                      </th>
+                      <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Avg Price
+                      </th>
+                      <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Lowest Price
+                      </th>
+                      <th className="bg-gray-50 px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Lowest Vendor
+                      </th>
+                      <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Qty Available
+                      </th>
+                      <th className="bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider border-r">
+                        Vendor Count
+                      </th>
                       {reportData.allVendors.map(vendor => (
                         <th key={vendor} className="px-4 py-2 text-center border-r" colSpan={2}>
                           <div className="text-xs font-medium text-gray-700 uppercase tracking-wider">
@@ -299,6 +324,26 @@ export default function UPCLookupPage() {
                         </td>
                         <td className="sticky left-[300px] z-10 bg-white px-4 py-3 whitespace-nowrap text-sm text-gray-900 border-r">
                           {item.brand}
+                        </td>
+                        <td className="px-4 py-3 text-center text-sm font-medium text-gray-900 border-r">
+                          ${item.medianPrice?.toFixed(2) || '0.00'}
+                        </td>
+                        <td className="px-4 py-3 text-center text-sm text-gray-900 border-r">
+                          ${item.avgPrice?.toFixed(2) || '0.00'}
+                        </td>
+                        <td className="px-4 py-3 text-center text-sm font-bold text-green-600 border-r">
+                          ${item.lowestPrice?.toFixed(2) || '0.00'}
+                        </td>
+                        <td className="px-4 py-3 text-sm text-gray-900 border-r">
+                          <div className="max-w-[120px] truncate" title={item.lowestVendor}>
+                            {item.lowestVendor || '-'}
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 text-center text-sm text-gray-900 border-r">
+                          {item.lowestVendorQty || '-'}
+                        </td>
+                        <td className="px-4 py-3 text-center text-sm font-medium text-blue-600 border-r">
+                          {item.vendorCount || 0}
                         </td>
                         {reportData.allVendors.map(vendor => {
                           const offer = item.vendors.find(v => v.vendor === vendor);
