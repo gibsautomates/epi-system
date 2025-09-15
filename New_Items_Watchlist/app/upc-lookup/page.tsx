@@ -148,7 +148,7 @@ export default function UPCLookupPage() {
               </button>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">UPC Batch Lookup</h1>
-                <p className="text-sm text-gray-500 mt-1">Generate vendor comparison reports for multiple UPCs</p>
+                <p className="text-sm text-gray-500 mt-1">Search all vendor offers from the last 21 days for any UPC</p>
               </div>
             </div>
             <div className="flex items-center gap-2">

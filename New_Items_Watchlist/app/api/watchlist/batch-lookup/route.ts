@@ -48,15 +48,19 @@ export async function POST(request: NextRequest) {
 
     console.log(`Processing batch lookup for ${upcs.length} UPCs`);
 
-    // Fetch data for all UPCs from the enhanced view
-    // Use normalized UPCs for database query (numbers without leading zeros)
+    // First, get unique UPCs and their basic info from vendor_offers_latest
+    // This includes ALL items (both new and existing inventory)
     console.log('Querying database for normalized UPCs:', normalizedUPCs);
-    const { data: items, error } = await supabase
-      .from('new_items_dashboard_enhanced')
-      .select('*')
-      .in('upc', normalizedUPCs);
 
-    console.log('Database query result - Items found:', items?.length || 0);
+    // Group by UPC to get unique items with aggregated data
+    const { data: vendorOffers, error } = await supabase
+      .from('vendor_offers_latest')
+      .select('upc, item_name, brand, sku, vendor, price, qty, vendor_location')
+      .in('upc', normalizedUPCs)
+      .order('upc', { ascending: true })
+      .order('price', { ascending: true });
+
+    console.log('Database query result - Offers found:', vendorOffers?.length || 0);
 
     if (error) {
       console.error('Database error:', error);
@@ -64,30 +68,38 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Database query failed', details: error.message }, { status: 500 });
     }
 
-    // Find which UPCs were not found (compare normalized versions)
-    const foundUPCs = new Set(items?.map(item => String(item.upc)) || []);
+    // Group offers by UPC to get unique items
+    const itemsByUPC = new Map();
+    vendorOffers?.forEach(offer => {
+      const upcStr = String(offer.upc);
+      if (!itemsByUPC.has(upcStr)) {
+        itemsByUPC.set(upcStr, {
+          upc: upcStr,
+          item_name: offer.item_name,
+          brand: offer.brand,
+          sku: offer.sku,
+          vendors: []
+        });
+      }
+      itemsByUPC.get(upcStr).vendors.push({
+        vendor: offer.vendor,
+        price: offer.price,
+        qty: offer.qty,
+        location: offer.vendor_location,
+        sku: offer.sku
+      });
+    });
+
+    // Find which UPCs were not found
+    const foundUPCs = new Set(Array.from(itemsByUPC.keys()));
     const notFoundUPCs = upcs.filter(upc => {
       const normalized = String(upc).trim().replace(/^0+/, '') || '0';
       return !foundUPCs.has(normalized);
     });
 
-    // Fetch detailed vendor information for each found item
-    const itemsWithVendors = await Promise.all(
-      (items || []).map(async (item) => {
-        // Fetch vendor breakdown
-        const { data: vendorData } = await supabase
-          .from('vendor_offers_latest_new')
-          .select('vendor, price, qty, vendor_location, sku')
-          .eq('upc', item.upc)
-          .order('price', { ascending: true });
-
-        const vendors = (vendorData || []).map(v => ({
-          vendor: v.vendor,
-          price: v.price,
-          qty: v.qty,
-          location: v.vendor_location,
-          sku: v.sku
-        }));
+    // Process items with vendor information and statistics
+    const itemsWithVendors = Array.from(itemsByUPC.values()).map(item => {
+        const vendors = item.vendors; // Already sorted by price from the query
 
         // Calculate statistics
         const prices = vendors.map(v => v.price).filter(p => p > 0);
@@ -103,7 +115,7 @@ export async function POST(request: NextRequest) {
         const lowestPriceVendor = vendors.length > 0 ? vendors[0] : null; // Already sorted by price
 
         return {
-          upc: String(item.upc),
+          upc: item.upc,
           item_name: item.item_name || 'Unknown Item',
           brand: item.brand || 'Unknown Brand',
           vendors: vendors,
@@ -115,8 +127,7 @@ export async function POST(request: NextRequest) {
           lowestVendorQty: lowestPriceVendor?.qty || 0,
           vendorCount: vendors.length
         };
-      })
-    );
+      });
 
     // Get all unique vendors across all items
     const allVendorsSet = new Set<string>();
